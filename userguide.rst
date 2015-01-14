@@ -18,6 +18,10 @@ The layer management section on the left side of the user interface allows the u
 
 .. image:: images/layers_management.png
 
+.. figure:: images/layers_management.png
+
+    Figure 1: Layers management
+
 Figure 1: Layers management
 
 Figure 2: Re-order layers
