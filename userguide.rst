@@ -16,6 +16,7 @@ The layer management section on the left side of the user interface allows the u
 
  + Any layer with the pencil icon next to it is editable by the user.
 
+<<<<<<< HEAD
 .. figure:: images/layers_management.png
     :alt: layer management
     :width: 10 px
