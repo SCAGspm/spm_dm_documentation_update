@@ -54,6 +54,7 @@ Explore Pane
 ============
 
 .. |explore_tab| image:: images/explore_tab.png
+.. |explore_options| image:: images/explore_options.png
 
 By clicking on the ‘Explore’ button |explore_tab| on the top of the screen, the map section will resize and default to the Scenario Manager screen. See Figure 3 below.
 
@@ -63,13 +64,11 @@ By clicking on the ‘Explore’ button |explore_tab| on the top of the screen, 
     
     Figure 3: Query via Explore top section 
 
-On the left of the Explore Pane, the user can toggle between the following options:
+On the left of the Explore Pane, the user can toggle between the following options: |explore_options|
 
 + **Scenarios:** The user can switch between Base and Future Scenarios and see metadata about the active scenario.
 + **Query:** The user can define attribute queries and join tables to explore the data.
 + **Summarize:** The user can define aggregate queries to summarize the data.
-
-Figure 4: Explore pane options
 
 Scenarios
 ---------
@@ -79,7 +78,11 @@ Query
 -----
 UrbanFootprint attribute query functionality can be accessed by clicking on the ‘Explore’ button at the top of the User Interface and then clicking on the ‘Query’ button. See Figure 5 below:
 
-Figure 5: Query window
+.. figure:: images/query_window.png
+    :alt: query window
+    :align: right
+    
+    Figure 5: Query window
 
 The attribute query functionality and the map selector tools in UrbanFootprint are linked by default. When a user selects features on the map with the map selector tools, the attributes will populate in the query window. If the user inputs an attribute query with no map selection, the map will show the features selected from the attribute query. The user also has the option to use attribute selections and map selections in combination.
 
@@ -125,15 +128,23 @@ Figure 6: Query input
 
 *Joining Tables:* UrbanFootprint allows the user to seamlessly join and query spatial tables of different geography types and geographic scales. Each layer in the system is tagged with a join type when it is imported. The join types include attribute joins, polygon to polygon, polygon to centroid, and centroid to polygon joins. This processing is handled ‘behind the scenes’ in the system.
 
-Figure 7: Join drop-down list
-
+.. figure:: images/join_dropdown.png
+    :alt: join drop down list
+    :align: right
+    
+    Figure 7: Join drop-down list
+    
 The user utilizes these pre-defined join tables by selecting the desired table from the drop down button in the query window. Having selected a table to join, the user will have access to all fields in that join table. Any query making use of join fields will utilize the pre-defined spatial or attribute relationship. See joins section for further explanation. 
 
  **Important**: If the user is querying a field from the join table that has the same name as a field in the source table, the system defaults to the source table field. To query the join table field, the user must write the *name_of_join_table.field_name*
 
 *Query Options:* The user has a number of options to form their query and to show helpful information in the user interface.
 
-Figure 8: Query toggles/buttons
+.. figure:: images/query_toggles.png
+    :alt: query toggles
+    :align: right
+    
+    Figure 8: Query toggles
 
  + Limit Results to Selected Area: If the user has selected features with a map selector tool and input an attribute query, they have the option to limit the query result to the map selection or apply them to the whole dataset.
  + Show Selection Shape on Map: The user can toggle on and off the map selection
@@ -144,7 +155,11 @@ Summarize
 ---------
 Similar to querying syntax, aggregation syntax makes use of the SQL database language. The user has options to aggregate any field in the active table and any field in a table that has been joined. Aggregation includes both aggregation operators and ‘group by’ results. The user can also decide whether to aggregate within the active map selection or from the entire dataset.
 
-Figure 9: Aggregation window
+.. figure:: images/aggregation_window.png
+    :alt: aggregation window
+    :align: right
+    
+    Figure 9: Aggregation window
 
  *Aggregation Syntax:* The following aggregation operators are active in UrbanFootprint. 
 
@@ -162,15 +177,34 @@ Multiple fields can be aggregated at the same time by separating the aggregation
 
 An example of a group by configuration can be seen if Figure 10 below. In this case, the aggregation is to sum all the employment from the TAZ record by unique TAZ id and to count the number of parcels within each TAZ from the parcel data set. The results are also limited to a painted selection.
 
-Figure 10: Aggregation using group by
+.. figure:: images/aggregation_groupby.png
+    :alt: aggregation using group by
+    :align: right
+    
+    Figure 10: Aggregation using group by
 
 Attribute Editing
 =================
+
+.. |save_button| image:: images/save_button.png
+
 Currently attribute editing requires custom edit forms to be made specifically for configured layers in UrbanFootprint; any layer not configured for editing is not editable. If a layer has been configured, when that layer is active in the layer manager, the user can open an edit window on the right side of the screen to view and edit specific attributes. See figure 11 below:
 
-Figure 11: Attribute editing window 
+.. figure:: images/attribute_edit_window.png
+    :alt: attribute editing window
+    :align: right
+    
+    Figure 11: Attribute editing window 
 
 The editor operates on the currently selected features of the active layer. If there is more than one feature selected, any changes made in the editor widow will populate all rows with those values. In cases where a layer is configured to only allow editing of one row at a time, the following message will be displayed indicating that only one record at a time can be edited:
-To save changes to edited attributes the user must push the save button when finished editing. *If the user changes the selected features without saving changes, those changes will not be saved.* See Figure 12 below:
 
-Figure 12: Save button in Managing Urban Built Forms window
+.. figure:: images/one_record.png
+    :align: center
+    
+To save changes to edited attributes the user must click on ‘Save‘ |save_button| when finished editing. *If the user changes the selected features without saving changes, those changes will not be saved.* See Figure 12 below:
+
+.. figure:: images/built_forms_window.png
+    :alt: save button in managing built forms window
+    :align: right
+    
+    Figure 12: Save button in Managing Urban Built Forms window
