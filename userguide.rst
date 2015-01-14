@@ -3,6 +3,7 @@ Preliminary User Guide for UrbanFootprint Data Review and Editing
 =================================================================
 
 .. |pencil_icon| image:: images/layers_editable.png
+.. |arrow_icon| image:: images/reorder_arrow.png
 
 The data review and editing framework within UrbanFootprint provides a number of data management and data review features to streamline data updating and review on the web. Using standard GIS and database attribute query and map selector tools, the user can explore data, summarize attributes, and edit configured layers. This documentation covers basic functionality for data review and editing.
 
@@ -14,11 +15,10 @@ The layer management section on the left side of the user interface allows the u
 
  + *Active Layer*: The user selects the active layer by clicking on the layer name. The active layer will be highlighted in blue. Any map selection, attribute query, export layer, export csv initiated by the user will occur on the active layer. The user can select an active layer that is not visible on the map. 
 
- + *Reordering Map Layers*: The user can re-order layers on the map by clicking on the arrow button on the right side of the Layers Tool Bar. This button will open a window where the user can order the layers by clicking on the layer name and ordering it (by dragging it) within the visible list. This order corresponds to the layer order on the map. 
+ + *Reordering Map Layers*: The user can re-order layers on the map by clicking on the arrow button |arrow_icon| on the right side of the Layers Tool Bar. This button will open a window where the user can order the layers by clicking on the layer name and ordering it (by dragging it) within the visible list. This order corresponds to the layer order on the map. 
 
  + Any layer with the pencil |pencil_icon| next to it is editable by the user.
 
-<<<<<<< HEAD
 .. figure:: images/layers_management.png
     :alt: layer management
     :width: 10 px
@@ -26,24 +26,42 @@ The layer management section on the left side of the user interface allows the u
     
     Figure 1: Layers management
 
-Figure 2: Re-order layers
+.. figure:: images/reorder_layers.png
+    :alt: reorder layers
+    :align: right
+    
+    Figure 2: Re-order layers
 
 Map Selector Tools
 ==================
+
+.. |point_selector_icon| image:: images/point_selector.png
+.. |box_selector_icon| image:: images/box_selector.png
+.. |polygon_selector_icon| image:: images/polygon_selector.png
+
 UrbanFootprint provides three Map Selector Tools: a point selector, a box selector, and a polygon selector. The selector tools are located in the tool bar at the top of the map. The user can activate a selector by clicking on the corresponding button and can hover their pointer to get the ‘tool tip’ to identify what button corresponds with each selector.
+
+.. figure:: images/selector_tools.png
 
  *The Selector tool will operate on the Active layer. The selected feature(s) will be highlighted (outlined) in green on the map.*
 
-+ *Point Selector*: The point selector selects the feature that intersects with a point where the user clicks on the map. 
-+ *Box Selector*: The box selector selects the feature that intersects with a rectangle formed by the user clicking and dragging across the map.
-+ *Polygon Selector*: The polygon selector selects the feature that intersects with a user defined polygon shape formed by the user defining each node of the polygon by clicking on the map. Double clicking will stop forming the polygon selection.
++ *Point Selector*: The point selector |point_selector_icon| selects the feature that intersects with a point where the user clicks on the map. 
++ *Box Selector*: The box selector |box_selector_icon| selects the feature that intersects with a rectangle formed by the user clicking and dragging across the map.
++ *Polygon Selector*: The polygon selector |polygon_selector_icon| selects the feature that intersects with a user defined polygon shape formed by the user defining each node of the polygon by clicking on the map. Double clicking will stop forming the polygon selection.
 
 
 Explore Pane
 ============
-By clicking on the ‘Explore’ button on the top of the screen, the map section will resize and default to the Scenario Manager screen. See Figure 3 below.
 
-Figure 3: Query via Explore top section 
+.. |explore_tab| image:: images/explore_tab.png
+
+By clicking on the ‘Explore’ button |explore_tab| on the top of the screen, the map section will resize and default to the Scenario Manager screen. See Figure 3 below.
+
+.. figure:: images/query_via_explore.png
+    :alt: query via explore top section
+    :align: right
+    
+    Figure 3: Query via Explore top section 
 
 On the left of the Explore Pane, the user can toggle between the following options:
 
