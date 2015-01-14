@@ -1,6 +1,8 @@
-=================================================================
+
 Preliminary User Guide for UrbanFootprint Data Review and Editing
 =================================================================
+
+.. |pencil_icon| image:: images/layers_editable.png
 
 The data review and editing framework within UrbanFootprint provides a number of data management and data review features to streamline data updating and review on the web. Using standard GIS and database attribute query and map selector tools, the user can explore data, summarize attributes, and edit configured layers. This documentation covers basic functionality for data review and editing.
 
@@ -14,7 +16,7 @@ The layer management section on the left side of the user interface allows the u
 
  + *Reordering Map Layers*: The user can re-order layers on the map by clicking on the arrow button on the right side of the Layers Tool Bar. This button will open a window where the user can order the layers by clicking on the layer name and ordering it (by dragging it) within the visible list. This order corresponds to the layer order on the map. 
 
- + Any layer with the pencil icon next to it is editable by the user.
+ + Any layer with the pencil |pencil_icon| next to it is editable by the user.
 
 .. figure:: images/layers_management.png
     :alt: layer management
