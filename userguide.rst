@@ -16,7 +16,7 @@ The layer management section on the left side of the user interface allows the u
 
  + Any layer with the pencil icon next to it is editable by the user.
 
-image:: images/layers_management.png
+.. image:: images/layers_management.png
 Figure 1: Layers management
 
 Figure 2: Re-order layers
