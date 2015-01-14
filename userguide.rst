@@ -16,6 +16,7 @@ The layer management section on the left side of the user interface allows the u
 
  + Any layer with the pencil icon next to it is editable by the user.
 
+image:: images/layers_management.png
 Figure 1: Layers management
 
 Figure 2: Re-order layers
@@ -27,7 +28,7 @@ UrbanFootprint provides three Map Selector Tools: a point selector, a box select
  *The Selector tool will operate on the Active layer. The selected feature(s) will be highlighted (outlined) in green on the map.*
 
 + *Point Selector*: The point selector selects the feature that intersects with a point where the user clicks on the map. 
-+ *Rectangle Selector*: The rectangle selector selects the feature that intersects with a rectangle formed by the user clicking and dragging across the map.
++ *Box Selector*: The box selector selects the feature that intersects with a rectangle formed by the user clicking and dragging across the map.
 + *Polygon Selector*: The polygon selector selects the feature that intersects with a user defined polygon shape formed by the user defining each node of the polygon by clicking on the map. Double clicking will stop forming the polygon selection.
 
 
