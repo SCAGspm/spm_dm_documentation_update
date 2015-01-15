@@ -17,10 +17,10 @@ The layer management section on the left side of the user interface allows the u
 
 .. figure:: images/layers_management.png
     :alt: layer management
-    :align: left
+    :align: right
     
     Figure 1: Layers management
-
+    
 + *Active Layer*: The user selects the active layer by clicking on the layer name. The active layer will be highlighted in blue. Any map selection, attribute query, export layer, export csv initiated by the user will occur on the active layer. The user can select an active layer that is not visible on the map. 
 
 + *Reordering Map Layers*: The user can re-order layers on the map by clicking on the arrow button |arrow_icon| on the right side of the Layers Tool Bar. This button will open a window where the user can order the layers by clicking on the layer name and ordering it (by dragging it) within the visible list. This order corresponds to the layer order on the map. 
