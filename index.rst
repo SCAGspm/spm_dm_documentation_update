@@ -70,9 +70,9 @@ By clicking on the ‘Explore’ button |explore_tab| on the top of the screen, 
 
 On the left of the Explore Pane, the user can toggle between the following options: |explore_options|
 
-+ |scenarios_icon| **Scenarios:** The user can switch between Base and Future Scenarios and see metadata about the active scenario.
-+ |query_icon| **Query:** The user can define attribute queries and join tables to explore the data.
-+ |summarize_icon| **Summarize:** The user can define aggregate queries to summarize the data.
++ **Scenarios:** |scenarios_icon| The user can switch between Base and Future Scenarios and see metadata about the active scenario.
++ **Query:** |query_icon| The user can define attribute queries and join tables to explore the data.
++ **Summarize:** |summarize_icon| The user can define aggregate queries to summarize the data.
 
 Scenarios
 ---------
