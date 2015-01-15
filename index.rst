@@ -13,7 +13,7 @@ The data review and editing framework within UrbanFootprint provides a number of
 Map Layers
 ==========
 
-The layer management section on the left side of the user interface allows the user to toggle ‘on’ and ‘off’ visible layers and to select the *Active Layer* for selection, querying, and editing.
+The layer management section on the left side of the user interface allows the user to toggle ‘on’ and ‘off’ visible layers and to select the *Active Layer* for selection, querying, and editing (Figure 1).
 
 .. figure:: images/layers_management.png
     :alt: layer management
@@ -23,7 +23,7 @@ The layer management section on the left side of the user interface allows the u
     
 + *Active Layer*: The user selects the active layer by clicking on the layer name. The active layer will be highlighted in blue. Any map selection, attribute query, export layer, export csv initiated by the user will occur on the active layer. The user can select an active layer that is not visible on the map. 
 
-+ *Reordering Map Layers*: The user can re-order layers on the map by clicking on the arrow button |arrow_icon| on the right side of the Layers Tool Bar. This button will open a window where the user can order the layers by clicking on the layer name and ordering it (by dragging it) within the visible list. This order corresponds to the layer order on the map. 
++ *Reordering Map Layers*: The user can re-order layers on the map by clicking on the arrow button |arrow_icon| on the right side of the Layers Tool Bar. This button will open a window where the user can order the layers by clicking on the layer name and ordering it (by dragging it) within the visible list (Figure 2). This order corresponds to the layer order on the map. 
 
 + Any layer with the pencil |pencil_icon| next to it is editable by the user.
 
@@ -40,7 +40,7 @@ Map Selector Tools
 .. |box_selector_icon| image:: images/box_selector.png
 .. |polygon_selector_icon| image:: images/polygon_selector.png
 
-UrbanFootprint provides three Map Selector Tools: a point selector, a box selector, and a polygon selector. The selector tools are located in the tool bar at the top of the map. The user can activate a selector by clicking on the corresponding button and can hover their pointer to get the ‘tool tip’ to identify what button corresponds with each selector.
+UrbanFootprint provides three Map Selector Tools: a point selector, a box selector, and a polygon selector. The selector tools are located in the tool bar at the top of the map. The user can activate a selector by clicking on the corresponding button and hovering the pointer to get the ‘tool tip’ to identify which button corresponds with each selector.
 
 .. figure:: images/selector_tools.png
 
@@ -60,7 +60,7 @@ Explore Pane
 .. |query_icon| image:: images/query.png
 .. |summarize_icon| image:: images/summarize.png
 
-By clicking on the ‘Explore’ button |explore_tab| on the top of the screen, the map section will resize and default to the Scenario Manager screen. See Figure 3 below.
+By clicking on the ‘Explore’ button |explore_tab| on the top of the screen, the map section will resize and default to the Scenarios screen. See Figure 3 below:
 
 .. figure:: images/query_via_explore.png
     :alt: query via explore top section
@@ -170,13 +170,13 @@ Similar to querying syntax, aggregation syntax makes use of the SQL database lan
     
     Figure 9: Aggregation window
 
-*Aggregation Syntax:* The following aggregation operators are active in UrbanFootprint. 
+*Aggregation Syntax:* The following aggregation operators are active in UrbanFootprint:
 
 - SUM(field_name): Sum of the values of the assigned field.
-- COUNT(field_name): Count the number rows from the assigned field.
+- COUNT(field_name): Count the number of rows from the assigned field.
 - AVG(field_name): Average of the values of the assigned field. 
-- MAX(field_name): Maximum value in the assigned field. 
-- MIN(field_name): Minimum value in the assigned field. 
+- MAX(field_name): Maximum value of the assigned field. 
+- MIN(field_name): Minimum value of the assigned field. 
 
 Multiple fields can be aggregated at the same time by separating the aggregation functions with commas. An example of this syntax is as follows::
 
@@ -184,7 +184,7 @@ Multiple fields can be aggregated at the same time by separating the aggregation
 
 *Group By:* UrbanFooptrint allows the user to specify one or more group by fields. ‘Group By’ allows the user to summarize fields by categorical variables. A common group by field is a parcel land use code column, but any categorical variable can be used. If a group by column is specified, aggregations will return values for each distinct value in the group by column. 
 
-An example of a group by configuration can be seen if Figure 10 below. In this case, the aggregation is to sum all the employment from the TAZ record by unique TAZ id and to count the number of parcels within each TAZ from the parcel data set. The results are also limited to a painted selection.
+An example of a group by configuration can be seen in Figure 10 below. In this case, the aggregation is to sum all the employment from the TAZ record by unique TAZ id and to count the number of parcels within each TAZ from the parcel data set. The results are also limited to a painted selection.
 
 .. figure:: images/aggregation_groupby.png
     :alt: aggregation using group by
@@ -197,7 +197,7 @@ Attribute Editing
 
 .. |save_button| image:: images/save_button.png
 
-Currently attribute editing requires custom edit forms to be made specifically for configured layers in UrbanFootprint; any layer not configured for editing is not editable. If a layer has been configured, when that layer is active in the layer manager, the user can open an edit window on the right side of the screen to view and edit specific attributes. See figure 11 below:
+Currently attribute editing requires custom edit forms to be made specifically for configured layers in UrbanFootprint; any layer not configured for editing is not editable. If a layer has been configured, when that layer is active in the layer manager, the user can open an edit window on the right side of the screen to view and edit specific attributes. See Figure 11 below:
 
 .. figure:: images/attribute_edit_window.png
     :alt: attribute editing window
