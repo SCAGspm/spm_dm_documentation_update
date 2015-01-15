@@ -11,6 +11,8 @@ Preliminary User Guide for UrbanFootprint Data Review and Editing
 The data review and editing framework within UrbanFootprint provides a number of data management and data review features to streamline data updating and review on the web. Using standard GIS and database attribute query and map selector tools, the user can explore data, summarize attributes, and edit configured layers. This documentation covers basic functionality for data review and editing.
 
 
+
+
 Map Layers
 ==========
 
