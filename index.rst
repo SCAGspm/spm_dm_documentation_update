@@ -88,7 +88,11 @@ The attribute query functionality and the map selector tools in UrbanFootprint a
 
  *Attribute Query*: The UrbanFootprint attribute querying functionality utilizes SQL syntax to tell the database what features the user would like to select.
 
-Figure 6: Query input
+.. figure:: images/query_input.png
+    :alt: query input
+    :align: right
+    
+    Figure 6: Query input
 
 *The following comparison/equality operators are supported:*
  
@@ -145,11 +149,11 @@ The user utilizes these pre-defined join tables by selecting the desired table f
     :align: right
     
     Figure 8: Query toggles
-
- + Limit Results to Selected Area: If the user has selected features with a map selector tool and input an attribute query, they have the option to limit the query result to the map selection or apply them to the whole dataset.
- + Show Selection Shape on Map: The user can toggle on and off the map selection
- + Clear Button: Clears the selection
- + Query Button: Executes the query
+ 
++ Limit Results to Selected Area: If the user has selected features with a map selector tool and input an attribute query, they have the option to limit the query result to the map selection or apply them to the whole dataset.
++ Show Selection Shape on Map: The user can toggle on and off the map selection
++ Clear Button: Clears the selection
++ Query Button: Executes the query
 
 Summarize
 ---------
@@ -161,7 +165,7 @@ Similar to querying syntax, aggregation syntax makes use of the SQL database lan
     
     Figure 9: Aggregation window
 
- *Aggregation Syntax:* The following aggregation operators are active in UrbanFootprint. 
+*Aggregation Syntax:* The following aggregation operators are active in UrbanFootprint. 
 
 - SUM(field_name): Sum of the values of the assigned field.
 - COUNT(field_name): Count the number rows from the assigned field.
