@@ -43,6 +43,7 @@ Map Selector Tools
 UrbanFootprint provides three Map Selector Tools: a point selector, a box selector, and a polygon selector. The selector tools are located in the tool bar at the top of the map. The user can activate a selector by clicking on the corresponding button and can hover their pointer to get the ‘tool tip’ to identify what button corresponds with each selector.
 
 .. figure:: images/selector_tools.png
+    :align: center
 
  *The Selector tool will operate on the Active layer. The selected feature(s) will be highlighted (outlined) in green on the map.*
 
