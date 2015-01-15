@@ -1,3 +1,6 @@
+.. figure:: images/uf_logo.png
+    :scale: 25
+    :align: center    
 
 Preliminary User Guide for UrbanFootprint Data Review and Editing
 =================================================================
@@ -21,7 +24,6 @@ The layer management section on the left side of the user interface allows the u
 
 .. figure:: images/layers_management.png
     :alt: layer management
-    :width: 10 px
     :align: right
     
     Figure 1: Layers management
