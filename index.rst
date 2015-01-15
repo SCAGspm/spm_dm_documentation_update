@@ -70,11 +70,9 @@ By clicking on the ‘Explore’ button |explore_tab| on the top of the screen, 
 
 On the left of the Explore Pane, the user can toggle between the following options: |explore_options|
 
-|scenarios_icon| **Scenarios:** The user can switch between Base and Future Scenarios and see metadata about the active scenario.
-
-|query_icon| **Query:** The user can define attribute queries and join tables to explore the data.
-
-|summarize_icon| **Summarize:** The user can define aggregate queries to summarize the data.
++ |scenarios_icon| **Scenarios:** The user can switch between Base and Future Scenarios and see metadata about the active scenario.
++ |query_icon| **Query:** The user can define attribute queries and join tables to explore the data.
++ |summarize_icon| **Summarize:** The user can define aggregate queries to summarize the data.
 
 Scenarios
 ---------
@@ -146,7 +144,8 @@ The attribute query functionality and the map selector tools in UrbanFootprint a
     
 The user utilizes these pre-defined join tables by selecting the desired table from the drop down button in the query window. Having selected a table to join, the user will have access to all fields in that join table. Any query making use of join fields will utilize the pre-defined spatial or attribute relationship. See joins section for further explanation. 
 
- **Important**: If the user is querying a field from the join table that has the same name as a field in the source table, the system defaults to the source table field. To query the join table field, the user must write the *name_of_join_table.field_name*
+.. IMPORTANT::
+    If the user is querying a field from the join table that has the same name as a field in the source table, the system defaults to the source table field. To query the join table field, the user must write the *name_of_join_table.field_name*
 
 *Query Options:* The user has a number of options to form their query and to show helpful information in the user interface.
 
