@@ -24,13 +24,13 @@ The layer management section on the left side of the user interface allows the u
 
 .. figure:: images/layers_management.png
     :alt: layer management
-    :align: right
+    :align: left
     
     Figure 1: Layers management
 
 .. figure:: images/reorder_layers.png
     :alt: reorder layers
-    :align: right
+    :align: left
     
     Figure 2: Re-order layers
 
