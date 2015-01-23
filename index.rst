@@ -56,7 +56,7 @@ Explore Pane
 
 .. |explore_tab| image:: images/explore_tab.png
 .. |explore_options| image:: images/explore_options.png
-.. |scenarios_icon| image:: images/summarize.png
+.. |scenarios_icon| image:: images/scenarios.png
 .. |query_icon| image:: images/query.png
 .. |summarize_icon| image:: images/summarize.png
 
@@ -80,7 +80,7 @@ The default screen when the user clicks on the Explore button goes to Scenarios.
 
 Query
 -----
-UrbanFootprint attribute query functionality can be accessed by clicking on the ‘Explore’ button at the top of the User Interface and then clicking on the ‘Query’ button. See Figure 5 below:
+UrbanFootprint attribute query functionality can be accessed by clicking on the ‘Explore’ button at the top of the User Interface and then clicking on the ‘Query’ button, while a data layer is selected. See Figure 5 below:
 
 .. figure:: images/query_window.png
     :alt: query window
