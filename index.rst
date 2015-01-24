@@ -197,7 +197,7 @@ Attribute Editing
 
 .. |save_button| image:: images/save_button.png
 
-Currently attribute editing requires custom edit forms to be made specifically for configured layers in UrbanFootprint; any layer not configured for editing is not editable. If a layer has been configured, when that layer is active in the layer manager, the user can open an edit window on the right side of the screen to view and edit specific attributes. See Figure 11 below:
+Currently, attribute editing requires custom edit forms to be made specifically for configured layers in UrbanFootprint; any layer not configured for editing is not editable. If a layer has been configured, when that layer is active in the layer manager, the user can open an edit window on the right side of the screen to view and edit specific attributes. See Figure 11 below:
 
 .. figure:: images/attribute_edit_window.png
     :alt: attribute editing window
