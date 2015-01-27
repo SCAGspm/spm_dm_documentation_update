@@ -60,7 +60,7 @@ By clicking on the ‘Explore’ button |explore_tab| on the top of the screen, 
     :alt: query via explore top section
     :align: right
     
-    Figure 3: Query via Explore top section 
+    Figure 2: Query via Explore top section
 
 On the left of the Explore Pane, the user can toggle between the following options: |explore_options|
 
@@ -80,7 +80,7 @@ UrbanFootprint attribute query functionality can be accessed by clicking on the 
     :alt: query window
     :align: right
     
-    Figure 5: Query window
+    Figure 4: Query window
 
 The attribute query functionality and the map selector tools in UrbanFootprint are linked by default. When a user selects features on the map with the map selector tools, the attributes will populate in the query window. If the user inputs an attribute query with no map selection, the map will show the features selected from the attribute query. The user also has the option to use attribute selections and map selections in combination.
 
@@ -90,7 +90,7 @@ The attribute query functionality and the map selector tools in UrbanFootprint a
     :alt: query input
     :align: right
     
-    Figure 6: Query input
+    Figure 5: Query input
 
 *The following comparison/equality operators are supported:*
  
@@ -134,7 +134,7 @@ The attribute query functionality and the map selector tools in UrbanFootprint a
     :alt: join drop down list
     :align: right
     
-    Figure 7: Join drop-down list
+    Figure 6: Join drop-down list
     
 The user utilizes these pre-defined join tables by selecting the desired table from the drop down button in the query window. Having selected a table to join, the user will have access to all fields in that join table. Any query making use of join fields will utilize the pre-defined spatial or attribute relationship. See joins section for further explanation. 
 
@@ -147,7 +147,7 @@ The user utilizes these pre-defined join tables by selecting the desired table f
     :alt: query toggles
     :align: right
     
-    Figure 8: Query toggles
+    Figure 7: Query toggles
  
 + Limit Results to Selected Area: If the user has selected features with a map selector tool and input an attribute query, they have the option to limit the query result to the map selection or apply them to the whole dataset.
 + Show Selection Shape on Map: The user can toggle on and off the map selection
@@ -162,7 +162,7 @@ Similar to querying syntax, aggregation syntax makes use of the SQL database lan
     :alt: aggregation window
     :align: right
     
-    Figure 9: Aggregation window
+    Figure 8: Aggregation window
 
 *Aggregation Syntax:* The following aggregation operators are active in UrbanFootprint:
 
@@ -184,7 +184,7 @@ An example of a group by configuration can be seen in Figure 10 below. In this c
     :alt: aggregation using group by
     :align: right
     
-    Figure 10: Aggregation using group by
+    Figure 9: Aggregation using group by
 
 Scenario Painting
 =================
@@ -197,7 +197,7 @@ Scenario painting requires custom edit forms to be made specifically for configu
     :alt: attribute editing window
     :align: right
     
-    Figure 11: Attribute editing window 
+    Figure 10: Attribute editing window
 
 The editor operates on the currently selected features of the active layer. If there is more than one feature selected, any changes made in the editor widow will populate all rows with those values. In cases where a layer is configured to only allow editing of one row at a time, the following message will be displayed indicating that only one record at a time can be edited:
 
@@ -210,4 +210,4 @@ To save changes to edited attributes the user must click on ‘Apply‘ |apply_b
     :alt: save button in managing built forms window
     :align: right
     
-    Figure 12: Save button in Managing Urban Built Forms window
+    Figure 11: Apply button in Managing Urban Built Forms window
