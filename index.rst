@@ -51,8 +51,9 @@ UrbanFootprint Manager
 ======================
 
 .. |folder_icon| image:: images/folder.png
+.. |plus_sign| image:: images/plus.png
 
-Click on the file folder icon |folder_icon| to open the UrbanFootprint Manager, where the user can manage and clone scenarios.  A new scenario can be created and given a name, year, and description.
+Click on the file folder icon |folder_icon| to open the UrbanFootprint Manager, where the user can manage scenarios.  To clone (or copy) a scenario, the user should click on the plus sign |plus_sign| next to the scenario to be cloned.  The user can then give this new scenario a name, year, and description.
 
 Explore Pane
 ============
@@ -226,3 +227,7 @@ Within the Built Form Editor, the user can edit a building, building type, or pl
     :align: center
     
     Figure 10: Built Form Editor window
+
+Analysis Modules
+----------------
+
