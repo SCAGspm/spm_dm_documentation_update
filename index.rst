@@ -23,15 +23,9 @@ The layer management section on the left side of the user interface allows the u
     
 + *Active Layer*: The user selects the active layer by clicking on the layer name. The active layer will be highlighted in blue. Any map selection, attribute query, export layer, export csv initiated by the user will occur on the active layer. The user can select an active layer that is not visible on the map. 
 
-+ *Reordering Map Layers*: The user can re-order layers on the map by clicking on the arrow button |arrow_icon| on the right side of the Layers Tool Bar. This button will open a window where the user can order the layers by clicking on the layer name and ordering it (by dragging it) within the visible list (Figure 2). This order corresponds to the layer order on the map. 
++ *Reordering Map Layers*: The user can re-order layers on the map by clicking on the arrow button |arrow_icon| on the right side of the Layers Tool Bar. This button will open a window where the user can order the layers by clicking on the layer name and ordering it (by dragging it) within the visible list. This order corresponds to the layer order on the map.
 
 + Any layer with the pencil |pencil_icon| next to it is editable by the user.
-
-.. figure:: images/reorder_layers.png
-    :alt: reorder layers
-    :align: center
-    
-    Figure 2: Re-order layers
 
 Map Selector Tools
 ==================
@@ -192,12 +186,12 @@ An example of a group by configuration can be seen in Figure 10 below. In this c
     
     Figure 10: Aggregation using group by
 
-Attribute Editing
+Scenario Painting
 =================
 
 .. |apply_button| image:: images/apply.png
 
-Currently, attribute editing requires custom edit forms to be made specifically for configured layers in UrbanFootprint; any layer not configured for editing is not editable. If a layer has been configured, when that layer is active in the layer manager, the user can open an edit window on the right side of the screen to view and edit specific attributes. See Figure 11 below:
+Scenario painting requires custom edit forms to be made specifically for configured layers in UrbanFootprint, and therefore can only be implemented on layers with the |pencil_icon| icon. When such a layer is active in the layer manager, the user can open an edit window on the right side of the screen to view and change specific attributes. See Figure 11 below:
 
 .. figure:: images/attribute_edit_window.png
     :alt: attribute editing window
