@@ -215,7 +215,7 @@ Built Form Editor
 
 .. |down_arrow| image:: images/down_arrow.png
 
-Click on the down arrow |down_arrow| to manage built forms using the Built Form Editor, which operates on the currently selected features of the active layer. If there is more than one feature selected, any changes made in the editor widow will populate all rows with those values. In cases where a layer is configured to only allow editing of one row at a time, the following message will be displayed indicating that only one record at a time can be edited:
+Click on the down arrow |down_arrow| to manage built forms using the Built Form Editor, which operates on the currently selected features of the active layer. If there is more than one feature selected, any changes made in the editor window will populate all rows with those values. In cases where a layer is configured to only allow editing of one row at a time, the following message will be displayed indicating that only one record at a time can be edited:
 
 .. figure:: images/one_record.png
     :align: center
