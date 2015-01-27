@@ -195,7 +195,7 @@ An example of a group by configuration can be seen in Figure 10 below. In this c
 Attribute Editing
 =================
 
-.. |save_button| image:: images/save_button.png
+.. |apply_button| image:: images/apply.png
 
 Currently, attribute editing requires custom edit forms to be made specifically for configured layers in UrbanFootprint; any layer not configured for editing is not editable. If a layer has been configured, when that layer is active in the layer manager, the user can open an edit window on the right side of the screen to view and edit specific attributes. See Figure 11 below:
 
@@ -210,7 +210,7 @@ The editor operates on the currently selected features of the active layer. If t
 .. figure:: images/one_record.png
     :align: center
     
-To save changes to edited attributes the user must click on ‘Save‘ |save_button| when finished editing. *If the user changes the selected features without saving changes, those changes will not be saved.* See Figure 12 below:
+To save changes to edited attributes the user must click on ‘Apply‘ |apply_button| when finished editing. *If the user changes the selected features without saving changes, those changes will not be saved.* See Figure 12 below:
 
 .. figure:: images/built_forms_window.png
     :alt: save button in managing built forms window
