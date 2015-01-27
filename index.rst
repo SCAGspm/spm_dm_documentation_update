@@ -49,7 +49,7 @@ UrbanFootprint Manager
 
 .. |folder_icon| image:: images/folder.png
 
-Click on the file folder icon |folder_icon| to open the UrbanFootprint Manager, where the user can manage and clone scenarios.
+Click on the file folder icon |folder_icon| to open the UrbanFootprint Manager, where the user can manage and clone scenarios.  A new scenario can be created and given a name, year, and description.
 
 Explore Pane
 ============
