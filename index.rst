@@ -58,7 +58,7 @@ Click on the file folder icon |folder_icon| to open the UrbanFootprint Manager, 
 
 .. figure:: images/manage_scenarios.png
     :alt: manage scenarios window
-    :align: right
+    :align: center
 
     Figure 2: Manage scenarios via UrbanFootprint Manager
 
