@@ -54,7 +54,7 @@ Explore Pane
 .. |query_icon| image:: images/query.png
 .. |summarize_icon| image:: images/summarize.png
 
-By clicking on the ‘Explore’ button |explore_tab| on the top of the screen, the map section will resize and default to the Scenarios screen. See Figure 3 below:
+By clicking on the ‘Explore’ button |explore_tab| on the top of the screen, the map section will resize and default to the Scenarios screen. See Figure 2 below:
 
 .. figure:: images/query_via_explore.png
     :alt: query via explore top section
@@ -74,13 +74,13 @@ The default screen when the user clicks on the Explore button goes to Scenarios.
 
 Query
 -----
-UrbanFootprint attribute query functionality can be accessed by clicking on the ‘Explore’ button at the top of the User Interface and then clicking on the ‘Query’ button, while a data layer is selected. See Figure 5 below:
+UrbanFootprint attribute query functionality can be accessed by clicking on the ‘Explore’ button at the top of the User Interface and then clicking on the ‘Query’ button, while a data layer is selected. See Figure 3 below:
 
 .. figure:: images/query_window.png
     :alt: query window
     :align: right
     
-    Figure 4: Query window
+    Figure 3: Query window
 
 The attribute query functionality and the map selector tools in UrbanFootprint are linked by default. When a user selects features on the map with the map selector tools, the attributes will populate in the query window. If the user inputs an attribute query with no map selection, the map will show the features selected from the attribute query. The user also has the option to use attribute selections and map selections in combination.
 
@@ -90,7 +90,7 @@ The attribute query functionality and the map selector tools in UrbanFootprint a
     :alt: query input
     :align: right
     
-    Figure 5: Query input
+    Figure 4: Query input
 
 *The following comparison/equality operators are supported:*
  
@@ -134,7 +134,7 @@ The attribute query functionality and the map selector tools in UrbanFootprint a
     :alt: join drop down list
     :align: right
     
-    Figure 6: Join drop-down list
+    Figure 5: Join drop-down list
     
 The user utilizes these pre-defined join tables by selecting the desired table from the drop down button in the query window. Having selected a table to join, the user will have access to all fields in that join table. Any query making use of join fields will utilize the pre-defined spatial or attribute relationship. See joins section for further explanation. 
 
@@ -147,7 +147,7 @@ The user utilizes these pre-defined join tables by selecting the desired table f
     :alt: query toggles
     :align: right
     
-    Figure 7: Query toggles
+    Figure 6: Query toggles
  
 + Limit Results to Selected Area: If the user has selected features with a map selector tool and input an attribute query, they have the option to limit the query result to the map selection or apply them to the whole dataset.
 + Show Selection Shape on Map: The user can toggle on and off the map selection
@@ -162,7 +162,7 @@ Similar to querying syntax, aggregation syntax makes use of the SQL database lan
     :alt: aggregation window
     :align: right
     
-    Figure 8: Aggregation window
+    Figure 7: Aggregation window
 
 *Aggregation Syntax:* The following aggregation operators are active in UrbanFootprint:
 
@@ -184,30 +184,30 @@ An example of a group by configuration can be seen in Figure 10 below. In this c
     :alt: aggregation using group by
     :align: right
     
-    Figure 9: Aggregation using group by
+    Figure 8: Aggregation using group by
 
 Scenario Painting
 =================
 
 .. |apply_button| image:: images/apply.png
 
-Scenario painting requires custom edit forms to be made specifically for configured layers in UrbanFootprint, and therefore can only be implemented on layers with the |pencil_icon| icon. When such a layer is active in the layer manager, the user can open an edit window on the right side of the screen to view and change specific attributes. See Figure 11 below:
+Scenario painting requires custom edit forms to be made specifically for configured layers in UrbanFootprint, and therefore can only be implemented on layers with the |pencil_icon| icon. When such a layer is active in the layer manager, the user can open an edit window on the right side of the screen to view and change specific attributes. See Figure 9 below:
 
 .. figure:: images/attribute_edit_window.png
     :alt: attribute editing window
     :align: right
     
-    Figure 10: Attribute editing window
+    Figure 9: Attribute editing window
 
 The editor operates on the currently selected features of the active layer. If there is more than one feature selected, any changes made in the editor widow will populate all rows with those values. In cases where a layer is configured to only allow editing of one row at a time, the following message will be displayed indicating that only one record at a time can be edited:
 
 .. figure:: images/one_record.png
     :align: center
     
-To save changes to edited attributes the user must click on ‘Apply‘ |apply_button| when finished editing. *If the user changes the selected features without saving changes, those changes will not be saved.* See Figure 12 below:
+To save changes to edited attributes the user must click on ‘Apply‘ |apply_button| when finished editing. *If the user changes the selected features without saving changes, those changes will not be saved.* See Figure 10 below:
 
 .. figure:: images/built_forms_window.png
     :alt: save button in managing built forms window
     :align: right
     
-    Figure 11: Apply button in Managing Urban Built Forms window
+    Figure 10: Apply button in Managing Urban Built Forms window
