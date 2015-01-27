@@ -216,7 +216,7 @@ Scenario painting requires custom edit forms to be made specifically for configu
     
     Figure 10: Attribute editing window
 
-To save changes to edited attributes the user must click on ‘Apply‘ |apply_button| when finished editing. *If the user changes the selected features without applying changes, those changes will not be saved.*
+The user can adjust the development, density, and gross/net percentages using the toggles at the top of the panel. To save changes to edited attributes the user must click on ‘Apply‘ |apply_button| when finished editing. *If the user changes the selected features without applying changes, those changes will not be saved.* The user can see the effects of these adjustments on the numbers of dwelling units, employees, and acres developable at the bottom of the screen.
 
 Built Form Editor
 -----------------
@@ -238,3 +238,4 @@ Within the Built Form Editor, the user can edit a building, building type, or pl
 Analysis Modules
 ----------------
 
+The Water and Energy Modules can be run from the analysis panel on the right side of the screen...
