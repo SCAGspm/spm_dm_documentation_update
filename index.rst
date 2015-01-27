@@ -44,6 +44,12 @@ UrbanFootprint provides three Map Selector Tools: a point selector, a box select
 + |box_selector_icon| **Box Selector:** The box selector selects the feature that intersects with a rectangle formed by the user clicking and dragging across the map.
 + |polygon_selector_icon| **Polygon Selector:** The polygon selector selects the feature that intersects with a user defined polygon shape formed by the user defining each node of the polygon by clicking on the map. Double clicking will stop forming the polygon selection.
 
+UrbanFootprint Manager
+======================
+
+.. |folder_icon| image:: images/folder.png
+
+Click on the file folder icon |folder_icon| to open the UrbanFootprint Manager, where the user can manage and clone scenarios.
 
 Explore Pane
 ============
