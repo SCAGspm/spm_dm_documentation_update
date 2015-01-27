@@ -173,6 +173,9 @@ The user utilizes these pre-defined join tables by selecting the desired table f
 
 Summarize
 ---------
+
+.. |export_csv_button| image:: images/exportcsv.png
+
 Similar to querying syntax, aggregation syntax makes use of the SQL database language. The user has options to aggregate any field in the active table and any field in a table that has been joined. Aggregation includes both aggregation operators and ‘group by’ results. The user can also decide whether to aggregate within the active map selection or from the entire dataset.
 
 .. figure:: images/aggregation_window.png
@@ -202,6 +205,8 @@ An example of a group by configuration can be seen in Figure 10 below. In this c
     :align: right
     
     Figure 9: Aggregation using group by
+
+The user can export the results from a query or summary to a .csv file format by clicking on the |export_csv_button| button in the top right corner of the screen.
 
 Scenario Painting
 =================
