@@ -208,6 +208,8 @@ Scenario painting requires custom edit forms to be made specifically for configu
     
     Figure 9: Attribute editing window
 
+To save changes to edited attributes the user must click on ‘Apply‘ |apply_button| when finished editing. *If the user changes the selected features without saving changes, those changes will not be saved.*
+
 Built Form Editor
 -----------------
 
@@ -217,11 +219,3 @@ Click on the down arrow |down_arrow| to manage built forms using the Built Form 
 
 .. figure:: images/one_record.png
     :align: center
-    
-To save changes to edited attributes the user must click on ‘Apply‘ |apply_button| when finished editing. *If the user changes the selected features without saving changes, those changes will not be saved.* See Figure 10 below:
-
-.. figure:: images/built_forms_window.png
-    :alt: save button in managing built forms window
-    :align: right
-    
-    Figure 10: Apply button in Managing Urban Built Forms window
