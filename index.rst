@@ -54,7 +54,7 @@ UrbanFootprint Manager
 .. |plus_sign| image:: images/plus.png
 .. |red_circle| image:: images/red_circle.png
 
-Click on the file folder icon |folder_icon| to open the UrbanFootprint Manager, where the user can manage scenarios.  To clone (or copy) a scenario, the user should click on the plus sign |plus_sign| next to the scenario to be cloned.  The user can then give this new scenario a name, year, and description (Figure 2).  A scenario can be removed by selecting it and clicking the |red_circle| icon.
+Click on the file folder icon |folder_icon| to open the UrbanFootprint Manager, where the user can manage scenarios.  To clone (or copy) a scenario, the user should click on the plus sign |plus_sign| next to the scenario to be cloned.  The user can then give this new scenario a name, year, and description (Figure 2).  Remove a scenario by clicking on the |red_circle| icon.
 
 .. figure:: images/manage_scenarios.png
     :alt: manage scenarios window
