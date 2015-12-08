@@ -40,7 +40,7 @@ The SPM is accessed via a web page. Ultimately, any web browser will be able to 
 
 ## User Interface Overview 
 
-### Layer Management Window 
+### 1. Layer Management Window 
 
 The Layer Management window on the left side of the SPM user interface displays layers that have been preloaded into the SPM, and that can be turned on for display and activated for selection, editing, and queries.   
 
@@ -64,7 +64,7 @@ The user can select an active layer by clicking on the layer name and the active
 
 ![Re-Order Layers][reorder_layers]
 
-### Map Tool Bar
+### 2. Map Tool Bar
 
 Clicking on an icon on the map tool bar allows the user to zoom and navigate around the map as well as select and identify map features. The user can hover their pointer to get the ‘tool tip’ to identify what button corresponds with each selector. 
 
@@ -98,7 +98,7 @@ Clicking on an icon on the map tool bar allows the user to zoom and navigate aro
 
 
 
-### Top Section Menu Pane
+### 3. Top Section Menu Pane
 
 The top section menu drop down allows the user to toggle between Project Info, Data Explorer, and Approval/Merge options. After clicking one of the options, the map selection will resize display the selected option.
 
@@ -221,79 +221,14 @@ Once features have been reviewed and edits approved, the data manager can merge 
 ![approval_merge_merge_button](images/scag_12_7_15/approval_merge_merge_button.png)
 
 
-### Edit Window
+### 4. Layer Editor
 
-The Edit Window allows the user to edit or comment upon select layer attributes. Currently attribute editing requires custom edit forms to be made specifically for configured layers in SPM; any layer not configured for editing is not editable (see Appendix B for the list of editable layers). If a layer has been configured, when that layer is active in the layer manager, the user can open an edit window by clicking on the ‘Edit’ button on the right side of the screen to view and edit specific attributes. See Figure 14 below. 
+The Layer Editor allows the user to edit or comment upon select layer attributes. The editable layers are listed in the Layer Management Window under Editable Layers. If a layer is editable, when that layer is active in the layer manager, the user can open the Layer Editor by clicking on the ‘Editor’ button on the right side of the screen to view and edit specific attributes. 
+
 The editor operates on the currently selected features of the active layer. If there is more than one feature selected, any changes made in the editor window will populate all rows with those values unless the layer is configured to only allow editing of one row at a time. 
 
+![edit_window](images/scag_12_7_15/edit_window.png)
 
-.. |export_csv_button| image:: images/exportcsv.png
+The layer attribute dropdown allows the user to edit attributes of currently selected features of the active layer and add comments in the comment box associated to that specific edit.
 
-Similar to querying syntax, aggregation syntax makes use of the SQL database language. The user has options to aggregate any field in the active table and any field in a table that has been joined. Aggregation includes both aggregation operators and â€˜group byâ€™ results. The user can also decide whether to aggregate within the active map selection or from the entire dataset.
-
-.. figure:: images/aggregation_window.png
-    :alt: aggregation window
-    :align: right
-    
-    Figure 8: Aggregation window
-
-*Aggregation Syntax:* The following aggregation operators are active in UrbanFootprint:
-
-- SUM(field_name): Sum of the values of the assigned field.
-- COUNT(field_name): Count the number of rows from the assigned field.
-- AVG(field_name): Average of the values of the assigned field. 
-- MAX(field_name): Maximum value of the assigned field. 
-- MIN(field_name): Minimum value of the assigned field. 
-
-Multiple fields can be aggregated at the same time by separating the aggregation functions with commas. An example of this syntax is as follows::
-
-    SUM(field_name), AVG(field_name2), COUNT(field_name3), SUM(field_name4)
-
-*Group By:* UrbanFooptrint allows the user to specify one or more group by fields. â€˜Group Byâ€™ allows the user to summarize fields by categorical variables. A common group by field is a parcel land use code column, but any categorical variable can be used. If a group by column is specified, aggregations will return values for each distinct value in the group by column. 
-
-An example of a group by configuration can be seen in Figure 10 below. In this case, the aggregation is to sum all the employment from the TAZ record by unique TAZ id and to count the number of parcels within each TAZ from the parcel data set. The results are also limited to a painted selection.
-
-.. figure:: images/aggregation_groupby.png
-    :alt: aggregation using group by
-    :align: right
-    
-    Figure 9: Aggregation using group by
-
-The user can export the results from a query or summary to a .csv file format by clicking on the |export_csv_button| button in the top right corner of the screen.
-
-Scenario Painting
-=================
-
-.. |apply_button| image:: images/apply.png
-
-Scenario painting requires custom edit forms to be made specifically for configured layers in UrbanFootprint, and therefore can only be implemented on layers with the |pencil_icon| icon. When such a layer is active in the layer manager, the user can open an edit window on the right side of the screen to view and change specific attributes. See Figure 10 below:
-
-.. figure:: images/attribute_edit_window.png
-    :alt: attribute editing window
-    :align: right
-    
-    Figure 10: Attribute editing window
-
-The user can adjust the development, density, and gross/net percentages using the toggles at the top of the panel. To save changes to edited attributes the user must click on â€˜Applyâ€˜ |apply_button| when finished editing. *If the user changes the selected features without applying changes, those changes will not be saved.* The user can see the effects of these adjustments on the numbers of dwelling units, employees, and acres developable at the bottom of the screen.
-
-Built Form Editor
------------------
-
-.. |down_arrow| image:: images/down_arrow.png
-
-Click on the down arrow |down_arrow| to manage built forms using the Built Form Editor, which operates on the currently selected features of the active layer. If there is more than one feature selected, any changes made in the editor window will populate all rows with those values. In cases where a layer is configured to only allow editing of one row at a time, the following message will be displayed indicating that only one record at a time can be edited:
-
-.. figure:: images/one_record.png
-    :align: center
-    
-Within the Built Form Editor, the user can edit a building, building type, or placetype. See Figure 11 below:
-
-.. figure:: images/built_form_editor.png
-    :align: center
-    
-    Figure 11: Built Form Editor window
-
-Analysis Modules
-----------------
-
-The Water and Energy Modules can be run from the analysis panel on the right side of the screen...
+To save changes to edited attributes the user must push the save button when finished editing. If the user changes the selected features without saving changes, those changes will not be saved. 
