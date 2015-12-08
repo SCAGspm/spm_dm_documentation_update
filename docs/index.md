@@ -18,19 +18,15 @@
 
 # SCAG UrbanFootprint Scenario Planning Model (SPM)
 
-## User Manual for Data Review and Editing
+## Data Review and Editing User Manual
 
-The data review and editing framework within SCAG UrbanFootprint SPM provides the user with a number of data management and data review options. Using attribute query and map selector tools, the user can explore data, summarize attributes, and edit configured layers.  This documentation covers basic SPM functionality for data review and editing. 
+This user guide provides instruction for the use of the SPM Data Review and Management System. This data review and editing framework, built upon the UrbanFootprint platform, provides users across the SCAG region with a number of critical data management and data review options. The SPM Data Review and Management System is accessible via a single web-based application for all jurisdictions in the six-county SCAG region.  This documentation covers basic functionality for data review and editing. 
 
 ## Introduction
 
-SCAG UrbanFootprint-based Scenario Planning Model (SPM) is a land use planning, modeling, and data management tool that is undergoing development to facilitate more informed and collaborative planning by local jurisdictions and other stakeholders. Built on a web-based geospatial platform with full co-benefit analysis capacity, the SPM allows planners to develop future scenarios for land use, transportation infrastructure, and socio-economic growth distribution.
+SCAG’s UrbanFootprint-based Scenario Planning Model (SPM) is a land use planning, modeling, and data management platform that is undergoing development to facilitate more informed and collaborative planning by SCAG, local jurisdictions, and other key stakeholders.
 
-The UrbanFootprint model, an Open Source software product being customized and enhanced for use by California Metropolitan Planning Organizations (MPOs), serves as the platform for the SPM. Currently, SCAG, Sacramento Area Council of Governments (SACOG), and San Diego Association of Governments (SANDAG) are all contributing to the effort to customize UrbanFootprint, and enhancements will be shared by all users and ultimately made available to local jurisdictions across Southern California.
-
-This pilot process is intended to demonstrate how local and regional data can be served to local jurisdictions via the SPM web-based user interface, and to test initial functions focused primarily on data review and editing.  The data review and editing framework within SPM provides the user with a number of data management and data review options. Using attribute query and map selector tools, the user can explore data, summarize attributes, and edit configured layers.  **This documentation covers basic SPM functionality for data review and editing.**
-
-Ultimately, the SPM once completed will bring robust scenario-development functionality to local jurisdictions across the SCAG region.  For more information, please visit our website at http://sp.scag.ca.gov.
+The SPM Data Review and Management System is being pilot tested to demonstrate how local and regional data can be served to local jurisdictions via the web-based user interface, and to test functions focused primarily on data review and editing. The data review and editing framework within the SPM provides the user with a number of data management and data review options. Using attribute query and map selector tools, the user can explore data, summarize attributes, and edit configured layers.
 
 **System Requirements**
 
@@ -53,7 +49,7 @@ The SPM is accessed via a web page. Ultimately, any web browser will be able to 
 
 ## User Interface Overview 
 
-### 1. Layer Management Window 
+## 1. Layer Management Window 
 
 The Layer Management window on the left side of the SPM user interface displays layers that have been preloaded into the SPM, and that can be turned on for display and activated for selection, editing, and queries.   
 
@@ -77,7 +73,7 @@ The user can select an active layer by clicking on the layer name and the active
 
 ![Re-Order Layers][reorder_layers]
 
-### 2. Map Tool Bar
+## 2. Map Tool Bar
 
 Clicking on an icon on the map tool bar allows the user to zoom and navigate around the map as well as select and identify map features. The user can hover their pointer to get the ‘tool tip’ to identify what button corresponds with each selector. 
 
@@ -111,7 +107,7 @@ Clicking on an icon on the map tool bar allows the user to zoom and navigate aro
 
 
 
-### 3. Top Section Menu Pane
+## 3. Top Section Menu Pane
 
 The top section menu drop down allows the user to toggle between Project Info, Data Explorer, and Approval/Merge options. After clicking one of the options, the map selection will resize display the selected option.
 
@@ -131,13 +127,13 @@ The user can toggle between the following options by clicking on the menu button
 **Approval/Merge:** The user who has a manager level or director level permission can approve edits and merge those edits into mater versions of the editable layers. 
 
 
-![Project Info][project_info] ***Project Info***      
+## 3.1 Project Info ![Project Info][project_info] 
 
 **TODO update this, I(janet) just wrote something here as filler**
 
 This screen displays charts on Population, Households, and Employment on the current project.
  
-![Data Explorer][data_explorer] ***Data Explorer*** 
+## 3.2 Data Explorer ![Data Explorer][data_explorer]  
 
 The data explorer query functionality and the map selector tools in the SPM are linked by default. When a user selects features on the map with the map selector tools, the attributes will populate in the query window. If the user inputs an attribute query with no map selection, the map will show the features selected from the attribute query. The user also has the option to use attribute selections and map selections in combination.  
 
@@ -211,7 +207,7 @@ The user has a number of options to form their query and to show helpful informa
 
 
 
-![Approval and Merging][approval_merge] ***Approval/Merging***
+## 3.3 Approval/Merging ![Approval and Merging][approval_merge] 
 
 The Approval/Merging interface is accessible to users with manager or director level permissions. The approval interface allows data managers to review and approve/reject edits made by any user. Through easy to use drop-down queries, edited features can be reviewed, approved or rejected, and merged into the master version. 
 
@@ -234,7 +230,7 @@ Once features have been reviewed and edits approved, the data manager can merge 
 ![approval_merge_merge_button](images/scag_12_7_15/approval_merge_merge_button.png)
 
 
-### 4. Layer Editor
+## 4. Layer Editor
 
 The Layer Editor allows the user to edit or comment upon select layer attributes. The editable layers are listed in the Layer Management Window under Editable Layers. If a layer is editable, when that layer is active in the layer manager, the user can open the Layer Editor by clicking on the ‘Editor’ button on the right side of the screen to view and edit specific attributes. 
 
