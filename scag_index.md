@@ -172,7 +172,7 @@ The data explorer query functionality and the map selector tools in the SPM are 
 >Any string query must have quotation marks around values.
 
 
-***Joining Tables:***
+**Joining Tables:**
 
 SPM allows the user to seamlessly join and query spatial tables of different geography types and geographic scales. Each layer in the system is tagged with a join type when it is imported. The join types include attribute joins, polygon to polygon, polygon to centroid, and centroid to polygon joins. This processing is handled ‘behind the scenes’ in the system. 
 The user utilizes these pre-defined join tables by selecting the desired table from the drop down button in the query window. Having selected a table to join, the user will have access to all fields in that join table. Any query making use of join fields will utilize the pre-defined spatial or attribute relationship. 
@@ -182,7 +182,7 @@ The user utilizes these pre-defined join tables by selecting the desired table f
 
 
 
-***Query Options:***
+**Query Options:**
 
 The user has a number of options to form their query and to show helpful information in the user interface:
 
@@ -198,14 +198,34 @@ The user has a number of options to form their query and to show helpful informa
 
 
 
-### Approval/Merging
+![Approval and Merging][approval_merge] ***Approval/Merging***
+
 The Approval/Merging interface is accessible to users with manager or director level permissions. The approval interface allows data managers to review and approve/reject edits made by any user. Through easy to use drop-down queries, edited features can be reviewed, approved or rejected, and merged into the master version. 
 
 ![approval_merge_top_section](images/scag_12_7_15/approval_merge_top_section.png)
 
+**Approving/Rejecting Edits:** 
 
-Summarize
----------
+The approval interface acts on the active layer. When a data manager is ready to approve or reject edits, they can load all pending edited rows (needing approval) by selecting the correct query form the drop down list. If the user would like to review previously approved or rejected features, the system provides those options as well. 
+
+![approval_merge_dropdown](images/scag_12_7_15/approval_merge_dropdown.png)
+
+Once the data has loaded, the user can highlight a given row (or group of rows by holding down CTRL) to see the location on the map. The user can approve or reject the highlighted rows by pushing the corresponding “Approve” and “Reject” buttons. If the user would like to simply approve or reject all edits, toggling ‘Select All’ will highlight all rows. Once highlighted, all rows can then be approved or rejected. Once rows have been approved or rejected, the user must save their edits. Any approval or rejections that are not saved will be ignored. 
+
+![approval_merge_approve_reject_buttons](images/scag_12_7_15/approval_merge_approve_reject_buttons.png)
+
+**Merging:** 
+
+Once features have been reviewed and edits approved, the data manager can merge all approved features into the Master version of the layer. Within the approval interface, the user can toggle the Merge screen. This will provide the user with the option to merge approved features. After clicking on the Merge button, a backend process will handle filtering and merging data tables. 
+
+![approval_merge_merge_button](images/scag_12_7_15/approval_merge_merge_button.png)
+
+
+### Edit Window
+
+The Edit Window allows the user to edit or comment upon select layer attributes. Currently attribute editing requires custom edit forms to be made specifically for configured layers in SPM; any layer not configured for editing is not editable (see Appendix B for the list of editable layers). If a layer has been configured, when that layer is active in the layer manager, the user can open an edit window by clicking on the ‘Edit’ button on the right side of the screen to view and edit specific attributes. See Figure 14 below. 
+The editor operates on the currently selected features of the active layer. If there is more than one feature selected, any changes made in the editor window will populate all rows with those values unless the layer is configured to only allow editing of one row at a time. 
+
 
 .. |export_csv_button| image:: images/exportcsv.png
 
