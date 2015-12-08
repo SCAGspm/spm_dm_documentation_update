@@ -31,18 +31,18 @@ The SPM is accessed via a web page. Ultimately, any web browser will be able to 
 
 > **Note:** If you experience difficulties in performing feature editing (e.g., feature selection, querying, etc.) 
 > while being able to view maps on the SPM, first check your internet firewall configuration with the local IT support. 
-> The URL of the SPM datamanagement site should be added to the trust list of firewall configuration in order to avoid
+> The URL of the SPM data management site should be added to the trust list of firewall configuration in order to avoid
 > block access by web filters set up locally.
 
 ## Data Management Framework - Site Map     
 
-**TODO add annotated snapshot here**
+![site_map](images/scag_12_7_15/site_map.png)
 
 ## User Interface Overview 
 
 ### Layer Management Window 
 
-The Layer Management window on the left side of the SPM user interface displays layers that have been preloaded into the SPM, and that can be turned on for display and activated for selection, editing, and queries. See Appendix A for descriptions of the data available via the SPM.  
+The Layer Management window on the left side of the SPM user interface displays layers that have been preloaded into the SPM, and that can be turned on for display and activated for selection, editing, and queries.   
 
 The user can select an active layer by clicking on the layer name and the active layer will be highlighted in blue. 
 
@@ -50,19 +50,19 @@ The user can select an active layer by clicking on the layer name and the active
 > layer, export csv initiated by the user will occur on the 
 > active layer regardless of whether it is visible or not.
 
-![editable_layers](images/scag_12_7_15/editable_layers.png)
-
 [layers_icon]: <images/scag_12_7_15/layers.png>
 [reorder_arrow]: <images/scag_12_7_15/reorder_arrow.png>
 [reorder_layers]: <images/scag_12_7_15/reorder_layers.png>
 
-*Editable Layer*: Any layer under the Editable Layers contains editable fields by the user. See Appendix B for the list of editable fields. 
+*Editable Layer*: Any layer under the Editable Layers contains editable fields by the user.
+
+![editable_layers](images/scag_12_7_15/editable_layers.png)
 
 ![Layers Button][layers_icon] *Exporting Active Layer*: The user can export the Active Layer to a geodatabase (.gdb) by clicking on the layers button on the Layers Tool Bar. The user can initiate exporting by clicking ‘OK’ on a window that opens up (see Figure 3) once the user clicks on the ‘Export Active Layer – to gdb’ button.  By default, the exported layer is saved to the Windows default Download folder. 
 
 ![Reorder Arrow][reorder_arrow] *Reordering Map Layers*: The user can re-order layers on the map by clicking on the arrow button on the right side of the Layers Tool Bar. This button will open a window where the user can order the layers by clicking on the layer name and dragging it into the order the user prefers within the visible list. This order corresponds to the layer order on the map. 
 
- 
+![Re-Order Layers][reorder_layers]
 
 ### Map Tool Bar
 
@@ -98,18 +98,16 @@ Clicking on an icon on the map tool bar allows the user to zoom and navigate aro
 
 
 
-### Explore Window
+### Top Section Menu Pane
 
-The Menu drop down allows the user to toggle between Project Info, Data Explorer, and Approval/Merge options. After clicking one of the options, the map selection will resize display the selected option.
+The top section menu drop down allows the user to toggle between Project Info, Data Explorer, and Approval/Merge options. After clicking one of the options, the map selection will resize display the selected option.
 
-**TODO add updated screenshot here**
+![topbar_opening](images/scag_12_7_15/top_bar_closed_to_open.png)
 
 [menu_button]: <images/scag_12_7_15/menu_button.png>
 [approval_merge]: <images/scag_12_7_15/approval_icon.png>
 [data_explorer]: <images/scag_12_7_15/query.png>
 [project_info]: <images/scag_12_7_15/chart_icon.png>
-
-![Menu][menu_button]
 
 The user can toggle between the following options by clicking on the menu button: 
 
@@ -133,6 +131,8 @@ The data explorer query functionality and the map selector tools in the SPM are 
 **Querying Attributes**: 
 >SPM attribute querying functionality utilizes SQL syntax to tell the database what features the user would like to select. The user can select attribute names from a drop down list by clicking on the arrow button next to the ‘Where’ clause or type them in.  
 
+![query_ui](images/scag_12_7_15/query_ui.png)
+
 *The following comparison/equality operators are supported:* 
 
 * Greater than : >
@@ -153,6 +153,8 @@ The data explorer query functionality and the map selector tools in the SPM are 
 * AND : SQL ‘and’ syntax, attributes must meet both query requirements
 * OR : SQL ‘or’ syntax, attributes must meet either query requirements
 
+> **Tip:** User can access a drop down of attributes, operators, and AND/OR/parenthesis syntax for a quicker query.
+
 **Query Examples:**
 
  **Example 1**
@@ -167,7 +169,7 @@ The data explorer query functionality and the map selector tools in the SPM are 
 
     apn BEGINS_WITH "580" OR apn BEGINS_WITH "104"
 
- *Any string query must have quotation marks around values.*
+>Any string query must have quotation marks around values.
 
 
 ***Joining Tables:***
@@ -184,12 +186,22 @@ The user utilizes these pre-defined join tables by selecting the desired table f
 
 The user has a number of options to form their query and to show helpful information in the user interface:
 
-***TODO: update with screenshots and/or functionality because not sure about below***
+![query_ui_limit_results](images/scag_12_7_15/query_ui_limit_results.png)
 
 * Limit Results to Selected Area: If the user has selected features with a map selector tool and input an attribute query, they have the option to limit the query result to the map selection or apply them to the whole dataset. 
 * Show Selection Shape on Map: The user can toggle on and off the map selection shape 
 * Clear Button: Clears the selection
 * Query Button: Executes the query
+* Select Attributes Shortcut: Allows user to select from a drop down of attributes
+* Operators Shortcut: Allows user to select operators from a drop down list
+* AND/OR shortcut: Allows user a shortcut to the common AND/OR/parenthesis operators
+
+
+
+### Approval/Merging
+The Approval/Merging interface is accessible to users with manager or director level permissions. The approval interface allows data managers to review and approve/reject edits made by any user. Through easy to use drop-down queries, edited features can be reviewed, approved or rejected, and merged into the master version. 
+
+![approval_merge_top_section](images/scag_12_7_15/approval_merge_top_section.png)
 
 
 Summarize
