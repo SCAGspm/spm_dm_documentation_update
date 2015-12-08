@@ -1,7 +1,5 @@
 ![UF Logo](images/uf_logo.png)
 
-![scag_logo](images/scag_12_7_15/scag_logo.png)
-![calthorpe_logo](images/scag_12_7_15/calthorpe_logo.png)
 
 # SCAG UrbanFootprint Scenario Planning Model (SPM)
 
