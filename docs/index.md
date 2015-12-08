@@ -1,4 +1,19 @@
-![UF Logo](images/uf_logo.png)
+<div style="
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    display: flex;">
+    <img src="images/uf_logo.png" alt="UF_Logo" style="width: 200px; text-align: center;"/>
+</div>
+
+<br>
+<div style="
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    display: flex;">
+    <img src="images/scag_12_7_15/scag_logo_tranparent.png" alt="scag_logo" style="width: 300px;"/>
+</div>
 
 
 # SCAG UrbanFootprint Scenario Planning Model (SPM)
