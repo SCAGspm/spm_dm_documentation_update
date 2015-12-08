@@ -129,9 +129,10 @@ The user can toggle between the following options by clicking on the menu button
 
 ## 3.1 Project Info ![Project Info][project_info] 
 
-**TODO update this, I(janet) just wrote something here as filler**
+The project info section displays charts on Population, Households, and Employment on the current project.
 
-This screen displays charts on Population, Households, and Employment on the current project.
+![project_info_ui](images/scag_12_7_15/project_info_ui.png)
+> **Tip:** Hover the cursor over the charts to see more detailed information on the data.
  
 ## 3.2 Data Explorer ![Data Explorer][data_explorer]  
 
@@ -241,3 +242,9 @@ The editor operates on the currently selected features of the active layer. If t
 The layer attribute dropdown allows the user to edit attributes of currently selected features of the active layer and add comments in the comment box associated to that specific edit.
 
 To save changes to edited attributes the user must push the save button when finished editing. If the user changes the selected features without saving changes, those changes will not be saved. 
+
+## 5. Style Editor
+
+The Style Editor allows the user to edit the active layer's legend. 
+ 
+![style_editor](images/scag_12_7_15/style_editor.png)
