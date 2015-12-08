@@ -1,7 +1,7 @@
-![UF Logo](../images/uf_logo.png)
+![UF Logo](images/uf_logo.png)
 
-![scag_logo](../images/scag_12_7_15/scag_logo.png)
-![calthorpe_logo](../images/scag_12_7_15/calthorpe_logo.png)
+![scag_logo](images/scag_12_7_15/scag_logo.png)
+![calthorpe_logo](images/scag_12_7_15/calthorpe_logo.png)
 
 # SCAG UrbanFootprint Scenario Planning Model (SPM)
 
@@ -36,7 +36,7 @@ The SPM is accessed via a web page. Ultimately, any web browser will be able to 
 
 ## Data Management Framework - Site Map     
 
-![site_map](../images/scag_12_7_15/site_map.png)
+![site_map](images/scag_12_7_15/site_map.png)
 
 ## User Interface Overview 
 
@@ -50,13 +50,13 @@ The user can select an active layer by clicking on the layer name and the active
 > layer, export csv initiated by the user will occur on the 
 > active layer regardless of whether it is visible or not.
 
-[layers_icon]: <../images/scag_12_7_15/layers.png>
-[reorder_arrow]: <../images/scag_12_7_15/reorder_arrow.png>
-[reorder_layers]: <../images/scag_12_7_15/reorder_layers.png>
+[layers_icon]: <images/scag_12_7_15/layers.png>
+[reorder_arrow]: <images/scag_12_7_15/reorder_arrow.png>
+[reorder_layers]: <images/scag_12_7_15/reorder_layers.png>
 
 *Editable Layer*: Any layer under the Editable Layers contains editable fields by the user.
 
-![editable_layers](../images/scag_12_7_15/editable_layers.png)
+![editable_layers](images/scag_12_7_15/editable_layers.png)
 
 ![Layers Button][layers_icon] *Exporting Active Layer*: The user can export the Active Layer to a geodatabase (.gdb) by clicking on the layers button on the Layers Tool Bar. The user can initiate exporting by clicking ‘OK’ on a window that opens up (see Figure 3) once the user clicks on the ‘Export Active Layer – to gdb’ button.  By default, the exported layer is saved to the Windows default Download folder. 
 
@@ -68,17 +68,17 @@ The user can select an active layer by clicking on the layer name and the active
 
 Clicking on an icon on the map tool bar allows the user to zoom and navigate around the map as well as select and identify map features. The user can hover their pointer to get the ‘tool tip’ to identify what button corresponds with each selector. 
 
-[selector_tools]: <../images/scag_12_7_15/selector_tools.png>
+[selector_tools]: <images/scag_12_7_15/selector_tools.png>
 ![Toolbar][selector_tools]
 
-[extent_selector]: <../images/scag_12_7_15/extent_selector.png>
-[zoom_selected]: <../images/scag_12_7_15/zoom_selected.png>
-[cancel_select]: <../images/scag_12_7_15/cancel_select.png>
-[hand_select]: <../images/scag_12_7_15/hand_select.png>
-[pointer_select]: <../images/scag_12_7_15/pointer_select.png>
-[box_select]: <../images/scag_12_7_15/box_select.png>
-[polygon_select]: <../images/scag_12_7_15/polygon_select.png>
-[info_select]: <../images/scag_12_7_15/info_select.png>
+[extent_selector]: <images/scag_12_7_15/extent_selector.png>
+[zoom_selected]: <images/scag_12_7_15/zoom_selected.png>
+[cancel_select]: <images/scag_12_7_15/cancel_select.png>
+[hand_select]: <images/scag_12_7_15/hand_select.png>
+[pointer_select]: <images/scag_12_7_15/pointer_select.png>
+[box_select]: <images/scag_12_7_15/box_select.png>
+[polygon_select]: <images/scag_12_7_15/polygon_select.png>
+[info_select]: <images/scag_12_7_15/info_select.png>
 
 ![Zoom to Extent][extent_selector] *Zoom to Project Extent*: This tool allows the user to zoom the current map to the project map extent. The project in the SPM refers to a local jurisdiction or County.
  
@@ -102,12 +102,12 @@ Clicking on an icon on the map tool bar allows the user to zoom and navigate aro
 
 The top section menu drop down allows the user to toggle between Project Info, Data Explorer, and Approval/Merge options. After clicking one of the options, the map selection will resize display the selected option.
 
-![topbar_opening](../images/scag_12_7_15/top_bar_closed_to_open.png)
+![topbar_opening](images/scag_12_7_15/top_bar_closed_to_open.png)
 
-[menu_button]: <../images/scag_12_7_15/menu_button.png>
-[approval_merge]: <../images/scag_12_7_15/approval_icon.png>
-[data_explorer]: <../images/scag_12_7_15/query.png>
-[project_info]: <../images/scag_12_7_15/chart_icon.png>
+[menu_button]: <images/scag_12_7_15/menu_button.png>
+[approval_merge]: <images/scag_12_7_15/approval_icon.png>
+[data_explorer]: <images/scag_12_7_15/query.png>
+[project_info]: <images/scag_12_7_15/chart_icon.png>
 
 The user can toggle between the following options by clicking on the menu button: 
 
@@ -131,7 +131,7 @@ The data explorer query functionality and the map selector tools in the SPM are 
 **Querying Attributes**: 
 >SPM attribute querying functionality utilizes SQL syntax to tell the database what features the user would like to select. The user can select attribute names from a drop down list by clicking on the arrow button next to the ‘Where’ clause or type them in.  
 
-![query_ui](../images/scag_12_7_15/query_ui.png)
+![query_ui](images/scag_12_7_15/query_ui.png)
 
 *The following comparison/equality operators are supported:* 
 
@@ -186,7 +186,7 @@ The user utilizes these pre-defined join tables by selecting the desired table f
 
 The user has a number of options to form their query and to show helpful information in the user interface:
 
-![query_ui_limit_results](../images/scag_12_7_15/query_ui_limit_results.png)
+![query_ui_limit_results](images/scag_12_7_15/query_ui_limit_results.png)
 
 * Limit Results to Selected Area: If the user has selected features with a map selector tool and input an attribute query, they have the option to limit the query result to the map selection or apply them to the whole dataset. 
 * Show Selection Shape on Map: The user can toggle on and off the map selection shape 
@@ -202,23 +202,23 @@ The user has a number of options to form their query and to show helpful informa
 
 The Approval/Merging interface is accessible to users with manager or director level permissions. The approval interface allows data managers to review and approve/reject edits made by any user. Through easy to use drop-down queries, edited features can be reviewed, approved or rejected, and merged into the master version. 
 
-![approval_merge_top_section](../images/scag_12_7_15/approval_merge_top_section.png)
+![approval_merge_top_section](images/scag_12_7_15/approval_merge_top_section.png)
 
 **Approving/Rejecting Edits:** 
 
 The approval interface acts on the active layer. When a data manager is ready to approve or reject edits, they can load all pending edited rows (needing approval) by selecting the correct query form the drop down list. If the user would like to review previously approved or rejected features, the system provides those options as well. 
 
-![approval_merge_dropdown](../images/scag_12_7_15/approval_merge_dropdown.png)
+![approval_merge_dropdown](images/scag_12_7_15/approval_merge_dropdown.png)
 
 Once the data has loaded, the user can highlight a given row (or group of rows by holding down CTRL) to see the location on the map. The user can approve or reject the highlighted rows by pushing the corresponding “Approve” and “Reject” buttons. If the user would like to simply approve or reject all edits, toggling ‘Select All’ will highlight all rows. Once highlighted, all rows can then be approved or rejected. Once rows have been approved or rejected, the user must save their edits. Any approval or rejections that are not saved will be ignored. 
 
-![approval_merge_approve_reject_buttons](../images/scag_12_7_15/approval_merge_approve_reject_buttons.png)
+![approval_merge_approve_reject_buttons](images/scag_12_7_15/approval_merge_approve_reject_buttons.png)
 
 **Merging:** 
 
 Once features have been reviewed and edits approved, the data manager can merge all approved features into the Master version of the layer. Within the approval interface, the user can toggle the Merge screen. This will provide the user with the option to merge approved features. After clicking on the Merge button, a backend process will handle filtering and merging data tables. 
 
-![approval_merge_merge_button](../images/scag_12_7_15/approval_merge_merge_button.png)
+![approval_merge_merge_button](images/scag_12_7_15/approval_merge_merge_button.png)
 
 
 ### 4. Layer Editor
@@ -227,7 +227,7 @@ The Layer Editor allows the user to edit or comment upon select layer attributes
 
 The editor operates on the currently selected features of the active layer. If there is more than one feature selected, any changes made in the editor window will populate all rows with those values unless the layer is configured to only allow editing of one row at a time. 
 
-![edit_window](../images/scag_12_7_15/edit_window.png)
+![edit_window](images/scag_12_7_15/edit_window.png)
 
 The layer attribute dropdown allows the user to edit attributes of currently selected features of the active layer and add comments in the comment box associated to that specific edit.
 
