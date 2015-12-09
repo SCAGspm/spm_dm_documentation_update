@@ -53,11 +53,20 @@ The SPM is accessed via a web page. Ultimately, any web browser will be able to 
 
 The Layer Management window on the left side of the SPM user interface displays layers that have been preloaded into the SPM, and that can be turned on for display and activated for selection, editing, and queries.   
 
+The layer's style legend is viewable by clicking on the arrow next to the layer.
+
+![layer_management_legend](images/scag_12_7_15/layer_management_legend.png)
+
 The user can select an active layer by clicking on the layer name and the active layer will be highlighted in blue. 
 
-> **Important:** Any map selection, attribute query, export 
-> layer, export csv initiated by the user will occur on the 
-> active layer regardless of whether it is visible or not.
+To view the layer's style, the user can check the checkbox next to the layer name.
+
+![editable_layers](images/scag_12_7_15/editable_layers.png)
+> **Example:** Existing Land Use Parcels is visible on the map (checkbox) and is the active layer (blue highlight).  
+
+**Important:** Any map selection, attribute query, export 
+layer, export csv initiated by the user will occur on the 
+active layer regardless of whether it is visible or not.
 
 [layers_icon]: <images/scag_12_7_15/layers.png>
 [reorder_arrow]: <images/scag_12_7_15/reorder_arrow.png>
@@ -65,7 +74,7 @@ The user can select an active layer by clicking on the layer name and the active
 
 *Editable Layer*: Any layer under the Editable Layers contains editable fields by the user.
 
-![editable_layers](images/scag_12_7_15/editable_layers.png)
+
 
 ![Layers Button][layers_icon] *Exporting Active Layer*: The user can export the Active Layer to a geodatabase (.gdb) by clicking on the layers button on the Layers Tool Bar. The user can initiate exporting by clicking ‘OK’ on a window that opens up (see Figure 3) once the user clicks on the ‘Export Active Layer – to gdb’ button.  By default, the exported layer is saved to the Windows default Download folder. 
 
