@@ -88,6 +88,8 @@ Clicking on an icon on the map tool bar allows the user to zoom and navigate aro
 [box_select]: <images/scag_12_7_15/box_select.png>
 [polygon_select]: <images/scag_12_7_15/polygon_select.png>
 [info_select]: <images/scag_12_7_15/info_select.png>
+[download_select]: <images/scag_12_7_15/download_selector.png>
+
 
 ![Zoom to Extent][extent_selector] *Zoom to Project Extent*: This tool allows the user to zoom the current map to the project map extent. The project in the SPM refers to a local jurisdiction or County.
  
@@ -97,14 +99,17 @@ Clicking on an icon on the map tool bar allows the user to zoom and navigate aro
  
 ![Navigate][hand_select] *Navigate*: This tool allows the user to navigate around the map by clicking and dragging on the map. The user can hold ‘Shift’ and drag to create zoom extent.
  
+![Identify][info_select] *Identify*: This tool is activated when a feature is selected. The Identify tool opens a moveable summary window where the user can view the attributes of the selected feature.
+
 ![Point Selector][pointer_select] *Point Selector*: The point selector selects the feature that intersects with a point where the user clicks on the map.
- 
+
 ![Rectangle Selector][box_select] *Rectangle Selector*: The rectangle selector selects the feature that intersects with a rectangle formed by the user clicking and dragging across the map.
  
 ![Polygon Selector][polygon_select] *Polygon Selector*: The polygon selector selects the feature that intersects with a user defined polygon shape formed by the user defining each node of the polygon by clicking on the map. Double clicking will stop forming the polygon selection.
   
-![Identify][info_select] *Identify*: This tool is activated when a feature is selected. The Identify tool opens a moveable summary window where the user can view the attributes of the selected feature. 
+![Download Selector][download_select] *Export Map*: The Export Map is activated when the user clicks the tool. This will take a snapshot of the current map and download the map as a jpg to the user's default downloads file.
 
+> **Tip:** ***Multi-select*** can be activated by holding down the CTRL/CMD key (Windows/Mac) for the Point ![Point Selector][pointer_select], Rectangle ![Rectangle Selector][box_select], and Polygon ![Polygon Selector][polygon_select] Selectors.
 
 
 ## 3. Top Section Menu Pane
@@ -239,12 +244,26 @@ The editor operates on the currently selected features of the active layer. If t
 
 ![edit_window](images/scag_12_7_15/edit_window.png)
 
-The layer attribute dropdown allows the user to edit attributes of currently selected features of the active layer and add comments in the comment box associated to that specific edit.
+In the case where a layer is configured to only allow editing of one row at a time, the following message will be displayed indicating that only one record at a time can be edited. 
+
+![too_many_records_error](images/scag_12_7_15/too_many_records_error.png)
+
+The layer attribute drop down allows the user to edit attributes of currently selected features of the active layer and add comments in the comment box associated to that specific edit.
 
 To save changes to edited attributes the user must push the save button when finished editing. If the user changes the selected features without saving changes, those changes will not be saved. 
 
 ## 5. Style Editor
 
-The Style Editor allows the user to edit the active layer's legend. 
+The Style Editor allows the user to add new styles, edit previously saved styles, and view the default style for the active layer's legend. 
+
+To open the Style Editor, the user will click on the layers button ![Layers Button][layers_icon] in the Layer Management Window and selecting 'Layer Symbology' in the drop down.
  
 ![style_editor](images/scag_12_7_15/style_editor.png)
+
+The default style is set by SCAG and is not editable.
+
+![style_editor_default](images/scag_12_7_15/style_editor_default.png)
+
+New styles can be added as single, categorical, or quantitative.
+ 
+![style_editor_dropdown](images/scag_12_7_15/style_editor_dropdown.png) 
