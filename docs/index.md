@@ -16,11 +16,11 @@
 </div>
 
 
-# SCAG UrbanFootprint Scenario Planning Model (SPM)
+# SCAG UrbanFootprint Scenario Planning Model (SPM) - Pilot Test User Guide
 
 ## Data Review and Editing User Manual
 
-This user guide provides instruction for the use of the SPM Data Review and Management System. This data review and editing framework, built upon the UrbanFootprint platform, provides users across the SCAG region with a number of critical data management and data review options. The SPM Data Review and Management System is accessible via a single web-based application for all jurisdictions in the six-county SCAG region.  This documentation covers basic functionality for data review and editing. 
+This user guide provides instruction for the use of the SPM Data Review and Management System. This data review and editing framework, built upon the UrbanFootprint platform, provides users across the SCAG region with a number of critical data management and data review options. The SPM Data Review and Management System will be accessible via a single web-based application for all jurisdictions in the six-county SCAG region.  This documentation covers basic functionality for data review and editing. 
 
 ## Introduction
 
@@ -30,7 +30,7 @@ The SPM Data Review and Management System is being pilot tested to demonstrate h
 
 **System Requirements**
 
-The SPM is accessed via a web page. Ultimately, any web browser will be able to access the system effectively, as will nearly all desktops, laptops, and tablets. For access to the pilot site, there are some more refined, through fairly minimal, requirements: 
+The SPM is accessed via a web page. For access to the pilot site, there are fairly minimal requirements: 
 
 * A relatively recent (purchased in last 5 years) desktop or laptop computer running the Windows, Mac OSX, or Linux operating systems. The current system has not been optimized for tablet or touchscreen operating systems or interfaces. 
 
@@ -39,7 +39,7 @@ The SPM is accessed via a web page. Ultimately, any web browser will be able to 
 * Mouse, track-ball, or trackpad-based input device (essentially all desktop or laptop computers have this capability). 
 
 > **Note:** If you experience difficulties in performing feature editing (e.g., feature selection, querying, etc.) 
-> while being able to view maps on the SPM, first check your internet firewall configuration with the local IT support. 
+> while being able to view maps on the SPM, first check your internet firewall configuration with local IT support. 
 > The URL of the SPM data management site should be added to the trust list of firewall configuration in order to avoid
 > block access by web filters set up locally.
 
@@ -53,13 +53,13 @@ The SPM is accessed via a web page. Ultimately, any web browser will be able to 
 
 The Layer Management window on the left side of the SPM user interface displays layers that have been preloaded into the SPM, and that can be turned on for display and activated for selection, editing, and queries.   
 
-The layer's style legend is viewable by clicking on the arrow next to the layer.
+The layer's legend is viewable by clicking on the arrow next to the layer.
 
 ![layer_management_legend](images/scag_12_7_15/layer_management_legend.png)
 
 The user can select an active layer by clicking on the layer name and the active layer will be highlighted in blue. 
 
-To view the layer's style, the user can check the checkbox next to the layer name.
+To view the layer's style, the user can click the arrow next to the layer name.
 
 ![editable_layers](images/scag_12_7_15/editable_layers.png)
 > **Example:** Existing Land Use Parcels is visible on the map (checkbox) and is the active layer (blue highlight).  
@@ -76,7 +76,7 @@ active layer regardless of whether it is visible or not.
 
 
 
-![Layers Button][layers_icon] *Exporting Active Layer*: The user can export the Active Layer to a geodatabase (.gdb) by clicking on the layers button on the Layers Tool Bar. The user can initiate exporting by clicking ‘OK’ on a window that opens up (see Figure 3) once the user clicks on the ‘Export Active Layer – to gdb’ button.  By default, the exported layer is saved to the Windows default Download folder. 
+![Layers Button][layers_icon] *Exporting Active Layer*: The user can export the Active Layer to a geodatabase (.gdb) by clicking on the layers button on the Layers Tool Bar. The user can initiate exporting by clicking ‘OK’ on a window that opens up (see Figure 3) once the user clicks on the ‘Export Active Layer – to gdb’ button.  By default, the exported layer is saved to the user's default Download folder. 
 
 ![Reorder Arrow][reorder_arrow] *Reordering Map Layers*: The user can re-order layers on the map by clicking on the arrow button on the right side of the Layers Tool Bar. This button will open a window where the user can order the layers by clicking on the layer name and dragging it into the order the user prefers within the visible list. This order corresponds to the layer order on the map. 
 
@@ -100,30 +100,30 @@ Clicking on an icon on the map tool bar allows the user to zoom and navigate aro
 [download_select]: <images/scag_12_7_15/download_selector.png>
 
 
-![Zoom to Extent][extent_selector] *Zoom to Project Extent*: This tool allows the user to zoom the current map to the project map extent. The project in the SPM refers to a local jurisdiction or County.
+![Zoom to Extent][extent_selector] *Zoom to Project Extent*: This tool allows the user to zoom the current map to the project extent. The project in the SPM refers to a local jurisdiction or County.
  
 ![Zoom to Selection][zoom_selected] *Zoom to Selection Extent*: This tool allows the user to zoom the current map to the extent of selected features of the Active Layer.
  
 ![Clear Selection][cancel_select] *Clear Selection*: This tool clears the selected features of the Active Layer.
  
-![Navigate][hand_select] *Navigate*: This tool allows the user to navigate around the map by clicking and dragging on the map. The user can hold ‘Shift’ and drag to create zoom extent.
+![Navigate][hand_select] *Navigate*: This tool allows the user to navigate around the map by clicking and dragging on the map. The user can hold ‘Shift’ and drag to zoom to a specific extent.
  
-![Identify][info_select] *Identify*: This tool is activated when a feature is selected. The Identify tool opens a moveable summary window where the user can view the attributes of the selected feature.
+![Identify][info_select] *Identify*: This tool is activated when features are selected. The Identify tool opens a moveable summary window where the user can view the attributes of the selected feature.
 
-![Point Selector][pointer_select] *Point Selector*: The point selector selects the feature that intersects with a point where the user clicks on the map.
+![Point Selector][pointer_select] *Point Selector*: The point selector selects a single feature on the map.
 
-![Rectangle Selector][box_select] *Rectangle Selector*: The rectangle selector selects the feature that intersects with a rectangle formed by the user clicking and dragging across the map.
+![Rectangle Selector][box_select] *Rectangle Selector*: The rectangle selector selects the features that intersect with a rectangle formed by the user clicking and dragging across the map.
  
-![Polygon Selector][polygon_select] *Polygon Selector*: The polygon selector selects the feature that intersects with a user defined polygon shape formed by the user defining each node of the polygon by clicking on the map. Double clicking will stop forming the polygon selection.
+![Polygon Selector][polygon_select] *Polygon Selector*: The polygon selector selects the features that intersects with a user-defined polygon shape formed by the user defining each node of the polygon by clicking on the map. Double clicking will stop forming the polygon selection.
   
-![Download Selector][download_select] *Export Map*: The Export Map is activated when the user clicks the tool. This will take a snapshot of the current map and download the map as a jpg to the user's default downloads file.
+![Download Selector][download_select] *Export Map*: The Export Map buttons takes a snapshot of the current map and downloads the map as a jpg to the user's default downloads file.
 
 > **Tip:** ***Multi-select*** can be activated by holding down the CTRL/CMD key (Windows/Mac) for the Point ![Point Selector][pointer_select], Rectangle ![Rectangle Selector][box_select], and Polygon ![Polygon Selector][polygon_select] Selectors.
 
 
 ## 3. Top Section Menu Pane
 
-The top section menu drop down allows the user to toggle between Project Info, Data Explorer, and Approval/Merge options. After clicking one of the options, the map selection will resize display the selected option.
+The top section menu drop down allows the user to toggle between Project Info, Data Explorer, and Approval/Merge options. After clicking one of the options, the map selection will resize to display the selected option.
 
 ![topbar_opening](images/scag_12_7_15/top_bar_closed_to_open.png)
 
@@ -134,23 +134,23 @@ The top section menu drop down allows the user to toggle between Project Info, D
 
 The user can toggle between the following options by clicking on the menu button: 
 
-**Project Info:** The user can switch between Master and Draft Scenarios and see metadata about the active scenario.
+**Project Info:** The user can view project information and charts of key demographic statistics.
 
-**Data Explorer:** The user can define attribute queries and join tables to explore the data.
+**Data Explorer:** The user can view and explore data in a table view and define attribute queries and join tables to explore and select data.
 
-**Approval/Merge:** The user who has a manager level or director level permission can approve edits and merge those edits into mater versions of the editable layers. 
+**Approval/Merge:** A user with manager or director-level permissions can approve edits and merge those edits into master versions of the editable layers. 
 
 
 ## 3.1 Project Info ![Project Info][project_info] 
 
-The project info section displays charts on Population, Households, and Employment on the current project.
+The project info section displays charts on Population, Households, and Employment on the current project. It also includes a link to this User Guide.
 
 ![project_info_ui](images/scag_12_7_15/project_info_ui.png)
 > **Tip:** Hover the cursor over the charts to see more detailed information on the data.
  
 ## 3.2 Data Explorer ![Data Explorer][data_explorer]  
 
-The data explorer query functionality and the map selector tools in the SPM are linked by default. When a user selects features on the map with the map selector tools, the attributes will populate in the query window. If the user inputs an attribute query with no map selection, the map will show the features selected from the attribute query. The user also has the option to use attribute selections and map selections in combination.  
+The data explorer query functionality and the map selector tools in the SPM are linked by default. When a user selects features on the map with the map selector tools, the attributes will populate in the query table window. If the user inputs an attribute query with no map selection, the map will show the features selected from the attribute query. The user also has the option to use attribute selections and map selections in combination.  
 
 **Querying Attributes**: 
 >SPM attribute querying functionality utilizes SQL syntax to tell the database what features the user would like to select. The user can select attribute names from a drop down list by clicking on the arrow button next to the ‘Where’ clause or type them in.  
@@ -177,7 +177,7 @@ The data explorer query functionality and the map selector tools in the SPM are 
 * AND : SQL ‘and’ syntax, attributes must meet both query requirements
 * OR : SQL ‘or’ syntax, attributes must meet either query requirements
 
-> **Tip:** User can access a drop down of attributes, operators, and AND/OR/parenthesis syntax for a quicker query.
+> **Tip:** User can access drop down menus of attributes, operators, and AND/OR/parenthesis syntax for a quicker query.
 
 **Query Examples:**
 
@@ -198,8 +198,7 @@ The data explorer query functionality and the map selector tools in the SPM are 
 
 **Joining Tables:**
 
-SPM allows the user to seamlessly join and query spatial tables of different geography types and geographic scales. Each layer in the system is tagged with a join type when it is imported. The join types include attribute joins, polygon to polygon, polygon to centroid, and centroid to polygon joins. This processing is handled ‘behind the scenes’ in the system. 
-The user utilizes these pre-defined join tables by selecting the desired table from the drop down button in the query window. Having selected a table to join, the user will have access to all fields in that join table. Any query making use of join fields will utilize the pre-defined spatial or attribute relationship. 
+SPM allows the user to join and query spatial tables of different geography types and geographic scales. The user utilizes these pre-defined join tables by selecting the desired table from the drop down button in the query window. Having selected a table to join, the user will have access to all fields in that join table. 
 
 >**Important:** If the user is querying a field from the join table that has the same name as a field in the source table, the system defaults to the source table field.
 > To query the join table field, the user must write the *name_of_join_table.field_name* or select it from a drop down list by clicking the arrow next to the 'Where' clause in the Query window.
@@ -224,17 +223,17 @@ The user has a number of options to form their query and to show helpful informa
 
 ## 3.3 Approval/Merging ![Approval and Merging][approval_merge] 
 
-The Approval/Merging interface is accessible to users with manager or director level permissions. The approval interface allows data managers to review and approve/reject edits made by any user. Through easy to use drop-down queries, edited features can be reviewed, approved or rejected, and merged into the master version. 
+The Approval/Merging interface is accessible to users with manager or director-level permissions. The approval interface allows managers to review and approve/reject edits made by any user. Through easy to use drop-down queries, edited features can be reviewed, approved or rejected, and merged into the master version. 
 
 ![approval_merge_top_section](images/scag_12_7_15/approval_merge_top_section.png)
 
 **Approving/Rejecting Edits:** 
 
-The approval interface acts on the active layer. When a data manager is ready to approve or reject edits, they can load all pending edited rows (needing approval) by selecting the correct query form the drop down list. If the user would like to review previously approved or rejected features, the system provides those options as well. 
+The approval interface acts on the active layer. When a manager is ready to approve or reject edits, they can load all pending edited rows (needing approval) by selecting the appropriate query form the drop down list. If the user would like to review previously approved or rejected features, the system provides those options as well. 
 
 ![approval_merge_dropdown](images/scag_12_7_15/approval_merge_dropdown.png)
 
-Once the data has loaded, the user can highlight a given row (or group of rows by holding down CTRL) to see the location on the map. The user can approve or reject the highlighted rows by pushing the corresponding “Approve” and “Reject” buttons. If the user would like to simply approve or reject all edits, toggling ‘Select All’ will highlight all rows. Once highlighted, all rows can then be approved or rejected. Once rows have been approved or rejected, the user must save their edits. Any approval or rejections that are not saved will be ignored. 
+Once the data has loaded, the user can highlight a given row (or group of rows by holding down CTRL) to see the location on the map. The user can approve or reject the highlighted rows using the “Approve” and “Reject” buttons. To simply approve or reject all edits, the user can toggle ‘Select All’ to highlight all rows. Once highlighted, all rows can then be approved or rejected. Once rows have been approved or rejected, the user must save their edits. Any approval or rejections that are not saved will be ignored. 
 
 ![approval_merge_approve_reject_buttons](images/scag_12_7_15/approval_merge_approve_reject_buttons.png)
 
@@ -263,9 +262,9 @@ To save changes to edited attributes the user must push the save button when fin
 
 ## 5. Style Editor
 
-The Style Editor allows the user to add new styles, edit previously saved styles, and view the default style for the active layer's legend. 
+The Style Editor allows the user modify the way a layer is dsiplayed on the map. A user can add new styles, edit previously saved styles, and view the default style for the active layer's legend. 
 
-To open the Style Editor, the user will click on the layers button ![Layers Button][layers_icon] in the Layer Management Window and selecting 'Layer Symbology' in the drop down.
+To open the Style Editor, the user can click on the layers button ![Layers Button][layers_icon] in the Layer Management Window and select 'Layer Symbology' in the drop down.
  
 ![style_editor](images/scag_12_7_15/style_editor.png)
 
@@ -273,6 +272,6 @@ The default style is set by SCAG and is not editable.
 
 ![style_editor_default](images/scag_12_7_15/style_editor_default.png)
 
-New styles can be added as single, categorical, or quantitative.
+New styles can be added as single, categorical, or quantitative legends.
  
 ![style_editor_dropdown](images/scag_12_7_15/style_editor_dropdown.png) 
