@@ -1,3 +1,9 @@
 site_name: UrbanFootprint SPM Docs
 
 theme: readthedocs
+
+pages:
+- User Guide: 'index.md'
+- Appendix - Data Dictionary: 'data_dictionary.md'
+- Appendix - Editable Fields by Data Layer: 'editable_fields.md'
+- Appendix - SCAG Land Use Codes: 'scag_lu_codes.md'
