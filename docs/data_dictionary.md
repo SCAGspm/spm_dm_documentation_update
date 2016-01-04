@@ -14,19 +14,6 @@ Mapbox’s	aerial	imagery	along	with	street,	building,	and	other	useful	labels.
 **Mapbox Simple Streets**
 
 Mapbox’s	streets	and	related	labels, on a standard map.
-	
-###Draft/Master
-
-The	following	layers	grouped	under	Draft	or	Master	present	jurisdictional	level	land	use	
-and	administrative	or	planning	boundaries,	some	of	which	include	editable	fields. Only	
-authorized	users	with	permissions	to	approve	or	reject	changes	made	on	Draft	layers	have	
-access	to	Master	layers (see	Approval/Merging	section	for	more	detail).	
-
-General	Plan,	zoning,	and	existing	land	use	data	are	shown	at	the	parcel	level.	Because	
-SCAG’s	parcel	level	database	does	not	support	multiple	uses	on	a	single	parcel,	data	may	be	
-generalized	in	some	areas.	Due	to	this	limitation,	if	site	specific	data	is	necessary,	users	
-should	always	reference	a	local	agency’s	adopted	documents	or	field	surveys	to	determine	
-actual	land	use	designations.			
 
 ***2012	Existing	Land	Use Parcels***
 
