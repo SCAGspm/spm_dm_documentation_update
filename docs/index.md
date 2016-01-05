@@ -51,7 +51,8 @@ The SPM is accessed via a web page. For access to the pilot site, there are fair
 
 ## 1. Layer Management Window 
 
-The Layer Management window on the left side of the SPM user interface displays layers that have been preloaded into the SPM, and that can be turned on for display and activated for selection, editing, and queries.   
+The Layer Management window on the left side of the SPM user interface displays layers that have been preloaded into the SPM, and that can be turned on for display and activated for selection, editing, and queries.	See	Appendix	A	for	descriptions	of	the	data	
+available	via	the	SPM.    
 
 The layer's legend is viewable by clicking on the arrow next to the layer.
 
@@ -72,7 +73,7 @@ active layer regardless of whether it is visible or not.
 [reorder_arrow]: <images/scag_12_7_15/reorder_arrow.png>
 [reorder_layers]: <images/scag_12_7_15/reorder_layers.png>
 
-*Editable Layer*: Any layer under the Editable Layers contains editable fields by the user.
+*Editable Layer*: Any layer under the Editable Layers contains editable fields by the user. See	Appendix	B for	the	list	of	editable	fields.
 
 
 

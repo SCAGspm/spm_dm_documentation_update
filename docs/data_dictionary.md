@@ -15,7 +15,7 @@ Mapbox’s	aerial	imagery	along	with	street,	building,	and	other	useful	labels.
 
 Mapbox’s	streets	and	related	labels, on a standard map.
 
-***2012	Existing	Land	Use Parcels***
+![2012 Existing Land Use Parcels](images/scag_12_7_15/2012_existing_land_use_parcels.png) ***2012	Existing	Land	Use Parcels***
 
 The	base	year	of	the 2016-2040	RTP/SCS	is 2012.	To	develop	the	base	year	
 existing	land	use	data,	SCAG	used	property	land	use	information	acquired	
@@ -27,7 +27,7 @@ Beginning	in	August	2013,	the	2012	existing	land	use	maps	were	reviewed	by	local
 jurisdictions	and	revised	based	on	the	local	input	and	comments.	The	information	available	
 via	SPM	reflects	the	local	inputs	received	by August	22,	2014.
 
-***General	Plan	Parcels***	
+![General Plan Parcels](images/scag_12_7_15/general_plan_parcels.png) ***General	Plan	Parcels***	
 
 The	general	plan	and	zoning	documents,	maps,	and/or	GIS	shapefiles	collected
 from	local	jurisdictions were	coded	into	GIS	shapefiles	at	the	parcel	level.	
@@ -45,7 +45,7 @@ use	benefits	on	transportation,	varied	by	development	density	and	intensity.	The
 maintain	a	nesting	relationship	with	existing	boundaries	such	as	parcel,	Tier	2/3	TAZ,	
 Community	Planning	Area,	City,	Subregion,	and	County.		
 	
-***Jurisdiction	Boundary	and	Sphere	of	Influence***
+![Jurisdiction	Boundary	and	Sphere	of	Influence](images/scag_12_7_15/jurisdiction_boundary_and_sphere_of_influence.png) ***Jurisdiction	Boundary	and	Sphere	of	Influence***
 
 Jurisdiction boundary	and	Sphere	of	Influence	information	are	from	each	
 County’s	Local	Agency	Formation	Commissions	(LAFCO).	The	information	
@@ -54,7 +54,7 @@ source	based	on	the	legal	requirement	of	SB385. For	inaccuracy	or	changes	in	jur
 boundaries	or	sphere	of	influences,	local	jurisdictions	need	to	contact	LAFCO	to	reflect	the	
 most	accurate	boundaries.	
 
-***Tier2	TAZ***
+![Tier2 TAZ](images/scag_12_7_15/tier2_taz.png) ***Tier2	TAZ***
 	
 SCAG	developed	the	Transportation	Analysis	Zones	(TAZ)	for	the	SCAG	Region,	
 based	on	the	2010	Tiger	Census	Block.	This	is	used	to	facilitate	Travel	Demand	
@@ -67,7 +67,7 @@ the	region obtained	from	state	and	federal	data	sources;	(2)	information	related
 priority	project	compiled	pursuant	to	Government	Code	Section	65080(b)(2)(H);	and	(3)	
 boundaries	of	administrative	district	and	Census	geography.	See	Government	Code	section	65080.01 for definitions	of	“resource	areas”	and	“farmland.”	
 
-***Farmland***
+![Farmland](images/scag_12_7_15/farmland_map_icon.png) ***Farmland***
 
 Farmland	information	was	obtained	from	the	Farmland	Mapping	&	
 Monitoring	Program	(FMMP)	in	the	Division	of	Land	Resource	Protection	in	
@@ -87,17 +87,17 @@ local	inputs	received	by	August	22,	2014.
 
 |	Symbol	|	Value	|	Definition	|
 |	--------------------	|	--------------------	|	--------------------	|
-|		|	Prime Farmland (P)	|	Farmland with the best combination of physical and chemical features able to sustain long term agricultural production. This land has the soil quality, growing season, and moisture supply needed to produce sustained high yields. Land must have been used for irrigated agricultural production at some time during the four years prior to the mapping date.	|
-|		|	Farmland of Statewide Importance (S)	|	Farmland similar to Prime Farmland but with minor shortcomings, such as greater slopes or less ability to store soil moisture. Land must have been used for irrigated agricultural production at some time during the four years prior to the mapping date.	|
-|		|	UNIQUE FARMLAND (U)	|	Farmland of lesser quality soils used for the production of the state's leading agricultural crops. This land is usually irrigated, but may include non-irrigated orchards or vineyards as found in some climatic zones in California. Land must have been cropped at some time during the four years prior to the mapping date.	|
-|		|	Farmland of Local Importance (L)	|	Land of importance to the local agricultural economy as determined by each county’s board of supervisors and a local advisory committee.	|
-|		|	Grazing Land (G)	|	Land on which the existing vegetation is suited to the grazing of livestock. This category was developed in cooperation with the California Cattleman’s Association, University of California Cooperative Extension, and other groups interested in the extent of grazing activities. The minimum mapping unit for Grazing Land is 40 acres.	|
-|		|	Urban and Built-up Land (D)	|	Land occupied by structures with a building density of at least 1 unit to 1.5 acres, or approximately 6 structures to a 10-acre parcel. This land is used for residential, industrial, commercial, institutional, public administrative purposes, railroad and other transportation yards, cemeteries, airports, golf courses, sanitary landfills, sewage treatment, water control structures, and other developed purposes.	|
-|		|	Other Land (X)	|	Land not included in any other mapping category. Common examples include low density rural developments; brush, timber, wetland, and riparian areas not suitable for livestock grazing; confined livestock, poultry or aquaculture facilities; strip mines, borrow pits; and water bodies smaller than 40 acres. Vacant and nonagricultural land surrounded on all sides by urban development and greater than 40 acres is mapped as Other Land.	|
-|		|	Water (W)	|	Perennial water bodies with an extent of at least 40 acres.	|
-|		|	Not Surveyed (Z)	|	Large government land holdings, including National Parks, Forests, and Bureau of Land Management holdings are not included in FMMP’s survey area.	|
+|	![Prime Farmland](images/scag_12_7_15/prime_farmland.png)	|	Prime Farmland (P)	|	Farmland with the best combination of physical and chemical features able to sustain long term agricultural production. This land has the soil quality, growing season, and moisture supply needed to produce sustained high yields. Land must have been used for irrigated agricultural production at some time during the four years prior to the mapping date.	|
+|	![Farmland](images/scag_12_7_15/farmland_of_statewide.png)	|	Farmland of Statewide Importance (S)	|	Farmland similar to Prime Farmland but with minor shortcomings, such as greater slopes or less ability to store soil moisture. Land must have been used for irrigated agricultural production at some time during the four years prior to the mapping date.	|
+|	![Farmland](images/scag_12_7_15/unique_farmland.png)	|	UNIQUE FARMLAND (U)	|	Farmland of lesser quality soils used for the production of the state's leading agricultural crops. This land is usually irrigated, but may include non-irrigated orchards or vineyards as found in some climatic zones in California. Land must have been cropped at some time during the four years prior to the mapping date.	|
+|	![Farmland](images/scag_12_7_15/farmland_of_local.png)	|	Farmland of Local Importance (L)	|	Land of importance to the local agricultural economy as determined by each county’s board of supervisors and a local advisory committee.	|
+|	![Farmland](images/scag_12_7_15/grazing_land.png)	|	Grazing Land (G)	|	Land on which the existing vegetation is suited to the grazing of livestock. This category was developed in cooperation with the California Cattleman’s Association, University of California Cooperative Extension, and other groups interested in the extent of grazing activities. The minimum mapping unit for Grazing Land is 40 acres.	|
+|	![Urban And Built-Up Land](images/scag_12_7_15/urban_and_built_up.png)	|	Urban and Built-up Land (D)	|	Land occupied by structures with a building density of at least 1 unit to 1.5 acres, or approximately 6 structures to a 10-acre parcel. This land is used for residential, industrial, commercial, institutional, public administrative purposes, railroad and other transportation yards, cemeteries, airports, golf courses, sanitary landfills, sewage treatment, water control structures, and other developed purposes.	|
+|	![Other Land](images/scag_12_7_15/other_land.png)	|	Other Land (X)	|	Land not included in any other mapping category. Common examples include low density rural developments; brush, timber, wetland, and riparian areas not suitable for livestock grazing; confined livestock, poultry or aquaculture facilities; strip mines, borrow pits; and water bodies smaller than 40 acres. Vacant and nonagricultural land surrounded on all sides by urban development and greater than 40 acres is mapped as Other Land.	|
+|	![Water](images/scag_12_7_15/water.png)	|	Water (W)	|	Perennial water bodies with an extent of at least 40 acres.	|
+|	![Not Surveyed](images/scag_12_7_15/not_surveyed.png)	|	Not Surveyed (Z)	|	Large government land holdings, including National Parks, Forests, and Bureau of Land Management holdings are not included in FMMP’s survey area.	|
 
-***CPAD	Holdings***
+![CPAD Holdings](images/scag_12_7_15/cpad_holdings.png) ***CPAD	Holdings***
 
 California	Protected	Area	Database	(CPAD)	is	a	GIS	inventory	of	all	publicly	
 owned	protected	open	space	lands	in	the	State	of	California	through	fee	
@@ -117,21 +117,21 @@ local	inputs	received	by	August	22,	2014.
 ### Table	B2: CPAD	Holdings	by	Ownership – Legend
 |	Symbol	|	Value	|
 |	--------------------	|	--------------------	|
-|		|	US Forest Service	|
-|		|	US Bureau of Land Management	|
-|		|	National Park Services	|
-|		|	US Fish and Wildlife Service	|
-|		|	Other Federal	|
-|		|	California Department of Parks and Recreation	|
-|		|	California Department of Fish and Wildlife	|
-|		|	Other State	|
-|		|	County	|
-|		|	City	|
-|		|	Non-Governmental Organization	|
-|		|	Special District	|
-|		|	US Military/Defense	|
+|	![US Forest Service](images/scag_12_7_15/us_forest_service.png)	|	US Forest Service	|
+|	![US Bureau](images/scag_12_7_15/us_bureau_of_land_management.png)	|	US Bureau of Land Management	|
+|	![National Park](images/scag_12_7_15/national_park_services.png)	|	National Park Services	|
+|	![US Fish](images/scag_12_7_15/us_fish_and_wildlife_service.png)	|	US Fish and Wildlife Service	|
+|	![Other Federal](images/scag_12_7_15/other_federal.png)	|	Other Federal	|
+|	![California Dept of Parks and Rec](images/scag_12_7_15/california_department_of_parks_and_recreation.png)	|	California Department of Parks and Recreation	|
+|	![CA Dept Of Fish and Wildlife](images/scag_12_7_15/california_department_of_fish_and_wildlife.png)	|	California Department of Fish and Wildlife	|
+|	![Other State](images/scag_12_7_15/other_state.png)	|	Other State	|
+|	![County](images/scag_12_7_15/county.png)	|	County	|
+|	![City](images/scag_12_7_15/city.png)	|	City	|
+|	![Non-Gov Org](images/scag_12_7_15/non_government_organization.png)	|	Non-Governmental Organization	|
+|	![Special District](images/scag_12_7_15/special_district.png)	|	Special District	|
+|	![US Military Defense](images/scag_12_7_15/us_military_defense.png)	|	US Military/Defense	|
 
-***Habitat	Conservation	Areas***
+![Habitat Conservation Areas](images/scag_12_7_15/habitat_conservation_areas.png) ***Habitat	Conservation	Areas***
 
 This	data	set	is	from	the	Natural	Community	Conservation	Planning	(NCCP)	
 program	of	California	Department	of	Fish	and	Wildlife.	The	primary	objective	
@@ -145,7 +145,7 @@ cooperation	with	landowners,	environmental	organizations	and	other	interest	part
 Department	of	Fish	and	Wildlife	provides	necessary	support,	direction,	and	guidance	to	
 NCCP	participants.	
 
-***Endangered	Species***
+![Endangered Species](images/scag_12_7_15/endangered_species.png) ***Endangered	Species***
 
 SCAG	obtained	the	California	Natural	Diversity	Database	(CNDDB)	July	2013	
 version	developed	by	the	California	Department	of	Fish	and	Wildlife’s	
@@ -162,10 +162,10 @@ terrestrial	community,	and	aquatic	community,	as	shown	in	the	Table	A3.
 
 |	Symbol	|	Value	|	Definition	|
 |	--------------------	|	--------------------	|	--------------------	|
-|		|	1	|	Plant (ELMCODEs beginning with “P” or “N”)	|
-|		|	2	|	Animal (ELEMCODEs beginning with “A” or “I”)	|
-|		|	3	|	Terrestrial community (ELMCODEs beginning with “CT”)	|
-|		|	4	|	Aquatic community (ELMCODEs beginning with ”CA”, “CE”, CL”, “CM” or “CR”	|
+|	![Plant](images/scag_12_7_15/1_plant.png)	|	1	|	Plant (ELMCODEs beginning with “P” or “N”)	|
+|	![Animal](images/scag_12_7_15/2_animal.png)	|	2	|	Animal (ELEMCODEs beginning with “A” or “I”)	|
+|	![Terrestrial Community](images/scag_12_7_15/3_terrestrial_community.png)	|	3	|	Terrestrial community (ELMCODEs beginning with “CT”)	|
+|	![Acquatic Community](images/scag_12_7_15/4_acquatic_community.png)	|	4	|	Aquatic community (ELMCODEs beginning with ”CA”, “CE”, CL”, “CM” or “CR”	|
 
 The	precision	or	accuracy	level	(ACC_CLASS)	represents	spatial	uncertainty	on	a	scale	of	
 one	to	ten,	indicating	both	accuracy	type	and	accuracy	value.	
@@ -185,7 +185,7 @@ one	to	ten,	indicating	both	accuracy	type	and	accuracy	value.
 |	1 mile	|	9: Circular feature with a 1,600 meter radius (1 mile)	|
 |	5 mile	|	10: Circular feature with a 8,000 meter radius (5 miles)	|
 
-***Flood	Zones***
+![Flood Zones](images/scag_12_7_15/flood_zones.png) ***Flood	Zones***
 
 The	flood	zones	data	is	based	on	the	Digital	Flood	Insurance	Rate	Map	
 (DFIRM),	obtained	from	Federal	Emergency	Management	Agency	(FEMA)	in	
@@ -209,20 +209,20 @@ morning	and	afternoon	peak	commute	periods	(CA	Public	Resource	Code	Section	2106
 It	also	includes	major	transit	stops	that	are	included	in	the	applicable	regional	
 transportation	plan.	
 
-***High Quality	Transit	Corridors***
+![High Quality Transit Corridors](images/scag_12_7_15/high_quality_transit_corridors.png) ***High Quality	Transit	Corridors***
 
 The	High	Quality	Transit	Corridors	information	is	extracted	from	2035	
 planned	year	data	in	the	2012-2035	RTP/SCS	Amendment	#1.	It	is	defined	as	
 a	corridor	with	fixed	route	bus	service	with	service	intervals	no	longer	than	15	minutes	
 during	peak	commute	hours.	
 
-***High	Quality	Transit	Areas***
+![High Quality Tranist Areas](images/scag_12_7_15/high_quality_transit_areas.png) ***High	Quality	Transit	Areas***
 
 An	area within	one-half-mile	of	either	a	major	transit	stop or	a	high	quality	
 transit	corridor,	extracted	from	2035	planned	year	data	in	the	2012-2035	
 RTP/SCS	Amendment	#1.	
 
-***Transit	Priority	Areas***
+![Transit Priority Areas](images/scag_12_7_15/transit_priority_areas.png) ***Transit	Priority	Areas***
 
 An	area	within	one-half	mile	of	a	major	transit	stop	that	is	existing	or	planned,	
 if	the	planned	stop	is	scheduled	to	be	completed	within	the	planning	horizon	
