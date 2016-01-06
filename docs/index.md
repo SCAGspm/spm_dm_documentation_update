@@ -54,14 +54,10 @@ The SPM is accessed via a web page. For access to the pilot site, there are fair
 The Layer Management window on the left side of the SPM user interface displays layers that have been preloaded into the SPM, and that can be turned on for display and activated for selection, editing, and queries.	See	Appendix	A	for	descriptions	of	the	data	
 available	via	the	SPM.    
 
-The layer's legend is viewable by clicking on the arrow next to the layer.
+The Layer Management window is broken up into 3 sections: **Basemaps**, **Reference Layers**, and **Editable Layers**. For definitions of each layer please reference Appendix A.
 
-![layer_management_legend](images/scag_12_7_15/layer_management_legend.png)
-
-The user can select an active layer by clicking on the layer name and the active layer will be highlighted in blue. 
-
-To view the layer's style, the user can click the arrow next to the layer name.
-
+The user can select an active layer by clicking on the layer name and the active layer will be highlighted in blue.
+ 
 ![editable_layers](images/scag_12_7_15/editable_layers.png)
 > **Example:** Existing Land Use Parcels is visible on the map (checkbox) and is the active layer (blue highlight).  
 
@@ -69,15 +65,19 @@ To view the layer's style, the user can click the arrow next to the layer name.
 layer, export csv initiated by the user will occur on the 
 active layer regardless of whether it is visible or not.
 
+Each layer's legend is viewable by clicking on the arrow in front of the layer and then expanding the arrow that appears below the layer.
+
+![layer_management_legend](images/scag_12_7_15/layer_management_legend.png)
+
 [layers_icon]: <images/scag_12_7_15/layers.png>
 [reorder_arrow]: <images/scag_12_7_15/reorder_arrow.png>
 [reorder_layers]: <images/scag_12_7_15/reorder_layers.png>
 
-*Editable Layer*: Any layer under the Editable Layers contains editable fields by the user. See	Appendix	B for	the	list	of	editable	fields.
+*Editable Layer*: Any layer under the Editable Layers section contains editable fields by the user. See	Appendix	B for	the	list	of	editable	fields.
 
 
 
-![Layers Button][layers_icon] *Exporting Active Layer*: The user can export the Active Layer to a geodatabase (.gdb) by clicking on the layers button on the Layers Tool Bar. The user can initiate exporting by clicking ‘OK’ on a window that opens up (see Figure 3) once the user clicks on the ‘Export Active Layer – to gdb’ button.  By default, the exported layer is saved to the user's default Download folder. 
+![Layers Button][layers_icon] *Exporting Active Layer*: The user can export the Active Layer to a geodatabase (.gdb) by clicking on the layers button on the Layers Tool Bar. The user can initiate exporting by clicking ‘OK’ on a window that opens up once the user clicks on the ‘Export Active Layer – to gdb’ button.  By default, the exported layer is saved to the user's default Download folder. 
 
 ![Reorder Arrow][reorder_arrow] *Reordering Map Layers*: The user can re-order layers on the map by clicking on the arrow button on the right side of the Layers Tool Bar. This button will open a window where the user can order the layers by clicking on the layer name and dragging it into the order the user prefers within the visible list. This order corresponds to the layer order on the map. 
 
@@ -107,7 +107,7 @@ Clicking on an icon on the map tool bar allows the user to zoom and navigate aro
  
 ![Clear Selection][cancel_select] *Clear Selection*: This tool clears the selected features of the Active Layer.
  
-![Navigate][hand_select] *Navigate*: This tool allows the user to navigate around the map by clicking and dragging on the map. The user can hold ‘Shift’ and drag to zoom to a specific extent.
+![Navigate][hand_select] *Navigate*: This tool allows the user to navigate around the map by clicking and dragging on the map. **Tip:** The user can hold ‘Shift’ and drag to zoom to a specific extent.
  
 ![Identify][info_select] *Identify*: This tool is activated when features are selected. The Identify tool opens a moveable summary window where the user can view the attributes of the selected feature.
 
@@ -194,7 +194,7 @@ The data explorer query functionality and the map selector tools in the SPM are 
 
     apn BEGINS_WITH "580" OR apn BEGINS_WITH "104"
 
->Any string query must have quotation marks around values.
+>**Note:** Any string query must have quotation marks around values.
 
 
 **Joining Tables:**

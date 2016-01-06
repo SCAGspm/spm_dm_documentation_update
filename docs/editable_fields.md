@@ -1,6 +1,6 @@
 # Editable	Fields	by	Data	Layer
 
-###Table	A1:	Editable	Fields	by	Data	Layer
+###Table	B1:	Editable	Fields	by	Data	Layer
 |	Layer	|	Field Name	|	Description	|
 |	--------------------	|	--------------------	|	--------------------	|
 |	General Plan Parcels	|	density	|	General Plan Densities: Density	|
