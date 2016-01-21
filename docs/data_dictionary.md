@@ -177,7 +177,7 @@ terrestrial	community,	and	aquatic	community,	as	shown	in	the	Table	A3.
 |	![Terrestrial Community](images/scag_12_7_15/3_terrestrial_community.png)	|	3	|	Terrestrial community (ELMCODEs beginning with “CT”)	|
 |	![Acquatic Community](images/scag_12_7_15/4_acquatic_community.png)	|	4	|	Aquatic community (ELMCODEs beginning with ”CA”, “CE”, CL”, “CM” or “CR”	|
 
-The	precision	or	accuracy	level	(ACC_CLASS)	represents	spatial	uncertainty	on	a	scale	of	
+The	precision	or	accuracy	level	(ACC_CLASS)	represents	spatial	uncertainty	on	a	scale	of
 one	to	ten,	indicating	both	accuracy	type	and	accuracy	value.	
 
 ### Table	A4:	Definition	of	Precision	or	Accuracy	Level	(ACC_CLASS)
@@ -197,69 +197,96 @@ one	to	ten,	indicating	both	accuracy	type	and	accuracy	value.
 
 ***Major	Transit	Stops***
 
-The	Major	Transit	Stop	information	is	extracted	from	2035	planned	year	data	in	the	2012-
-2035	RTP/SCS	Amendment	#1.	It	is	defined	as	a	site	containing	a	rail	transit	station,	a	ferry	
-terminal	served	by	either	a	bus	or	rail	transit	service,	or	the	intersection	of	two	or	more	
-major	bus	routes	with	a	frequency	of	service	interval	of	15	minutes	or	less	during	the	
-morning	and	afternoon	peak	commute	periods	(CA	Public	Resource	Code	Section	21064.3).	
-It	also	includes	major	transit	stops	that	are	included	in	the	applicable	regional	
-transportation	plan.	
+Major Transit Stop is	a	site	containing	a	rail	transit	station,	a	ferry
+terminal	served	by	either	a	bus	or	rail	transit	service,	or	the	intersection	of	two	or	more
+major	bus	routes	with	a	frequency	of	service	interval	of	15	minutes	or	less	during	the
+morning	and	afternoon	peak	commute	periods	(CA	Public	Resource	Code	Section	21064.3).
+This is the draft major transit stops in the SCAG region for base year 2012, updated as of
+August 14, 2015. Please note this dataset may undergo changes as SCAG continues to
+update its transportation network.
 
 ![High Quality Transit Corridors](images/scag_12_7_15/high_quality_transit_corridors.png) ***High Quality	Transit	Corridors***
 
-The	High	Quality	Transit	Corridors	information	is	extracted	from	2035	
-planned	year	data	in	the	2012-2035	RTP/SCS	Amendment	#1.	It	is	defined	as	
-a	corridor	with	fixed	route	bus	service	with	service	intervals	no	longer	than	15	minutes	
-during	peak	commute	hours.	
+High	Quality	Transit	Corridors (HQTC) is a	corridor	with	fixed	route	bus	service	with
+service	intervals	no	longer	than	15	minutes	during	peak	commute	hours. This is the draft HQTC in the
+SCAG region for base year 2012, updated as of August 14, 2015. Please note this dataset may undergo changes
+as SCAG continues to update its transportation network. 	
 
 ![High Quality Transit Areas](images/scag_12_7_15/high_quality_transit_areas.png) ***High	Quality	Transit	Areas***
 
-An	area within	one-half-mile	of	either	a	major	transit	stop or	a	high	quality	
-transit	corridor,	extracted	from	2035	planned	year	data	in	the	2012-2035	
-RTP/SCS	Amendment	#1.	
+High Quality Transit Area (HQTA) is an	area within	one-half-mile	of	either	a well-serviced transit stop or a
+transit corridor with 15 minutes or less service frequency during peak commute hours. This is the draft HQTA in the
+SCAG region for base year 2012, updated as of September 28, 2015. Please note this
+dataset may undergo changes as SCAG continues to update its transportation
+network.
 
 ![Transit Priority Areas](images/scag_12_7_15/transit_priority_areas.png) ***Transit	Priority	Areas***
 
-An	area	within	one-half	mile	of	a	major	transit	stop	that	is	existing	or	planned,	
-if	the	planned	stop	is	scheduled	to	be	completed	within	the	planning	horizon	
-included	in	a	Transportation	Improvement	Program	adopted	pursuant	to	
-Section	450.216	or	450.332	of	Title	23	of	the	Code	of	Federal	Regulations.	To	assist	in	
-identifying	the	transit	priority	areas,	this	data	layer	identifies	the	major	transit	stops	and	
-their	surrounding	areas	in	one-half	mile	radius	distance.	Please	note	that	this	layer	is	still	in	
-draft	form	and	may	undergo	changes	as	SCAG	continues	to	update	its	transportation	
-network.	Updates	to	this	information	will	be	forthcoming	as	information	becomes	available.
+Transit Priority Area (TPA) is an	area	within	one-half	mile	of	a	major	transit	stop	that
+is	existing	or	planned, if	the	planned	stop	is	scheduled	to	be	completed	within	the	planning horizon	
+included	in	a	Transportation	Improvement	Program	adopted	pursuant	to
+Section	450.216	or	450.332	of	Title	23	of	the	Code	of	Federal	Regulations. This is the draft TPA for base
+year 2012, updated as of September 2015. Please	note this dataset
+may	undergo	changes	as	SCAG	continues	to	update	its	transportation
+network.
 
 ***Census Tracts***
 
-Geographic regions defined by the US Census for the purpose of taking a census.
+Census Tracts are small, relatively permanent statistical subdivisions of a
+county or equivalent entity, and were defined by local participants as part of
+the 2010 Census Participant Statistical Areas Program. The Census Bureau delineated the
+census tracts in situations where no local participant existed or where all the potential
+participants declined to participate. The primary purpose of census tracts is to provide a
+stable set of geographic units for the presentation of census data and comparison back
+to previous decennial censuses. Census tracts generally have a population size
+between 1,200 and 8,000 people, with an optimum size of 4,000 people. The spatial
+size of census tracts varies widely depending on the density of settlement.
 
 ***Sub Region***
 
-15 subregions, as defined through SCAG, representing portions of Southern California with shared interests, issues and geography. 
+This dataset contains the official subregional boundaries for the SCAG
+region. The data has been updated as of August 2013 to incorporate
+changes in Western Riverside Council of Governments (WRCOG) and Coachella Valley
+Association of Governments (CVAG) in the County of Riverside. All subregional boundaries
+are consistent with the 2012 city boundaries whenever they overlap.
 
 ***Bike Lane***
 
-Description TBD
+This dataset contains existing (current) and proposed
+(future) bike routes, per route class, within the SCAG region. Regional Bike
+Network (RBN) is included in this dataset. The Imperial and Ventura County bike routes
+have been re-aligned to better match the street network. The majority of the data are for
+year 2012 or 2011, except Orange County which is for 2014.
 
 ***Sea Level Rise***
 
-Description TBD
+The purpose of this dataset is to show potential sea level
+rise inundation 5 feet above current Mean Higher High Water (MHHW) for
+the area. This data was created as part of the National Oceanic and Atmospheric
+Administration (NOAA) Coastal Services Center’s efforts to create an online mapping
+viewer depicting potential sea level rise and its associated impacts on the nation’s
+coastal areas. The Sea Level Rise and Coastal Flooding Impacts Viewer may be
+accessed at http:///www.csc.noaa.gov/slr This dataset was derived from two different
+data sources: the Digital Elevation Model (DEM) of the area and a tidal surface model
+that represents spatial tidal variability. 
 
 ***City Boundary***
 
-City Boundary information	is	from	each	
-County’s	Local	Agency	Formation	Commissions	(LAFCO).	The	information	
-included	here	is	as	of	July	2012.
+This dataset includes the updated as of August 29,
+2014 city boundaries for all SCAG counties. Data was obtained from the Local Agency
+Formation Commissions (LAFCO) of each county and then reviewed by local
+jurisdictions during the Local Input process, between March 2013 and August 2014, to
+reflect the most current updates and annexations to the city boundaries.
 
 ![2012 Existing Land Use Parcels](images/scag_12_7_15/2012_existing_land_use_parcels.png) ***2012	Existing	Land	Use Parcels***
 
-The	base	year	of	the 2016-2040	RTP/SCS	is 2012.	To	develop	the	base	year	
-existing	land	use	data,	SCAG	used	property	land	use	information	acquired	
-from	Digital	Map	Products	(DMP)	and	SCAG’s	2008	existing	land	use	data.	DMP	land	use	
-codes	were	converted	to	SCAG’s	standardized	Existing	Land	Use	code system.	For	detailed	
-information	on	the	Existing	Land	Use	codes,	please	refer	to	Table	C1 in	Appendix	C.	
+To	develop	the	base	year existing	land	use	data,	SCAG	used property land use information acquired
+from	Digital	Map	Products	(DMP)	and	SCAG’s	2008	existing	land	use	data.	DMP	land	use
+codes	were	converted	to	SCAG’s	standardized	Existing	Land	Use	code system.	For	detailed
+information	on	the	Existing	Land	Use	codes,	please	refer	to	Table	C1 in	Appendix	C.
 
-Beginning	in	August	2013,	the	2012	existing	land	use	maps	were	reviewed	by	local	
-jurisdictions	and	revised	based	on	the	local	input	and	comments.	The	information	available	
-via	SPM	reflects	the	local	inputs	received	by August	22,	2014.
+Beginning	in	August	2013,	the	2012	existing	land	use	maps	were	reviewed	by	local
+jurisdictions	and	revised	based	on	the	local	input	and	comments.	The	information	available
+via	SPM	reflects	the	local	inputs	received by February 27, 2015 and provided for reference in development 
+of 2016 Existing Land Use.
 
