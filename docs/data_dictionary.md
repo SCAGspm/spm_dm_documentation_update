@@ -7,11 +7,11 @@ users can select as a base or background layer and identify street and road netw
 with street names and address search. These layers are ‘served’ directly from
 commercial or related services into the SPM system.
 
-**Mapbox Aerial Photo**
+![Mapbox Aerial](images/scag_12_7_15/mapbox_aerial.png) **Mapbox Aerial Photo**
 
 Mapbox’s	aerial	imagery	along	with	street,	building,	and	other	useful	labels.	
 
-**Mapbox Simple Streets**
+![Mapbox Simple Streets](images/scag_12_7_15/mapbox_simple_streets.png) **Mapbox Simple Streets**
 
 Mapbox’s	streets	and	related	labels, on a standard map.
 
@@ -25,7 +25,7 @@ areas. Due to this limitation, if site specific data is necessary, users should 
 reference a local agency’s adopted documents or field surveys to determine actual land
 use designations. 
 
-***2016	Existing	Land	Use Parcels***
+![2016 Existing Land Use Parcels](images/scag_12_7_15/2012_existing_land_use_parcels.png) ***2016	Existing	Land	Use Parcels***
 
 2016 Existing Land Use Parcels currently reflect the same information as
 the 2012 Existing Land Use Parcels (available as reference via SPM) which
@@ -43,7 +43,7 @@ with	SCAG’s	standardized	General	Plan	codes.	For	detailed	information	on	the	s
 general	plan	codes,	please	refer	to	Table	C2 in	Appendix C.	The	information	available	via	
 SPM	reflects	the	local	inputs	received	by	February 27, 2015.	
 
-***Scenario	Planning	Zones***
+![Scenario Planning Zones](images/scag_12_7_15/scenario_planning_zones.png) ***Scenario	Planning	Zones***
 
 Scenario	Planning	Zone (SPZ) is	a	spatial	boundary	that	SCAG	developed	as	the	minimum	
 unit	of scenario	planning	and	analysis	for the	SPM.	It	was	developed	by	grouping	parcels	of	
@@ -66,7 +66,7 @@ information in the region obtained from state and federal data sources; (3) info
 Code Section 65080(b)(2)(H); and (4) boundaries of administrative district and Census
 geography. 
 	
-![Sphere	of	Influence](images/scag_12_7_15/jurisdiction_boundary_and_sphere_of_influence.png) ***Sphere	of	Influence***
+![Sphere	of	Influence](images/scag_12_7_15/sphere_of_influence.png) ***Sphere	of	Influence***
 
 Sphere of Influence represents the geographic extent to which a
 city can expand by annexation. Data was obtained from the Local Agency Formation Commissions (LAFCO) of each county and then
@@ -195,7 +195,7 @@ one	to	ten,	indicating	both	accuracy	type	and	accuracy	value.
 |	1 mile	|	9: Circular feature with a 1,600 meter radius (1 mile)	|
 |	5 mile	|	10: Circular feature with a 8,000 meter radius (5 miles)	|
 
-***Major	Transit	Stops***
+![Major Transit Stops](images/scag_12_7_15/major_transit_stops.png) ***Major	Transit	Stops***
 
 Major Transit Stop is	a	site	containing	a	rail	transit	station,	a	ferry
 terminal	served	by	either	a	bus	or	rail	transit	service,	or	the	intersection	of	two	or	more
@@ -230,7 +230,7 @@ year 2012, updated as of September 2015. Please	note this dataset
 may	undergo	changes	as	SCAG	continues	to	update	its	transportation
 network.
 
-***Census Tracts***
+![Census Tracts](images/scag_12_7_15/census_tracts.png) ***Census Tracts***
 
 Census Tracts are small, relatively permanent statistical subdivisions of a
 county or equivalent entity, and were defined by local participants as part of
@@ -242,7 +242,7 @@ to previous decennial censuses. Census tracts generally have a population size
 between 1,200 and 8,000 people, with an optimum size of 4,000 people. The spatial
 size of census tracts varies widely depending on the density of settlement.
 
-***Sub Region***
+![Sub Region](images/scag_12_7_15/sub_region.png) ***Sub Region***
 
 This dataset contains the official subregional boundaries for the SCAG
 region. The data has been updated as of August 2013 to incorporate
@@ -250,7 +250,7 @@ changes in Western Riverside Council of Governments (WRCOG) and Coachella Valley
 Association of Governments (CVAG) in the County of Riverside. All subregional boundaries
 are consistent with the 2012 city boundaries whenever they overlap.
 
-***Bike Lane***
+![Bike Lane](images/scag_12_7_15/bike_lane.png) ***Bike Lane***
 
 This dataset contains existing (current) and proposed
 (future) bike routes, per route class, within the SCAG region. Regional Bike
@@ -258,7 +258,7 @@ Network (RBN) is included in this dataset. The Imperial and Ventura County bike 
 have been re-aligned to better match the street network. The majority of the data are for
 year 2012 or 2011, except Orange County which is for 2014.
 
-***Sea Level Rise***
+![Sea Level Rise](images/scag_12_7_15/sea_level_rise.png) ***Sea Level Rise***
 
 The purpose of this dataset is to show potential sea level
 rise inundation 5 feet above current Mean Higher High Water (MHHW) for
@@ -270,7 +270,7 @@ accessed at http:///www.csc.noaa.gov/slr This dataset was derived from two diffe
 data sources: the Digital Elevation Model (DEM) of the area and a tidal surface model
 that represents spatial tidal variability. 
 
-***City Boundary***
+![City Boundary](images/scag_12_7_15/city_boundary.png) ***City Boundary***
 
 This dataset includes the updated as of August 29,
 2014 city boundaries for all SCAG counties. Data was obtained from the Local Agency
