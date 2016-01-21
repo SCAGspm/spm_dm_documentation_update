@@ -2,6 +2,11 @@
 
 ## Basemaps
 
+This group of layers features recent, high-resolution imagery and street maps where
+users can select as a base or background layer and identify street and road network
+with street names and address search. These layers are ‘served’ directly from
+commercial or related services into the SPM system.
+
 **Mapbox Aerial Photo**
 
 Mapbox’s	aerial	imagery	along	with	street,	building,	and	other	useful	labels.	
@@ -12,9 +17,22 @@ Mapbox’s	streets	and	related	labels, on a standard map.
 
 ## Editable Layers
 
+The following layers grouped under Editable Layers present jurisdictional level land use
+and modeling boundaries that include editable fields. General Plan, zoning, and existing
+land use data are shown at the parcel level. Because SCAG’s parcel level database
+does not support multiple uses on a single parcel, data may be generalized in some
+areas. Due to this limitation, if site specific data is necessary, users should always
+reference a local agency’s adopted documents or field surveys to determine actual land
+use designations. 
+
 ***2016	Existing	Land	Use Parcels***
 
-Description TBD
+2016 Existing Land Use Parcels currently reflect the same information as
+the 2012 Existing Land Use Parcels (available as reference via SPM) which
+incorporate the local inputs received by February 27, 2015. This layer is prepared to
+help local jurisdictions in updating their 2012 land use information to 2016 which is the
+base year of the 2020-2045 RTP/SCS. For detailed information on the Existing Land
+Use codes, please refer to Table C1 in Appendix C. 
 
 ![General Plan Parcels](images/scag_12_7_15/general_plan_parcels.png) ***General	Plan	Parcels***	
 
@@ -23,7 +41,7 @@ from	local	jurisdictions were	coded	into	GIS	shapefiles	at	the	parcel	level.
 Parcel	boundary	data	were	acquired	from	DMP.	The	General	Plan	Parcels	layer	is	prepared	
 with	SCAG’s	standardized	General	Plan	codes.	For	detailed	information	on	the	standardized	
 general	plan	codes,	please	refer	to	Table	C2 in	Appendix C.	The	information	available	via	
-SPM	reflects	the	local	inputs	received	by	August	22,	2014.	
+SPM	reflects	the	local	inputs	received	by	February 27, 2015.	
 
 ***Scenario	Planning	Zones***
 
@@ -42,38 +60,37 @@ and	Land	Use	Modeling	needs	at	SCAG.
 
 ## Reference Layers
 	
+This group of countywide layers includes: (1) 2012 existing land use; (2) resource areas
+and farmland (See Government Code section 65080.01 for definitions of “resource areas” and “farmland.”)
+information in the region obtained from state and federal data sources; (3) information related to a transit priority project compiled pursuant to Government
+Code Section 65080(b)(2)(H); and (4) boundaries of administrative district and Census
+geography. 
+	
 ![Sphere	of	Influence](images/scag_12_7_15/jurisdiction_boundary_and_sphere_of_influence.png) ***Sphere	of	Influence***
 
-Sphere	of	Influence	information	is	from	each	
-County’s	Local	Agency	Formation	Commissions	(LAFCO).	The	information	
-included	here	is	as	of	July	2012. SCAG	uses	the	data	directly	from	LAFCO	as	the	legitimate	
-source	based	on	the	legal	requirement	of	SB385. For	inaccuracy	or	changes	in	jurisdiction	
-boundaries	or	sphere	of	influences,	local	jurisdictions	need	to	contact	LAFCO	to	reflect	the	
-most	accurate	boundaries.		
-	
-***County***		
-This	group	of	countywide	layers	includes:	(1)	resource	areas	and	farmland information	in	
-the	region obtained	from	state	and	federal	data	sources;	(2)	information	related	to	a	transit	
-priority	project	compiled	pursuant	to	Government	Code	Section	65080(b)(2)(H);	and	(3)	
-boundaries	of	administrative	district	and	Census	geography.	See	Government	Code	section	65080.01 for definitions	of	“resource	areas”	and	“farmland.”	
-
+Sphere of Influence represents the geographic extent to which a
+city can expand by annexation. Data was obtained from the Local Agency Formation Commissions (LAFCO) of each county and then
+reviewed by local jurisdictions. The information included here is as of February 28,
+2015. For inaccuracy or changes in jurisdiction boundaries or
+sphere of influences, local jurisdictions need to contact LAFCO to reflect the
+most accurate boundaries.
+	    
 ![Farmland](images/scag_12_7_15/farmland_map_icon.png) ***Farmland***
 
-Farmland	information	was	obtained	from	the	Farmland	Mapping	&	
-Monitoring	Program	(FMMP)	in	the	Division	of	Land	Resource	Protection	in	
-the	California	Department	of	Conservation.	The	FMMP	is	to	provide	consistent	and	
+Farmland	information	was	obtained	from	the	Farmland	Mapping	&
+Monitoring	Program	(FMMP)	in	the	Division	of	Land	Resource	Protection	in	the	California
+Department	of	Conservation.	The	FMMP	is	to	provide	consistent	and	
 impartial	data	and	analysis	of	agricultural	land	use	and	land	use	changes	throughout	the	
-State	of	California.	SCAG	obtains	the	Important	Farmland	Map	created	by	FMMP.	The	study	
-area	is	in	accordance	to	the	soil	survey	developed	by	National	Resources	Conservation	
-Service	(NRCS)	in	the	United	States	Department	of	Agriculture.	Important	Farmland	Map	is	
-biennially	updated	based	on	a	computer	mapping	system,	aerial	imagery,	public	review,	and	
-field	interpretation.	The	minimum	land	use	mapping	unit	is	10	acres.	The	classification	
-system	of	farmland	(column	“polygon_fy”)	was	developed	by	combing	technical	soil	rating	
-and	current	land	use,	as	shown	in	Table	A4.	The	information	available	via	SPM	reflects	the	
-local	inputs	received	by	August	22,	2014.
+State	of	California.	SCAG	obtains	the	Important	Farmland	Map	created	by	FMMP, which is updated
+biennially based on a computer mapping system, aerial imagery,
+public review, and field interpretation. The information was reviewed by local
+jurisdictions during the SCAG’s local input process for the 2016-2040 RTP/SCS,
+between August 2013 and February 2015, and updated by SCAG staff to incorporate
+local jurisdictions’ review comments. The	classification	system	of	farmland was	developed	by	combing	technical	soil	rating	and	current	land	use,	as	shown	in	Table	A1.	The	information	available	via	SPM	reflects	the	
+local	inputs	received	by	February 2015.
 	
 	
-### Table	A1:	Definition	of	Types	of	Farmland	(polygon_fy)
+### Table	A1:	Definition	of	Types	of	Farmland
 
 |	Symbol	|	Value	|	Definition	|
 |	--------------------	|	--------------------	|	--------------------	|
@@ -91,8 +108,7 @@ local	inputs	received	by	August	22,	2014.
 
 California	Protected	Area	Database	(CPAD)	is	a	GIS	inventory	of	all	publicly	
 owned	protected	open	space	lands	in	the	State	of	California	through	fee	
-ownership.	GreenInfo	Network	has	prepared	CPAD	by	aggregating	and	cross-checking	
-various	open	space	data	from	state,	local	and	other	agencies.	
+ownership.	
 
 The	“protected”	status	in	CPAD	does	not	refer	to	a	specific	level	of	conservation	for	
 biodiversity	values,	but	a	general	commitment	to	maintain	the	property	for	open	space	uses.	
@@ -101,8 +117,12 @@ not	the	managing	parties.	Also,	CPAD	is	not	the	database	of	all	public	lands,	bu
 “publicly	owned”	open	space.	The	owning	agencies	include	public	and	non-profits,	but	
 currently	the	private	owners	and	properties	under	the	use	of	easements	are	excluded.	
 
-The	data	available	via SPM	is	presented by	ownership	(column “LAYER”) and	reflects	the	
-local	inputs	received	by	August	22,	2014.	
+The data available via SPM represents CPAD v. 2014a for the six (6) counties in the
+SCAG region. The data was reviewed by local jurisdictions during the SCAG’s local
+input process for the 2016-2040 RTP/SCS, between August 2013 and February 2015,
+and updated by SCAG to incorporated local jurisdictions’ review comments.
+The	data	available	via SPM	is	presented by	ownership and	reflects	the	
+local	inputs	received	by	February 2015.	
 
 ### Table	A2: CPAD	Holdings	by	Ownership – Legend
 |	Symbol	|	Value	|
@@ -145,7 +165,7 @@ California.	It	is	updated	on	a	continuous	basis	to	be	consistent	and	current,	bu
 exhaustive	and	comprehensive	inventory	of	rare	species and	natural	communities.	Field	
 verification	for	the	absence	and	presence	of	sensitive	species	is	required	by	the	end	users.
 		
-The	types	of	elements	(column	“ELMTYPE”)	are	specified	as	four	categories	of	plant,	animal,	
+The	types	of	elements	are	specified	as	four	categories	of	plant,	animal,	
 terrestrial	community,	and	aquatic	community,	as	shown	in	the	Table	A3.	
 
 ### Table	A3: Definition of	Types of	Elements	(ELMTYPE)
