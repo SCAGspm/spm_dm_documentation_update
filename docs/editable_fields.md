@@ -25,5 +25,5 @@
 |		|	hh40	|	2040 Tier2 TAZ Households	|
 |		|	emp40	|	2040 Tier2 TAZ Employees	|
 |		|	comments	|	User Comments	|
-|	Existing Land Use Parcels	|	lu12	|	2012 SCAG Existing Land Use Code	|
+|	2016 Existing Land Use Parcels	|	scag_lu	|	2016 SCAG Existing Land Use Code	|
 |		|	comments	|	User Comments	|
