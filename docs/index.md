@@ -348,6 +348,36 @@ active layer and add comments in the comment box associated to that specific edi
 To save changes to edited attributes the user must push the save button when finished editing. If the user
 changes the selected features without saving changes, those changes will not be saved.
 
+### Undo / Redo
+The undo and redo functionality allows users to undo or redo their most recent changes on the active layer.
+
+***Undo: *** Clicking the undo button will undo the most recently saved change on the active layer regardless of
+the current selection.
+
+***Redo: *** Clicking the redo button will redo the most recent change that was made using the undo button regardless
+of the current selection.
+
+**Tip: ** If the user hovers of the undo or redo buttons, they will see a message with the above definitions.
+
+
+**Example**
+> a. Make a change to a parcel in the Layer Editor and save
+
+> ![undo_redo](images/scag_12_7_15/undo_redo_1.png)
+
+> b. Once the changes are saved, the undo button will become active
+
+> ![undo_redo](images/scag_12_7_15/undo_redo_2.png)
+
+> c. Clicking the undo button will undo those changes and save
+
+> ![undo_redo](images/scag_12_7_15/undo_redo_3.png)
+
+> d. Clicking the redo button will redo the most recently undone changes and save
+
+> ![undo_redo](images/scag_12_7_15/undo_redo_4.png)
+
+
 ## 5. Style Editor
 
 The Style Editor allows the user modify the way a layer is dsiplayed on the map. A user can add new styles,
