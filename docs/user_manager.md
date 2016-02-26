@@ -11,9 +11,13 @@ The user manager can be accessed from the user profile dropdown 'Manage Users' i
 
 ![user_manager_dropdown](images/scag_12_7_15/manage_users_dropdown.png)
 
-## How to update your password
+## How to update your profile
 
-TBD
+
+1. In the upper right corner, click on your email address or name to expand the drop down list. From the drop down, select 'Update Profile'.
+
+
+![user_manager_dropdown](images/user_manager_update_profile_link.png)
 
 ## How to create a new user
 
