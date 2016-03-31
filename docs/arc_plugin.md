@@ -36,7 +36,7 @@ This ArcMap toolbox has 5 inputs described below:
 
 **Password:** The password used to login to UrbanFootprint
 
-**Server URL:** The url of UrbanFootprint (Example: https://something.urbanfootprint.net)
+**Server URL:** The url of UrbanFootprint (Example: https://example.urbanfootprint.net)
 
 **Project Name:** The name of the project or jurisdition in UrbanFootprint - *case sensitive* (Example: Anaheim)
 
