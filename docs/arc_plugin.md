@@ -1,5 +1,8 @@
 # UrbanFootprint ArcMap Integration Tool
 
+## System Requirements
+ - ArcMap 10.3+
+
 ## Steps to Download UrbanFootprint Upload Toolbox
 1. Open ArcMap
 2. Navigate to the ArcToolbox section
