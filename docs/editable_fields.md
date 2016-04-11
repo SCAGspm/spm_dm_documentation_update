@@ -33,7 +33,7 @@
 |		|	dev_agmt	|	Development Agreement Number	|
 |		|	address 	|	Project Address	|
 |		|	date_appro 	|	Date of Approval	|
-|		|	date_Start	|	Start Date	|
+|		|	date_start	|	Start Date	|
 |		|	multi_par 	|	Multiple Parcels	|
 |		|	proj_type 	|	Project Type	|
 |		|	pop 	|	Number of Population	|
