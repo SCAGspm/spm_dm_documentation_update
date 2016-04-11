@@ -29,7 +29,6 @@
 |	2016 Existing Land Use Parcels	|	scag_lu	|	2016 SCAG Existing Land Use Code	|
 |		|	scag_lu_secondary	|	2016 SCAG Existing Land Use Code for secondary use	|
 |		|	comments	|	User Comments	|
-|	Layer	|	Field Name	|	Description	|
 |	Entitlement Parcels 2016 	|	tract_no	|	Tentative Tract Number	|
 |		|	dev_agmt	|	Development Agreement Number	|
 |		|	address 	|	Project Address	|
