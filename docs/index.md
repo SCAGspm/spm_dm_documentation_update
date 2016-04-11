@@ -16,14 +16,14 @@
 </div>
 
 
-# SCAG UrbanFootprint Scenario Planning Model (SPM) - Pilot Test User Guide
+# SCAG UrbanFootprint Scenario Planning Model (SPM) - User Guide
 
-## Data Review and Editing User Manual
+## Data Management Site User Manual
 
-This user guide provides instruction for the use of the SPM Data Review and Management System.
+This user guide provides instruction for the use of the SPM Data Management System.
 This data review and editing framework, built upon the UrbanFootprint platform, provides users
 across the SCAG region with a number of critical data management and data review options. The
-SPM Data Review and Management System will be accessible via a single web-based application
+SPM Data Management System will be accessible via a single web-based application
 for all jurisdictions in the six-county SCAG region.  This documentation covers basic
 functionality for data review and editing.
 
@@ -33,10 +33,7 @@ SCAG’s UrbanFootprint-based Scenario Planning Model (SPM) is a land use planni
 and data management platform that is undergoing development to facilitate more informed and
 collaborative planning by SCAG, local jurisdictions, and other key stakeholders.
 
-The SPM Data Review and Management System is being pilot tested to demonstrate how local and
-regional data can be served to local jurisdictions via the web-based user interface, and to
-test functions focused primarily on data review and editing. The data review and editing
-framework within the SPM provides the user with a number of data management and data review
+The SPM Data Management System provides the user with a number of data management and data review
 options. Using attribute query and map selector tools, the user can explore data, summarize
 attributes, and edit configured layers.
 

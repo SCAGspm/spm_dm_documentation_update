@@ -23,7 +23,13 @@ land use data are shown at the parcel level. Because SCAG’s parcel level datab
 does not support multiple uses on a single parcel, data may be generalized in some
 areas. Due to this limitation, if site specific data is necessary, users should always
 reference a local agency’s adopted documents or field surveys to determine actual land
-use designations. 
+use designations.
+
+![Entitlement Parcles](images/scag_12_7_15/entitlement_parcels.png) ***Entitlement Parcels 2016***
+
+Entitlement parcels 2016 are based on the 2012 parcel boundaries and
+currently contain no attributes. This layer is prepared to help local
+jurisdictions in organizing their entitlement information.
 
 ![2016 Existing Land Use Parcels](images/scag_12_7_15/2012_existing_land_use_parcels.png) ***2016 Existing Land Use Parcels***
 
