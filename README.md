@@ -1,5 +1,5 @@
 # What
-This was created using readthedocs and mkdown for the SCAG SRPM user manual.
+This was created using readthedocs and mkdown for the SCAG SPM user manual.
 
 # How
 1. Create a python virtualenv
