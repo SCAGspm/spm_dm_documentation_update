@@ -1,12 +1,17 @@
 # How to add a Global Reference layer
 ### 3 main components:
 
-1. back end code
-2. front end code
-3. rebuilding the database
+1. prepare data for import
+2. update UrbanFootprint code
+3. rebuild database
+
+***Assumptions***
+
+- new layer is in a single table in your local database (on your computer)
+- this table has a column `wkb_geometry` of type geometry that represents geospatial data that will render on a map
 
 
-## Back End
+## Prepare Data for Import
 
 1. prep your source data table for import
     - name your source data table `scag_<name_of_reference_table>`
@@ -145,12 +150,23 @@
     - example: `from footprint.client.configuration.scag_dm.base.flood_zones import FloodZones`
 
 
-## Front End
- - create the sproutcore model at `scag_dm_feature_models.js`
-    - this should match the django model class
- - add to the sproutcore controller at `scag_delegate.js`
- - add the sproutcore editor view (ie scag_general_plan_parcels_editor_view.js)
-
-
 ## Rebuilding the Database
-- update the `scag_dm_init.py` file to match your local source database table
+1. update the `scag_dm_init.py` file to match your local source database table
+    - in the `else` statement of the `ScagDmInitFixture` class's `import_database` method,
+     update the database information to match your local database with the new layer
+    - example:
+
+            class ScagDmInitFixture(InitFixture):
+                client = 'scag_dm'
+
+                def import_database(self):
+                    ...
+                    else:
+                        return dict(
+                            host='localhost', # update
+                            database='scag', # the
+                            user='example', # info
+                            password='example' # here
+                        )
+                ...
+
