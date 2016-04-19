@@ -64,36 +64,69 @@ In the below steps, we will walk through how to add an example layer: 'Flood Zon
 5. define the default style for the layer in `scag_dm_layer.py`
     - in the `ScagDmLayerConfigurationFixtures` class's `layers` method's return statement's `FixtureList`
     add the `LayerConfiguration` for the new layer
-    - the following table illustrates the different ways to style a layer based on the type of data: polygon, line, point
-    - i.e. for `flood_zones`
+    - Note: there are three geometry types that can be styled: polygon, line and point
 
-            LayerConfiguration(
-                library_keys=[LayerLibraryKey.APPLICATION],
-                db_entity_key=ScagDmDbEntityKey.FLOOD_ZONES,
-                layer_style=dict(
+        |	geometry_type	|
+        |	------------------	|
+        |	POLYGON	|
+        |	POINT	|
+        |	LINESTRING	|
 
-                    geometry_type=GeometryTypeKey.POLYGON,
-                    style_attributes=[
-                        dict(
-                            attribute='fld_zone',
-                            style_type=StyleTypeKey.CATEGORICAL,
-                            style_value_contexts=[
-                                StyleValueContext(value='100 Year Flood Hazard', symbol='=', style=Style(
-                                    polygon_fill='#885ead',
-                                    line_color='#d3d3d3',
-                                    line_width=1,
-                                    line_opacity=0.8
-                                )),
-                                StyleValueContext(value='500 Year Flood Hazard', symbol='=', style=Style(
-                                    polygon_fill='#7cb0df',
-                                    line_color='#d3d3d3',
-                                    line_width=1,
-                                    line_opacity=0.8
-                                ))
-                            ]
-                        )
-                    ])
-            ),
+    - there are two default style types: single and categorical
+        - example of a polygon geometry with a single style type:
+
+                LayerConfiguration(
+                    library_keys=[LayerLibraryKey.APPLICATION],
+                    db_entity_key=ScagDmDbEntityKey.ENDANGERED_SPECIES,
+                    layer_style=dict(
+                        geometry_type=GeometryTypeKey.POLYGON, # defined geometry type here
+                        style_attributes=[
+                            dict(
+                                style_type=StyleTypeKey.SINGLE, # defined style type here
+                                style_value_contexts=[
+                                    StyleValueContext(value=None, symbol=None, style=Style(
+                                        line_color='#009929',
+                                        line_opacity=1,
+                                        line_width=3
+                                    ))
+                                ]
+                            )
+                        ])
+                ),
+
+        - example of a polygon geometry with categorical styles:
+
+                LayerConfiguration(
+                    library_keys=[LayerLibraryKey.APPLICATION],
+                    db_entity_key=ScagDmDbEntityKey.FLOOD_ZONES,
+                    layer_style=dict(
+
+                        geometry_type=GeometryTypeKey.POLYGON, #defined geometry type here
+                        style_attributes=[
+                            dict(
+                                attribute='fld_zone',
+                                style_type=StyleTypeKey.CATEGORICAL, #defined stype type here
+                                style_value_contexts=[
+                                    StyleValueContext(value='100 Year Flood Hazard', symbol='=', # define categorical style filter here
+                                        style=Style(
+                                        polygon_fill='#885ead',
+                                        line_color='#d3d3d3',
+                                        line_width=1,
+                                        line_opacity=0.8
+                                        )
+                                    ),
+                                    StyleValueContext(value='500 Year Flood Hazard', symbol='=', # define categorical style filter here
+                                        style=Style(
+                                        polygon_fill='#7cb0df',
+                                        line_color='#d3d3d3',
+                                        line_width=1,
+                                        line_opacity=0.8
+                                        )
+                                    )
+                                ]
+                            )
+                        ])
+                ),
 
 
 ## Front End
