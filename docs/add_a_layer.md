@@ -1,11 +1,10 @@
 # How to add a Global Reference layer
-###There are 3 main components of adding a layer:
+### 3 main components:
 
 1. back end code
 2. front end code
-3. rebuilding the environment
+3. rebuilding the database
 
-In the below steps, we will walk through how to add an example layer: 'Flood Zones'
 
 ## Back End
 
@@ -25,10 +24,10 @@ In the below steps, we will walk through how to add an example layer: 'Flood Zon
      `<name_of_reference_table>.py`
     - import models and Feature at the beginning of the file (as seen below)
     - name your class the camelcased version of `<name_of_reference_table>` i.e. `FloodZones`
-    - match the attributes from your source data table that you would like to see in UrbanFootprint i.e. `fld_zone`
-        - django model field type documentation: https://django-document-tchinese.readthedocs.org/en/latest/ref/models/fields.html#field-types
+    - define the attributes from your source data table that you would like to see in UrbanFootprint i.e. `fld_zone`
+        - [django model field type documentation](https://django-document-tchinese.readthedocs.org/en/latest/ref/models/fields.html#field-types)
     - add the Meta class within the main feature class
-    - `flood_zones.py`
+    - example: `flood_zones.py`
 
             from django.contrib.gis.db import models
 
@@ -44,22 +43,35 @@ In the below steps, we will walk through how to add an example layer: 'Flood Zon
                     app_label = 'main'
 
 4. create the dbentity in `scag_dm_region.py`
-    - add the import statement at the top of the file
+    - import the django model class at the top of the file
         - i.e. `from footprint.client.configuration.scag_dm.base.flood_zones import FloodZones`
     - define the dbentity in the `ScagDmRegionFixture` class's `default_db_entities` method's return statement's `FixtureList`
-        - i.e. for `flood_zones`
+        - example: `flood_zones`
 
-                update_or_create_db_entity(config_entity, DbEntity(
-                    key=Key.FLOOD_ZONES, # matches unique db entity key
-                    feature_class_configuration=FeatureClassConfiguration(
-                        abstract_class=FloodZones # matches django model class name
-                    ),
-                    feature_behavior=FeatureBehavior(
-                        behavior=get_behavior('reference'),
-                        intersection=GeographicIntersection.polygon_to_polygon
-                    ),
-                    _categories=[Category(key=DbEntityCategoryKey.KEY_CLASSIFICATION, value=DbEntityCategoryKey.REFERENCE)]
-                )),
+                class ScagDmRegionFixture(RegionFixture):
+                    ...
+                    def default_db_entities(self):
+                        """
+                            Region specific db_entity_setups
+                        :param default_dict:
+                        :return:
+                        """
+                        ...
+                        return default_db_entities + FixtureList([
+                            ...
+                                update_or_create_db_entity(config_entity, DbEntity(
+                                    key=Key.FLOOD_ZONES, # matches unique db entity key
+                                    feature_class_configuration=FeatureClassConfiguration(
+                                        abstract_class=FloodZones # matches django model class name
+                                    ),
+                                    feature_behavior=FeatureBehavior(
+                                        behavior=get_behavior('reference'),
+                                        intersection=GeographicIntersection.polygon_to_polygon
+                                    ),
+                                    _categories=[Category(key=DbEntityCategoryKey.KEY_CLASSIFICATION, value=DbEntityCategoryKey.REFERENCE)]
+                                )),
+                            ...
+                        ])
 
 5. define the default style for the layer in `scag_dm_layer.py`
     - in the `ScagDmLayerConfigurationFixtures` class's `layers` method's return statement's `FixtureList`
@@ -105,7 +117,7 @@ In the below steps, we will walk through how to add an example layer: 'Flood Zon
                         style_attributes=[
                             dict(
                                 attribute='fld_zone',
-                                style_type=StyleTypeKey.CATEGORICAL, #defined stype type here
+                                style_type=StyleTypeKey.CATEGORICAL, #defined style type here
                                 style_value_contexts=[
                                     StyleValueContext(value='100 Year Flood Hazard', symbol='=', # define categorical style filter here
                                         style=Style(
@@ -130,11 +142,11 @@ In the below steps, we will walk through how to add an example layer: 'Flood Zon
 
 
 ## Front End
- - add to the sproutcore model at `scag_dm_feature_models.js`
+ - create the sproutcore model at `scag_dm_feature_models.js`
     - this should match the django model class
  - add to the sproutcore controller at `scag_delegate.js`
  - add the sproutcore editor view (ie scag_general_plan_parcels_editor_view.js)
 
 
-## Rebuilding the Environment
+## Rebuilding the Database
 - update the `scag_dm_init.py` file to match your local source database table
