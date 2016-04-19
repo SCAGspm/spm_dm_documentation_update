@@ -7,7 +7,7 @@
 
 ***Assumptions***
 
-- new layer is in a single table in your local database (on your computer)
+- new layer is in a single table in your local postgres database
 - this table has a column `wkb_geometry` of type geometry that represents geospatial data that will render on a map
 
 
@@ -18,13 +18,25 @@
         - source table names must start with the word `scag_` as defined in the
          `scag_dm_config_entities.py` file's  `ScagDmConfigEntitiesFixture` class's `regions` method `key='scag'`
         - i.e. tablename = `scag_flood_zones`
-2. create the unique db entity key
+2. example schema for `scag_flood_zones`
+
+        scag_spm=# \d scag_flood_zones
+                  Table "public.scag_flood_zones"
+
+            Column    |          Type          | Modifiers
+        --------------+------------------------+-----------
+         wkb_geometry | geometry               |
+         fld_zone     | character varying(100) |
+
+## Update UrbanFootprint Code
+
+1. create the unique db entity key
     - in the `scag_dm_config_entities.py` file's `ScagDmDbEntityKey` class, add the unique key
         - i.e. `FLOOD_ZONES = 'flood_zones'`
         - this lowercase `'flood_zones'` must match the
          `<name_of_reference_table>` from your source data table
         - `FLOOD_ZONES` must be a unique key
-3. create the django model class
+2. create the django model class
     - in the `urbanfootprint/footprint/client/configuration/scag_dm/base` directory, create a new python file:
      `<name_of_reference_table>.py`
     - import models and Feature at the beginning of the file (as seen below)
@@ -47,7 +59,7 @@
                     abstract = True
                     app_label = 'main'
 
-4. create the dbentity in `scag_dm_region.py`
+3. create the dbentity in `scag_dm_region.py`
     - import the django model class at the top of the file
         - i.e. `from footprint.client.configuration.scag_dm.base.flood_zones import FloodZones`
     - define the dbentity in the `ScagDmRegionFixture` class's `default_db_entities` method's return statement's `FixtureList`
@@ -78,7 +90,7 @@
                             ...
                         ])
 
-5. define the default style for the layer in `scag_dm_layer.py`
+4. define the default style for the layer in `scag_dm_layer.py`
     - in the `ScagDmLayerConfigurationFixtures` class's `layers` method's return statement's `FixtureList`
     add the `LayerConfiguration` for the new layer
     - Note: there are three geometry types that can be styled: polygon, line and point
@@ -145,7 +157,7 @@
                         ])
                 ),
 
-6. add layer to client initialization
+5. add layer to client initialization
     - add import statement in `urbanfootprint/footprint/client/__init__.py`
     - example: `from footprint.client.configuration.scag_dm.base.flood_zones import FloodZones`
 
@@ -169,4 +181,8 @@
                             password='example' # here
                         )
                 ...
+
+2. run the following command to update the UrbanFootprint database
+
+        time ./manage.py footprint_init --traceback --settings=footprint.settings_init --skip --db_entity --import --layer --tilestache
 
