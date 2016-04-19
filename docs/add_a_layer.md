@@ -140,6 +140,10 @@
                         ])
                 ),
 
+6. add layer to client initialization
+    - add import statement in `urbanfootprint/footprint/client/__init__.py`
+    - example: `from footprint.client.configuration.scag_dm.base.flood_zones import FloodZones`
+
 
 ## Front End
  - create the sproutcore model at `scag_dm_feature_models.js`
