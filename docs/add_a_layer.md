@@ -50,8 +50,6 @@
 
             from footprint.main.models.geospatial.feature import Feature
 
-            __author__ = 'calthorpe_associates'
-
             class FloodZones(Feature):
                 fld_zone = models.CharField(max_length=50, null=True)
 
