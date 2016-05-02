@@ -391,4 +391,19 @@ The default style is set by SCAG and is not editable.
 
 New styles can be added as single, categorical, or quantitative legends.
  
-![style_editor_dropdown](images/scag_12_7_15/style_editor_dropdown.png) 
+![style_editor_dropdown](images/scag_12_7_15/style_editor_dropdown.png)
+
+
+## 6. Upload
+
+Upload gdb and shape files directly into the SPM using the Upload button at the bottom left corner of the
+page.
+
+![upload_tool](images/scag_12_7_15/upload_tool.png)
+
+Once the upload button is clicked, select the zipped gdb or shape file in the file selector.
+The layer will start uploading immediately and is automatically added to the Layer Management Window
+once completed. Uploaded layers are added as reference layers to the project extent and are visible
+to all users of that project.
+
+>**Note:** The upload file size limit is 100 MB
