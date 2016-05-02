@@ -403,7 +403,7 @@ page.
 
 Once the upload button is clicked, select the zipped gdb or shape file in the file selector.
 The layer will start uploading immediately and is automatically added to the Layer Management Window
-once completed. Uploaded layers are added as reference layers to the project extent and are visible
+once completed. Uploaded layers are added as reference layers to the current project and are visible
 to all users of that project.
 
 >**Note:** The upload file size limit is 100 MB
