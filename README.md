@@ -7,3 +7,6 @@ This was created using readthedocs and mkdown for the SCAG SPM user manual.
 3. run `mkdocs serve` to run a local version of the docs while editing
 4. newest commits once pushed to bitbucket repo should appear at http://scag-spm-documentation.readthedocs.org/en/latest/
 5. if not check the latest build message at https://readthedocs.org/projects/scag-spm-documentation/ under the build tab
+
+# Note
+- For the email link in `user_support.md` we use the Markdown.pl 1.0.1 plain text conversion from [http://johnmacfarlane.net/babelmark2/?text=User+support+is+available+at+%3Cspm%40scag.ca.gov%3E](http://johnmacfarlane.net/babelmark2/?text=User+support+is+available+at+%3Cspm%40scag.ca.gov%3E) due to a bug in the mkdocs version we use described at [https://github.com/mkdocs/mkdocs/issues/646](https://github.com/mkdocs/mkdocs/issues/646)
