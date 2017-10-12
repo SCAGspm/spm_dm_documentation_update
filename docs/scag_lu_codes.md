@@ -1,50 +1,48 @@
-# SCAG	Land	Use	Codes
+## **Appendix C - SCAG	Land	Use	Codes**
 
-### Table	C1:2012	SCAG	Existing Land	Use	Codes – Legend
+#### **Table C1: 2016	SCAG	Land	Use	Codes – Legend**
 
-[Single Family Residential]: <images/scag_12_7_15/single_family_residential.png>
-[Multi-Family Residential]: <images/scag_12_7_15/multi_family_residential.png>
-[Mobile Homes and Trailer Parks]: <images/scag_12_7_15/mobile_homes_and_trailer_parks.png>
-[Mixed Residential]: <images/scag_12_7_15/mixed_residential.png>
-[Rural Residential]: <images/scag_12_7_15/rural_residential.png>
-[General Office]: <images/scag_12_7_15/general_office.png>
-[Commercial and Services]: <images/scag_12_7_15/commercial_and_services.png>
-[Facilities]: <images/scag_12_7_15/facilities.png>
-[Mobile Homes and Trailer Parks]: <images/scag_12_7_15/mobile_homes_and_trailer_parks.png>
-[Education]: <images/scag_12_7_15/education.png>
-[Military Installations]: <images/scag_12_7_15/military_installations.png>
-[Industrial]: <images/scag_12_7_15/industrial.png>
-[Transportation, Communications, and Utilities]: <images/scag_12_7_15/transportation_communications_and_utilities.png>
-[Mixed Commercial and Industrial]: <images/scag_12_7_15/mixed_commercial_and_industrial.png>
-[Mixed Residential and Commercial]: <images/scag_12_7_15/mixed_residential_and_commercial.png>
-[Open Space and Recreation]: <images/scag_12_7_15/open_space_and_recreation.png>
-[Agriculture]: <images/scag_12_7_15/agriculture.png>
-[Vacant]: <images/scag_12_7_15/vacant.png>
-[Water Appendix C]: <images/scag_12_7_15/water_appendix_c.png>
-[Under Construction]: <images/scag_12_7_15/under_construction.png>
-[Undevelopable or Protected Land]: <images/scag_12_7_15/undevelopable_or_protected_land.png>
-[Unknown]: <images/scag_12_7_15/unknown.png>
-[Specific Plan]: <images/scag_12_7_15/specific_plan.png>
-
-
+[Single Family Residential]: <images/scag_10_11_17/single_family_residential.png>
+[Multi-Family Residential]: <images/scag_10_11_17/multi_family_residential.png>
+[Mobile Homes and Trailer Parks]: <images/scag_10_11_17/mobile_homes_and_trailer_parks.png>
+[Mixed Residential]: <images/scag_10_11_17/mixed_residential.png>
+[Rural Residential]: <images/scag_10_11_17/rural_residential.png>
+[General Office]: <images/scag_10_11_17/general_office.png>
+[Commercial and Services]: <images/scag_10_11_17/commercial_and_services.png>
+[Facilities]: <images/scag_10_11_17/facilities.png>
+[Education]: <images/scag_10_11_17/education.png>
+[Military Installations]: <images/scag_10_11_17/military_installations.png>
+[Industrial]: <images/scag_10_11_17/industrial.png>
+[Transportation, Communications, and Utilities]: <images/scag_10_11_17/transportation_communications_and_utilities.png>
+[Mixed Commercial and Industrial]: <images/scag_10_11_17/mixed_commercial_and_industrial.png>
+[Mixed Residential and Commercial]: <images/scag_10_11_17/mixed_residential_and_commercial.png>
+[Open Space and Recreation]: <images/scag_10_11_17/open_space_and_recreation.png>
+[Agriculture]: <images/scag_10_11_17/agriculture.png>
+[Vacant]: <images/scag_10_11_17/vacant.png>
+[Water Appendix C]: <images/scag_10_11_17/water_appendix_c.png>
+[Specific Plan]: <images/scag_10_11_17/specific_plan.png>
+[Under Construction]: <images/scag_10_11_17/under_construction.png>
+[Undevelopable or Protected Land]: <images/scag_10_11_17/undevelopable_or_protected_land.png>
+[Unknown]: <images/scag_10_11_17/unknown.png>
 
 |	Legend	|	Land Use Description	|
 |	--------------------	|	--------------------	|
-|	![Single Family Residential][Single Family Residential] Single Family Residential	|	1110 Single Family Residential	|
-|		|	1111 High-Density Single Family Residential	|
-|		|	1112 Low-Density Single Family Residential	|
-|	![Multi-Family Residential][Multi-Family Residential] Multi-Family Residential	|	1120 Multi-Family Residential	|
+|	![Single Family Residential][Single Family Residential] Single Family Residential	|	1110	Single Family Residential	|
+|		|	1111  High-Density Single Family Residential (9 or more DUs/ac)	|
+|		|	1112  Medium-Density Single Family Residential (3-8 DUs/ac)	|
+|	  | 1113  Low-Density Single Family Residential (2 or less DUs/ac)	|
+|	![Multi-Family Residential][Multi-Family Residential] Multi-Family Residential	|	1120	Multi-Family Residential	|
 |		|	1121 Mixed Multi-Family Residential	|
-|		|	1122 Duplexes, Triplexes and 2- or 3-Unit Condominiums and Townhouses	|
-|		|	1123 Low-Rise Apartments, Condominiums, and Townhouses	|
-|		|	1124 Medium-Rise Apartments and Condominiums	|
-|		|	1125 High-Rise Apartments and Condominiums	|
-|	![Mobile Homes and Trailer Parks][Mobile Homes and Trailer Parks] Mobile Homes and Trailer Parks	|	1130 Mobile Homes and Trailer Parks	|
-|		|	1131 Trailer Parks and Mobile Home Courts, High-Density	|
-|		|	1132 Mobile Home Courts and Subdivisions, Low-Density	|
-|	![Mixed Residential][Mixed Residential] Mixed Residential	|	1140 Mixed Residential	|
+|		|	1122	Duplexes, Triplexes and 2- or 3-Unit Condominiums and Townhouses	|
+|		|	1123	Low-Rise Apartments, Condominiums, and Townhouses	|
+|		|	1124	Medium-Rise Apartments and Condominiums	|
+|		|	1125	High-Rise Apartments and Condominiums	|
+|	![Mobile Homes and Trailer Parks][Mobile Homes and Trailer Parks] Mobile Homes and Trailer Parks	|	1130	Mobile Homes and Trailer Parks	|
+|		|	1131	Trailer Parks and Mobile Home Courts, High-Density	|
+|		|	1132	Mobile Home Courts and Subdivisions, Low-Density	|
+|	![Mixed Residential][Mixed Residential] Mixed Residential	|	1140	Mixed Residential	|
 |		|	1100 Residential	|
-|	![Rural Residential][Rural Residential] Rural Residential	|	1150 Rural Residential	|
+|	![Rural Residential][Rural Residential] Rural Residential	|	1150	Rural Residential	|
 |	![General Office][General Office] General Office	|	1210 General Office Use	|
 |		|	1211 Low- and Medium-Rise Major Office Use 	|
 |		|	1212 High-Rise Major Office Use	|
@@ -126,7 +124,9 @@
 |		|	1450 Mixed Transportation	|
 |		|	1460 Mixed Transportation and Utility	|
 |	![Mixed Commercial and Industrial][Mixed Commercial and Industrial] Mixed Commercial and Industrial	|	1500 Mixed Commercial and Industrial	|
-|	![Mixed Residential and Commercial][Mixed Residential and Commercial] Mixed Residential and Commercial	|	1600 Mixed Residential and Commercial	|
+|	![Mixed Residential and Commercial][Mixed Residential and Commercial] Mixed Residential and Commercial	|	 1600  Mixed Residential and Commercial	|
+|		|	1610  Residential-Oriented Residential/Commercial Mixed Use	|
+|		|	1620  Commercial-Oriented Residential/Commercial Mixed Use	|
 |	![Open Space and Recreation][Open Space and Recreation] Open Space and Recreation	|	1800 Open Space and Recreation	|
 |		|	1810 Golf Courses	|
 |		|	1820 Local Parks and Recreation	|
@@ -158,54 +158,7 @@
 |		|	4300 Marina Water Facilities	|
 |		|	4400 Water Within a Military Installation	|
 |		|	4500 Area of Inundation (High Water)	|
-|	![Under Construction][Under Construction] Under Construction	|	1700 Under Construction	|
-|	![Undevelopable or Protected Land][Undevelopable or Protected Land] Undevelopable or Protected Land	|	8888 Undevelopable or Protected Land	|
-|	![Unknown][Unknown] Unknown	|	9999 Unknown	|
-
-### Table	C2:	2012	SCAG	General	Plan	Land	Use	Codes – Legend
-
-|	Legend	|	Land Use Description	|
-|	--------------------	|	--------------------	|
-|	![Single Family Residential][Single Family Residential] Single Family Residential	|	1110 Single Family Residential	|
-|	![Multi-Family Residential][Multi-Family Residential] Multi-Family Residential	|	1120 Multi-Family Residential	|
-|	![Mobile Homes and Trailer Parks][Mobile Homes and Trailer Parks] Mobile Homes and Trailer Parks	|	1130 Mobile Homes and Trailer Parks	|
-|	![Mixed Residential][Mixed Residential] Mixed Residential	|	1140 Mixed Residential	|
-|		|	1100 Residential	|
-|	![Rural Residential][Rural Residential] Rural Residential	|	1150 Rural Residential	|
-|	![General Office][General Office] General Office	|	1210 General Office Use	|
-|	![Commercial and Services][Commercial and Services] Commercial and Services	|	1200 General Commercial	|
-|		|	1220 Retail and Commercial and Services	|
-|		|	1221 Regional Shopping Center	|
-|		|	1230 Other Commercial	|
-|		|	1233 Hotels and Motels	|
-|	![Facilities][Facilities] Facilities	|	1240 Public Facilities	|
-|		|	1250 Special Use Facilities	|
-|	![Education][Education] Education	|	1260 Education – K-12	|
-|		|	1265 Education – College	|
-|	![Military Installations][Military Installations] Military Installations	|	1270 Military Installations	|
-|	![Industrial][Industrial] Industrial	|	1300 General Industrial	|
-|		|	1310 Light Industrial	|
-|		|	1311 Light Manufacturing, Assembly, and Industrial Services	|
-|		|	1320 Heavy Industrial	|
-|		|	1321 Heavy Manufacturing	|
-|		|	1340 Wholesaling and Warehousing	|
-|	![Transportation, Communications, and Utilities][Transportation, Communications, and Utilities] Transportation, Communications, and Utilities	|	1410 Transportation	|
-|		|	1420 Communication Facilities	|
-|		|	1430 Utility Facilities	|
-|	![Mixed Commercial and Industrial][Mixed Commercial and Industrial] Mixed Commercial and Industrial	|	1500 Mixed Commercial and Industrial	|
-|	![Mixed Residential and Commercial][Mixed Residential and Commercial] Mixed Residential and Commercial	|	1600 Mixed Residential and Commercial	|
-|	![Open Space and Recreation][Open Space and Recreation] Open Space and Recreation	|	1810 Golf Courses	|
-|		|	1820 Local Parks and Recreation	|
-|		|	1830 State and National Parks and Recreation	|
-|		|	1840 Cemeteries	|
-|		|	1850 Wildlife Preserves and Sanctuaries	|
-|		|	1860 Specimen Gardens and Arboreta	|
-|		|	1870 Beach Parks	|
-|		|	1880 Other Open Space and Recreation	|
-|	![Vacant][Vacant] Vacant	|	1900 Urban Vacant	|
-|		|	3000 Vacant	|
-|	![Agriculture][Agriculture] Agriculture	|	2000 Agriculture	|
-|	![Water Appendix C][Water Appendix C] Water	|	4000 Water	|
 |	![Specific Plan][Specific Plan] Specific Plan	|	7777 Specific Plan	|
+|	![Under Construction][Under Construction] Under Construction	|	1700 Under Construction	|
 |	![Undevelopable or Protected Land][Undevelopable or Protected Land] Undevelopable or Protected Land	|	8888 Undevelopable or Protected Land	|
 |	![Unknown][Unknown] Unknown	|	9999 Unknown	|

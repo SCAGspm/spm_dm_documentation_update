@@ -1,76 +1,57 @@
-# UrbanFootprint ArcMap Integration Tool
+## **IV.	ArcGIS Integration**
 
-## System Requirements / Supported Version
+This customized python toolbox(.pyt) allows ArcMap users to upload their layers directly to SPM with built in ArcMap functionality.
+
+### **System Requirements/Supported Version**
  - ArcMap 10.3
  - ArcMap 10.4
 
-## Download
-[Arc Toolbox Version 1.0.0](https://s3-us-west-2.amazonaws.com/uf-provisioning/urbanfootprint-arc-toolbox-v1.0.0.zip)
+### **Download**
+[ArcToolbox Version 1.0.0](https://s3-us-west-2.amazonaws.com/uf-provisioning/urbanfootprint-arc-toolbox-v1.0.0.zip)
 
-## Steps to Download UrbanFootprint Upload Toolbox
+### **Steps to upload a layer using ArcGIS Integration tool**
 1. Open ArcMap
 2. Navigate to the ArcToolbox section
-3. Right click on ArcToolbox and select 'AddToolbox...'
+3. Right click on ArcToolbox and select 'Add Toolbox...'
 
-    ![arc_toolbox_1](images/scag_12_7_15/arc_add_toolbox.png)
+  ![arctoolbox_1](images/scag_10_11_17/arctoolbox_1.png)
 
-4. Navigate to the Upload toolbox and click open
+  Figure 19: ArcToolbox
 
-    ![arc_toolbox_2](images/scag_12_7_15/arc_add_toolbox_2.png)
+4. Navigate to the ArcGIS Integration tool (ArcToolbox version 1.0.0) and click open. You should now see it at the bottom of your ArcToolbox
 
-5. You should now see it at the bottom of your ArcToolbox
+  ![arc_toolbox_2](images/scag_10_11_17/arctoolbox_2.png)
 
-    ![arc_toolbox_3](images/scag_12_7_15/arc_add_toolbox_3.png)
+5. Expand the Upload Toolbox to see Upload tool. To open the dialogue box, double-click the upload tool or right click the tool and click open.  
 
-    ![arc_toolbox_4](images/scag_12_7_15/arc_add_toolbox_4.png)
+    ![arc_toolbox_3](images/scag_10_11_17/arctoolbox_3.png)
 
+    **Tip:** If you would like the toolbox to appear every time you launch ArcMap, right click on the ArcToolbox again and select Save Settings > To Default
 
-***Tip:*** If you would like the toolbox to appear every time you launch ArcMap,
-right click on the ArcToolbox again and select Save Settings > To Default
+  ![arc_toolbox_4](images/scag_10_11_17/arctoolbox_4.png)
 
-![arc_toolbox_5](images/scag_12_7_15/arc_add_toolbox_5.png)
+6.	Enter all the fields in the dialogue box. The upload tool 5 inputs described below:
 
-## How to use the UrbanFootprint Upload Toolbox
-This customized python toolbox (.pyt) allows ArcMap users to upload their layers
-directly to UrbanFootprint with built-in ArcMap functionality.
+  - **Email:** The email address used to login to SPM
+  - **Password:** The password used to login to SPM
+  - **Server URL:** The URL of SPM (Example: https://spmdm.scag.ca.gov)
+  - **Project Name:** The name of the project or jurisdiction in SPM – case sensitive (Example: Anaheim)
+  - **Input Feature:** Drag a layer from ArcMap or browse to the layer using the ![folder](images/scag_10_11_17/folder.png)
 
-### UrbanFootprint Upload Toolbox
-![arc_tool](images/scag_12_7_15/arc_tool_1.png)
+7.	After the dialog succeeds, open SPM to see your layer.
 
-This ArcMap toolbox has 5 inputs described below:
+**Troubleshooting:** If your layer is not in SPM, please try the following steps:
 
-**Email:** The email address used to login to UrbanFootprint
+1.	Navigate to the ‘Results’ section in ArcMap and view the messages.
 
-**Password:** The password used to login to UrbanFootprint
+  ![arctoolbox_troubleshooting_1](images/scag_10_11_17/arctoolbox_troubleshooting_1.png)
 
-**Server URL:** The url of UrbanFootprint (Example: https://example.urbanfootprint.net)
+2.	Look for an ‘ExecuteError’ in the messages. In this example, the Server URL is incorrect.
 
-**Project Name:** The name of the project or jurisdition in UrbanFootprint - *case sensitive* (Example: Anaheim)
+  ![arctoolbox_troubleshooting_2](images/scag_10_11_17/arctoolbox_troubleshooting_2.png)
 
-**Input Features:** Drag a layer from ArcMap or browse to the layer using the ![browse_files](images/scag_12_7_15/arc_tool_browse_files.png)
+3.	Address the issue listed in the messages and try upload again.
 
-### Upload Toolbox Instructions
-1. Enter all of the above fields and click OK
-2. After the dialog succeeds, open UrbanFootprint
-3. Your layer is now in UrbanFootprint!
+  **Hint:** To see the error right away, try showing the ‘Details’ of your toolbox. This dialog pops up after your click OK on the Upload tool.
 
-## Troubleshooting
-If your layer is not in UrbanFootprint, please try the following steps:
-
-1. Navigate to the 'Results' section in ArcMap and view the messages.
-
-    ![arc_troubleshoot_1](images/scag_12_7_15/arc_tool_troubleshoot_1.png)
-    ![arc_troubleshoot_2](images/scag_12_7_15/arc_tool_troubleshoot_2.png)
-
-2. Look for an 'ExecuteError' in the messages.
-In this example, the Server URL is incorrect.
-![arc_troubleshoot_3](images/scag_12_7_15/arc_tool_troubleshoot_3.png)
-
-3. Address the issue listed in the messages and try upload again.
-
-***Hint:*** To see the error right away, try showing the 'Details'
-of your toolbox. This dialog pops up after you click OK on the
-Upload tool.
-![arc_troubleshoot_4](images/scag_12_7_15/arc_tool_troubleshoot_4.png)
-
-
+  ![arctoolbox_troubleshooting_3](images/scag_10_11_17/arctoolbox_troubleshooting_3.png)
