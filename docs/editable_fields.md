@@ -1,7 +1,7 @@
 ## **Appendix B - Fields Descriptions**
 
 #### **Table B1: Editable Layers List with Fields Descriptions**
- **(Editable Fields in Bold Font)**
+ ***(Editable Fields in Bold Font)***
 
 |	Layer	|	Field Name	|	Description	| Type	|
 |	--------------------	|	--------------------	|	--------------------	| --------------------	|
@@ -158,7 +158,7 @@
 |		|	approval_status	|	Approval Status (pending/approved/rejected)	|	S	|
 
 #### **Table B2: Reference Layers List with Fields Descriptions**
- **(Editable Fields in Bold Font)**
+ ***(Editable Fields in Bold Font)***
 
 |	Layer	|	Field Name	|	Description	| Type	|
 |	--------------------	|	--------------------	|	--------------------	| --------------------	|
