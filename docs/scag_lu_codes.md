@@ -1,4 +1,4 @@
-#### **Table C1: 2016	SCAG	Land	Use	Codes – Legend**
+#### **Table C1: 2016	SCAG	Land	Use	Codes ï¿½ Legend**
 
 [Single Family Residential]: <images/scag_10_11_17/single_family_residential.png>
 [Multi-Family Residential]: <images/scag_10_11_17/multi_family_residential.png>
@@ -160,3 +160,8 @@
 |	![Under Construction][Under Construction] Under Construction	|	1700 Under Construction	|
 |	![Undevelopable or Protected Land][Undevelopable or Protected Land] Undevelopable or Protected Land	|	8888 Undevelopable or Protected Land	|
 |	![Unknown][Unknown] Unknown	|	9999 Unknown	|
+
+For the latest 2016 SCAG General Plan dataset correspondence table,  click [this link.](https://bitbucket.org/scag-spm/scag-spm-documentation/raw/46aa7bd9a162468016562a68e0d6f9fd870ac67f/docs/files/GP_correspondence_Oct2016.xlsx)
+
+
+For the latest 2017 SCAG Specific Plan dataset correspondence table,  click [this link.](https://bitbucket.org/scag-spm/scag-spm-documentation/raw/46aa7bd9a162468016562a68e0d6f9fd870ac67f/docs/files/SP_correspondence_Oct2017.xlsx)
