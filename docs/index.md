@@ -7,10 +7,8 @@
 </div>
 </br>
 
-# **SCAG Scenario Planning Model (SPM) - Data Management (DM) System**
-Version Dec 05, 2017
-
-### **_User Guide_**
+# **SCAG Scenario Planning Model (SPM) - Data Management (DM) System User Guide**
+Version:  Dec 06, 2017
 
 This user guide provides instruction for the user of the SPM Data Management System. This data review and editing framework provides users across the SCAG region with many critical data management and data review options. The SPM Data Management System is accessible via a single web-based application for all jurisdictions in the six-county SCAG region. This documentation covers basic functionality for data review and editing.
 
@@ -319,14 +317,14 @@ The undo and redo functionality allows users to undo or redo their most recent c
 
 This customized python toolbox(.pyt) allows ArcMap users to upload their layers directly to SPM with built in ArcMap functionality.
 
-#### **System Requirements/Supported Version**
+**System Requirements/Supported Version**
  - ArcMap 10.3
  - ArcMap 10.4
 
-#### **Download**
+**Download**
 [ArcToolbox Version 1.0.0](https://s3-us-west-2.amazonaws.com/uf-provisioning/urbanfootprint-arc-toolbox-v1.0.0.zip)
 
-#### **Steps to upload a layer using ArcGIS Integration tool**
+**Steps to upload a layer using ArcGIS Integration tool**
 1. Open ArcMap
 2. Navigate to the ArcToolbox section
 3. Right click on ArcToolbox and select 'Add Toolbox...'
