@@ -319,14 +319,14 @@ The undo and redo functionality allows users to undo or redo their most recent c
 
 This customized python toolbox(.pyt) allows ArcMap users to upload their layers directly to SPM with built in ArcMap functionality.
 
-### **System Requirements/Supported Version**
+#### **System Requirements/Supported Version**
  - ArcMap 10.3
  - ArcMap 10.4
 
-### **Download**
+#### **Download**
 [ArcToolbox Version 1.0.0](https://s3-us-west-2.amazonaws.com/uf-provisioning/urbanfootprint-arc-toolbox-v1.0.0.zip)
 
-### **Steps to upload a layer using ArcGIS Integration tool**
+#### **Steps to upload a layer using ArcGIS Integration tool**
 1. Open ArcMap
 2. Navigate to the ArcToolbox section
 3. Right click on ArcToolbox and select 'Add Toolbox...'
