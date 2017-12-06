@@ -7,14 +7,14 @@
 </div>
 </br>
 
-# **SCAG Scenario Planning Model (SPM) - Data Management (DM) System** 
+# **SCAG Scenario Planning Model (SPM) - Data Management (DM) System**
 Version Dec 05, 2017
 
-## _User Guide_
+### **_User Guide_**
 
 This user guide provides instruction for the user of the SPM Data Management System. This data review and editing framework provides users across the SCAG region with many critical data management and data review options. The SPM Data Management System is accessible via a single web-based application for all jurisdictions in the six-county SCAG region. This documentation covers basic functionality for data review and editing.
 
-## **I.	Introduction**
+# **I.	Introduction**
 
 SCAG Scenario Planning Model (SPM) is a web-based data management, land use planning and modeling platform developed to facilitate more informed and collaborative planning by local jurisdictions and other stakeholders. Built on UrbanFootprint 1.5, an open source modeling platform developed by Calthorpe Analytics in partnership with SCAG and other California public agencies, SPM enables the creation and organization of local and regional data, plan and policies, facilitates scenario creating and editing, and estimates a wide range of potential benefits resulting from alternative transportation and land use strategies.
 
@@ -34,15 +34,15 @@ The SPM is accessed via a web page. For access to the site, there are minimum re
 
 > **_Note:_** If you experience difficulties in performing feature editing (e.g., feature selection, querying, etc.) while being able to view maps on the SPM, first check your internet firewall configuration with your IT support. The URL of the SPM data management site should be added to the trust list of firewall configuration to avoid block access by web filters set up locally.
 
-## **II.	Data Management Framework - Site Map**
+# **II.	Data Management Framework - Site Map**
 
 ![site_map](images/scag_10_11_17/site_map.png)
 
 Figure 1: SPM Data Management Framework User Interface
 
-## **III.	User Interface Overview**
+# **III.	User Interface Overview**
 
-### **1. Top Section Menu Pane**
+## **1. Top Section Menu Pane**
 
 The top section menu drop down allows the user to toggle between Project Info, Data Explorer, and Approval/Merge options. After clicking one of the options, the map selection will resize to display the selected option.
 
@@ -56,7 +56,7 @@ Figure 2: Top Section Menu drop down
 
 **Approval/Merge:** A user with manager or director-level permissions can approve edits and merge those edits into master versions of the editable layers.
 
-#### **_1-1 Project Info_** ![project_info_title](images/scag_10_11_17/project_info_title.png)
+### **_1-1 Project Info_** ![project_info_title](images/scag_10_11_17/project_info_title.png)
 
 The project info section displays charts on Population, Households, and Employment on the current project. It also includes a link to this User Guide.
 
@@ -66,7 +66,7 @@ Figure 3: Project Info window
 
 **Tip:** Hover the cursor over the charts to see more detailed information on the data.
 
-#### **_1-2 Data Explorer_** ![data_explorer_title](images/scag_10_11_17/data_explorer_title.png)
+### **_1-2 Data Explorer_** ![data_explorer_title](images/scag_10_11_17/data_explorer_title.png)
 
 The data explorer query functionality and the map selector tools in the SPM are linked by default. When a user selects features on the map with the map selector tools, the attributes will populate in the query table window. If the user inputs an attribute query with no map selection, the map will show the features selected from the attribute query. The user also has the option to use attribute selections and map selections in combination.
 
@@ -131,7 +131,7 @@ Figure 6: Join tables
 
 * **Exporting Query Results:** User can export the current query result to a csv file by clicking on the ‘Export as CSV’ button in the upper right corner of the Data Explorer window.
 
-#### **_1-3 Approve and Merge_** ![approve_merge_title](images/scag_10_11_17/approve_merge_title.png)
+### **_1-3 Approve and Merge_** ![approve_merge_title](images/scag_10_11_17/approve_merge_title.png)
 
 The Approve and Merge interface is accessible to users with manager or director-level permissions. The approval interface allows managers to review and approve/reject edits made by any user. Through easy to use drop-down queries, edited features can be reviewed, approved or rejected, and merged into the master version.
 
@@ -153,7 +153,7 @@ Figure 8: Approval interface
 
 Figure 9: Merging interface
 
-### **2. Layer Management Window**
+## **2. Layer Management Window**
 
 The Layer Management window on the left side of the SPM user interface displays layers that have been preloaded into the SPM, and that can be turned on for display and activated for selection, editing, and queries. See Appendix A for descriptions of the data available via the SPM.
 
@@ -167,7 +167,7 @@ The Layer Management window consists of 4 sections:
 
 Figure 10: Layer Management window
 
-#### **_2-1	Layers List_**
+### **_2-1	Layers List_**
 
 The Layers List is broken up into 3 sections:
 * Basemaps
@@ -186,7 +186,7 @@ Each layer’s legend is viewable by clicking on the arrow in front of the layer
 
 Figure 11: Layer Legend
 
-#### **_2-2	Layer Menu_**
+### **_2-2	Layer Menu_**
 
 [layers_icon]: <images/scag_10_11_17/layers.png>
 
@@ -224,7 +224,7 @@ The Layer Symbology window also provides options to edit basic symbol properties
 
 Figure 14: Manage Layers window
 
-#### **_2-3	Reordering Layers Menu_**
+### **_2-3	Reordering Layers Menu_**
 
 [reorder_arrow]: <images/scag_10_11_17/reorder_arrow.png>
 
@@ -234,7 +234,7 @@ The user can re-order layers on the map by clicking on the arrow button ![Reorde
 
 Figure 15: Reordering Layers window
 
-#### **_2-4 Upload_**
+### **_2-4 Upload_**
 
 Upload geodatabase (.gdb) and shapefiles (.shp) directly into the SPM using the Upload button at the bottom left corner of the page (also see ArcIntegration for importing layers from ArcMap directly to SPM).
 
@@ -246,7 +246,7 @@ Figure 16: Upload button
 
 **Note:** The upload file size limit is 100 MB
 
-### **3. Map Tool Bar**
+## **3. Map Tool Bar**
 
 Clicking on an icon on the map tool bar allows the user to zoom and navigate around the map as well as select and identify map features. The user can hover their pointer to get the ‘tool tip’ to identify what button corresponds with each selector.
 
@@ -285,7 +285,7 @@ Figure 17: Map Tool bar
 
 > **Tip:** ***Multi-select*** can be activated by holding down the CTRL/CMD key (Windows/Mac) for the Point ![Point Selector][pointer_select], Rectangle ![Rectangle Selector][box_select], and Polygon ![Polygon Selector][polygon_select] Selectors.
 
-### **4. Layer Editor**
+## **4. Layer Editor**
 
 The Layer Editor allows the user to edit or comment upon select layer attributes. The editable layers are listed in the Layer Management Window under Editable Layers. If a layer is editable, when that layer is active in the layer manager, the user can open the Layer Editor by clicking on the ‘Editor’ button on the right side of the screen to view and edit specific attributes.
 
@@ -305,7 +305,7 @@ The undo button is activated once changes are saved.
 
 ![undo_example](images/scag_10_11_17/undo_example.png)
 
-#### **_4-1 Undo / Redo_** ![undo_redo](images/scag_10_11_17/undo_redo.png)
+### **_4-1 Undo / Redo_** ![undo_redo](images/scag_10_11_17/undo_redo.png)
 
 The undo and redo functionality allows users to undo or redo their most recent changes on the active layer.
 
@@ -314,3 +314,114 @@ The undo and redo functionality allows users to undo or redo their most recent c
 *	**_Redo:_** Clicking the redo button will redo the most recent change that was made using the undo button regardless of the current selection.
 
 **Tip:** If the user hovers of the undo or redo buttons, they will see a message with the above definitions.
+
+# **IV.	ArcGIS Integration**
+
+This customized python toolbox(.pyt) allows ArcMap users to upload their layers directly to SPM with built in ArcMap functionality.
+
+### **System Requirements/Supported Version**
+ - ArcMap 10.3
+ - ArcMap 10.4
+
+### **Download**
+[ArcToolbox Version 1.0.0](https://s3-us-west-2.amazonaws.com/uf-provisioning/urbanfootprint-arc-toolbox-v1.0.0.zip)
+
+### **Steps to upload a layer using ArcGIS Integration tool**
+1. Open ArcMap
+2. Navigate to the ArcToolbox section
+3. Right click on ArcToolbox and select 'Add Toolbox...'
+
+  ![arctoolbox_1](images/scag_10_11_17/arctoolbox_1.png)
+
+  Figure 19: ArcToolbox
+
+4. Navigate to the ArcGIS Integration tool (ArcToolbox version 1.0.0) and click open. You should now see it at the bottom of your ArcToolbox
+
+  ![arc_toolbox_2](images/scag_10_11_17/arctoolbox_2.png)
+
+5. Expand the Upload Toolbox to see Upload tool. To open the dialogue box, double-click the upload tool or right click the tool and click open.  
+
+    ![arc_toolbox_3](images/scag_10_11_17/arctoolbox_3.png)
+
+    **Tip:** If you would like the toolbox to appear every time you launch ArcMap, right click on the ArcToolbox again and select Save Settings > To Default
+
+  ![arc_toolbox_4](images/scag_10_11_17/arctoolbox_4.png)
+
+6.	Enter all the fields in the dialogue box. The upload tool 5 inputs described below:
+
+  - **Email:** The email address used to login to SPM
+  - **Password:** The password used to login to SPM
+  - **Server URL:** The URL of SPM (Example: https://spmdm.scag.ca.gov)
+  - **Project Name:** The name of the project or jurisdiction in SPM – case sensitive (Example: Anaheim)
+  - **Input Feature:** Drag a layer from ArcMap or browse to the layer using the ![folder](images/scag_10_11_17/folder.png)
+
+7.	After the dialog succeeds, open SPM to see your layer.
+
+**Troubleshooting:** If your layer is not in SPM, please try the following steps:
+
+1.	Navigate to the ‘Results’ section in ArcMap and view the messages.
+
+  ![arctoolbox_troubleshooting_1](images/scag_10_11_17/arctoolbox_troubleshooting_1.png)
+
+2.	Look for an ‘ExecuteError’ in the messages. In this example, the Server URL is incorrect.
+
+  ![arctoolbox_troubleshooting_2](images/scag_10_11_17/arctoolbox_troubleshooting_2.png)
+
+3.	Address the issue listed in the messages and try upload again.
+
+  **Hint:** To see the error right away, try showing the ‘Details’ of your toolbox. This dialog pops up after your click OK on the Upload tool.
+
+  ![arctoolbox_troubleshooting_3](images/scag_10_11_17/arctoolbox_troubleshooting_3.png)
+
+# **V.	User Manager**
+  
+  The User Manager allows managers and admin users to manage users in their project. Non-manager or non-admin users can update their user profiles. The User Manager can be accessed from the user profile dropdown that appears by clicking on your name. Click on the ‘Manage Users’ to go to the User Management home page.
+  
+  ![user_manager_1](images/scag_10_11_17/user_manager_1.png)
+  
+  Figure 20: User Manager
+  
+  In this section you will find:
+  
+  * How to update your profile
+  * How to create a new user
+  * How to update a user’s profile
+  
+## **1. How to update your profile**
+  
+  1.	In the upper right corner, click on your email address to expand the drop-down list.  From the drop-down, select ‘Update Profile.’
+  
+    ![user_manager_2](images/scag_10_11_17/user_manager_2.png)
+  
+  2.	Make the necessary changes to your user profile page and click ‘Save’ to apply the changes, or ‘Cancel’ to cancel.
+  
+    ![user_manager_3](images/scag_10_11_17/user_manager_3.png)
+  
+    **Note:** When a change is made to the Project’ drop-down field, the available roles in the ‘Role’ drop-down list will automatically update. Not every role is available to every project. Also not that ‘New Password’ and ‘Confirm New Password’ fields are optional – they should only be completed if you want to reset your password.
+  
+## **2. How to create a new user**
+  
+  1. Administrative and manager users can create new users. To add a new user, click on your email address in the upper right corner to expand the drop-down list and select ‘Add User’.
+  
+  2. Complete the following fields:
+  
+    ![user_manager_4](images/scag_10_11_17/user_manager_4.png)
+  
+    - _Project_ - This property associates the user to a municipality (or administrative group)
+    - _Role_ - The role the user fulfills, e.g. ‘Manager’ or ‘User’
+    - _Name_ - This field is optional
+    - _Email_ - The email address of the user to be create. It must not already be used for another SPM account
+    - _Active_ - If this bow is unchecked, the user will not be able to log in to SPM. It defaults to checked. Uncheck this if a user should not have access to SPM
+    - _Password and Confirm Password_ – User who are given a temporary password should log in to this User Manager site and update their password.
+  
+  3. Click ‘Save’
+  
+## **3. How to update a user’s profile**
+  
+  1. Administrative and manager users can update the profiles of users they manage. To modify a user profile, find the user in the list view and click on that user’s row.
+  
+    ![user_manager_5](images/scag_10_11_17/user_manager_5.png)
+  
+  2.	The user’s profile page will show similar fields as those described in ‘How to create a user’, with one difference:
+  
+    * _New Password and Confirm New Password_ – These fields are optional and should be set if the user needs to have their password reset.

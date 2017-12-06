@@ -1,9 +1,10 @@
 ## **Appendix B - Fields Descriptions**
 
 #### **Table B1: Editable Layers List with Fields Descriptions**
- ***(Editable Fields in Bold Font)***
+ ***(_Editable Fields are highlighted in Bold Font_ |
+ _Data types ~ N: Numeric, S: String_)***
 
-|	Layer	|	Field Name	|	Description	| Type	|
+|	Layer	|	Field Name	|	Description	| Type |
 |	--------------------	|	--------------------	|	--------------------	| --------------------	|
 |	2016 SCAG Entitlement Parcels	|	id	|	System Generated ID	|	N	|
 |		|	scaguid16	|	2016 SCAG Unique Parcel ID	|	S	|
@@ -158,7 +159,8 @@
 |		|	approval_status	|	Approval Status (pending/approved/rejected)	|	S	|
 
 #### **Table B2: Reference Layers List with Fields Descriptions**
- ***(Editable Fields in Bold Font)***
+***(_Editable Fields are highlighted in Bold Font_ |
+_Data types ~ N: Numeric, S: String_)***
 
 |	Layer	|	Field Name	|	Description	| Type	|
 |	--------------------	|	--------------------	|	--------------------	| --------------------	|

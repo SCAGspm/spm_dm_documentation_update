@@ -1,4 +1,4 @@
-#### **Table C1: 2016	SCAG	Land	Use	Codes � Legend**
+#### **Table C1: 2016	SCAG	Land	Use	Codes Legend**
 
 [Single Family Residential]: <images/scag_10_11_17/single_family_residential.png>
 [Multi-Family Residential]: <images/scag_10_11_17/multi_family_residential.png>
