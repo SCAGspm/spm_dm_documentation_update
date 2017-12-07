@@ -40,278 +40,262 @@ Figure 1: SPM Data Management Framework User Interface
 
 # **III.	User Interface Overview**
 
-## **1. Top Section Menu Pane**
+1. ## **1. Top Section Menu Pane**
+  The top section menu drop down allows the user to toggle between Project Info, Data Explorer, and Approval/Merge options. After clicking one of the options, the map selection will resize to display the selected option.
 
-The top section menu drop down allows the user to toggle between Project Info, Data Explorer, and Approval/Merge options. After clicking one of the options, the map selection will resize to display the selected option.
+  ![top_section_menu_pane](images/scag_10_11_17/top_section_menu_pane.png)
 
-![top_section_menu_pane](images/scag_10_11_17/top_section_menu_pane.png)
+  Figure 2: Top Section Menu drop down
 
-Figure 2: Top Section Menu drop down
+  **Project Info:** The user can view project information and charts of key demographic statistics.
 
-**Project Info:** The user can view project information and charts of key demographic statistics.
+  **Data Explorer:** The user can view and explore data in a table view and define attribute queries and join tables to explore and select data.
 
-**Data Explorer:** The user can view and explore data in a table view and define attribute queries and join tables to explore and select data.
+  **Approval/Merge:** A user with manager or director-level permissions can approve edits and merge those edits into master versions of the editable layers.
 
-**Approval/Merge:** A user with manager or director-level permissions can approve edits and merge those edits into master versions of the editable layers.
+  ### **_1-1 Project Info_**      ![project_info_title](images/scag_10_11_17/project_info_title.png)
 
-### **_1-1 Project Info_** ![project_info_title](images/scag_10_11_17/project_info_title.png)
+    The project info section displays charts on Population, Households, and Employment on the current project. It also includes a link to this User Guide.
 
-The project info section displays charts on Population, Households, and Employment on the current project. It also includes a link to this User Guide.
+    ![project_info](images/scag_10_11_17/project_info.png)
 
-![project_info](images/scag_10_11_17/project_info.png)
+    Figure 3: Project Info window
 
-Figure 3: Project Info window
+    **Tip:** Hover the cursor over the charts to see more detailed information on the data.
 
-**Tip:** Hover the cursor over the charts to see more detailed information on the data.
+    ### **_1-2 Data Explorer_** ![data_explorer_title](images/scag_10_11_17/data_explorer_title.png)
 
-### **_1-2 Data Explorer_** ![data_explorer_title](images/scag_10_11_17/data_explorer_title.png)
+      The data explorer query functionality and the map selector tools in the SPM are linked by default. When a user selects features on the map with the map selector tools, the attributes will populate in the query table window. If the user inputs an attribute query with no map selection, the map will show the features selected from the attribute query. The user also has the option to use attribute selections and map selections in combination.
 
-The data explorer query functionality and the map selector tools in the SPM are linked by default. When a user selects features on the map with the map selector tools, the attributes will populate in the query table window. If the user inputs an attribute query with no map selection, the map will show the features selected from the attribute query. The user also has the option to use attribute selections and map selections in combination.
+      ![data_explorer](images/scag_10_11_17/data_explorer.png)
 
-![data_explorer](images/scag_10_11_17/data_explorer.png)
+      Figure 4: Data Explorer window
 
-Figure 4: Data Explorer window
+      1. **Querying Attributes:** The user has many options to form their query and to show helpful information in the user interface:
 
-* **Querying Attributes:** The user has many options to form their query and to show helpful information in the user interface:
+      ![query_window](images/scag_10_11_17/query_window.png)
 
-![query_window](images/scag_10_11_17/query_window.png)
+      Figure 5: Query options
 
-Figure 5: Query options
+        - _Select Attributes shortcut:_ Allows user to select from a drop down of attributes
+        - _Operators shortcut:_ Allows user to select operators from a drop-down list
+        - _AND/OR shortcut:_ Allows user a shortcut to the common AND/OR/parenthesis operators
+        - _Limit Results to Selected Area:_ If the user has selected features with a map selector tool and input an attribute query, they have the option to limit the query result to the map selection or apply them to the whole dataset.
+        - _Clear button:_ Clears the selection
+        - _Query button:_ Executes the query
 
-- _Select Attributes shortcut:_ Allows user to select from a drop down of attributes
-- _Operators shortcut:_ Allows user to select operators from a drop-down list
-- _AND/OR shortcut:_ Allows user a shortcut to the common AND/OR/parenthesis operators
-- _Limit Results to Selected Area:_ If the user has selected features with a map selector tool and input an attribute query, they have the option to limit the query result to the map selection or apply them to the whole dataset.
-- _Clear button:_ Clears the selection
-- _Query button:_ Executes the query
+          SPM attribute querying functionality utilizes SQL syntax to tell the database what features the user would like to select. The user can select attribute names from a drop-down list by clicking on the arrow button next to the ‘Where’ clause or type them in.  
 
-SPM attribute querying functionality utilizes SQL syntax to tell the database what features the user would like to select. The user can select attribute names from a drop-down list by clicking on the arrow button next to the ‘Where’ clause or type them in.  
+        _The following comparison/equality operators are supported:_
 
-_The following comparison/equality operators are supported:_
+        * Greater than : >
+        * Less than : <
+        * Greater than or equal to : >=
+        * Less than or equal to : <=
+        * Equals : =
+        * Not equal: !=
 
-* Greater than : >
-* Less than : <
-* Greater than or equal to : >=
-* Less than or equal to : <=
-* Equals : =
-* Not equal: !=
+    _For querying strings, the following syntax can be used (must be capitals):_
 
-_For querying strings, the following syntax can be used (must be capitals):_
+    * BEGINS_WITH : String begins with a certain letter or group of letters
+    * ENDS_WITH : String ends with a certain letter or group of letters
+    * CONTAINS: String contains a certain letter or group of letters
 
-* BEGINS_WITH : String begins with a certain letter or group of letters
-* ENDS_WITH : String ends with a certain letter or group of letters
-* CONTAINS: String contains a certain letter or group of letters
+    _Multiple attribute queries are supported using the following syntax (must be capitals):_
 
-_Multiple attribute queries are supported using the following syntax (must be capitals):_
+    * AND : SQL ‘and’ syntax, attributes must meet both query requirements
+    * OR : SQL ‘or’ syntax, attributes must meet either query requirements
 
-* AND : SQL ‘and’ syntax, attributes must meet both query requirements
-* OR : SQL ‘or’ syntax, attributes must meet either query requirements
+    > **Tip:** User can access drop down menu of attributes, operators, and AND/OR/parenthesis syntax for a quicker query.
 
-> **Tip:** User can access drop down menu of attributes, operators, and AND/OR/parenthesis syntax for a quicker query.
+    *Query Examples:*
 
-**Query Examples:**
+        _Example 1_: Return all rows with land use code 1200 with a dwelling unit count greater than 2:
 
- **_Example 1_** Return all rows with land use code 1200 with a dwelling unit count greater than 2:
+        land_use16 = 1200 AND du>=2
 
-    land_use16 = 1200 AND du>=2
+        _Example 2_: Return all parcels with an apn that begins with 580 or an apn that begins with 104:
 
- **_Example 2_** Return all parcels with an apn that begins with 580 or an apn that begins with 104:
+        apn BEGINS_WITH "580" OR apn BEGINS_WITH "104"
 
-    apn BEGINS_WITH "580" OR apn BEGINS_WITH "104"
+      2. **Joining Tables:** SPM allows the user to join and query spatial tables of different geography types and geographic scales. The user utilizes these pre-defined join tables by selecting the desired table from the drop-down button in the query window. Having selected a table to join, the user will have access to all fields in that join table. Any query making use of join fields will utilize the pre-defined spatial or attribute relationship.
 
-* **Joining Tables:** SPM allows the user to join and query spatial tables of different geography types and geographic scales. The user utilizes these pre-defined join tables by selecting the desired table from the drop-down button in the query window. Having selected a table to join, the user will have access to all fields in that join table. Any query making use of join fields will utilize the pre-defined spatial or attribute relationship.
+      ![join_table](images/scag_10_11_17/join_table.png)
 
-![join_table](images/scag_10_11_17/join_table.png)
+      Figure 6: Join tables
 
-Figure 6: Join tables
+        >**Important:** If the user is querying a field from the join table that has the same name as a field in the source table, the system defaults to the source table field. To query the join table field, the user must write the *name_of_join_table.field_name* or select it from a drop-down list by clicking the arrow next to the ‘Where’ clause in the Query window.
 
->**Important:** If the user is querying a field from the join table that has the same name as a field in the source table, the system defaults to the source table field. To query the join table field, the user must write the *name_of_join_table.field_name* or select it from a drop-down list by clicking the arrow next to the ‘Where’ clause in the Query window.
+      3. **Exporting Query Results:** User can export the current query result to a csv file by clicking on the ‘Export as CSV’ button in the upper right corner of the Data Explorer window.
 
-* **Exporting Query Results:** User can export the current query result to a csv file by clicking on the ‘Export as CSV’ button in the upper right corner of the Data Explorer window.
+  ### **_1-3 Approve and Merge_**             ![approve_merge_title](images/scag_10_11_17/approve_merge_title.png)
 
-### **_1-3 Approve and Merge_** ![approve_merge_title](images/scag_10_11_17/approve_merge_title.png)
+  The Approve and Merge interface is accessible to users with manager or director-level permissions. The approval interface allows managers to review and approve/reject edits made by any user. Through easy to use drop-down queries, edited features can be reviewed, approved or rejected, and merged into the master version.
 
-The Approve and Merge interface is accessible to users with manager or director-level permissions. The approval interface allows managers to review and approve/reject edits made by any user. Through easy to use drop-down queries, edited features can be reviewed, approved or rejected, and merged into the master version.
+  ![approve_merge](images/scag_10_11_17/approve_merge.png)
 
-![approve_merge](images/scag_10_11_17/approve_merge.png)
+  Figure 7: Approve and Merge window
 
-Figure 7: Approve and Merge window
+  1. **_Approving/Rejecting Edits:_** The approval interface acts on the active layer. When a manager is ready to approve or reject edits, he or she can load all pending edited rows (needing approval) by selecting the appropriate query form the drop-down list. If the user would like to review previously approved or rejected features, the system provides those options as well.
 
-* **_Approving/Rejecting Edits:_** The approval interface acts on the active layer. When a manager is ready to approve or reject edits, he or she can load all pending edited rows (needing approval) by selecting the appropriate query form the drop-down list. If the user would like to review previously approved or rejected features, the system provides those options as well.
+    Once the data has loaded, the user can highlight a given row (or group of rows by holding down CTRL) and approve or reject the highlighted rows by pushing the corresponding “Approve” and “Reject” buttons. To simply approve or reject all edits, the user can toggle ‘Select All’ to highlight all rows. Once rows have been approved or rejected, the user must save their edits. Any approval or rejections that are not saved will be ignored.
 
-Once the data has loaded, the user can highlight a given row (or group of rows by holding down CTRL) and approve or reject the highlighted rows by pushing the corresponding “Approve” and “Reject” buttons. To simply approve or reject all edits, the user can toggle ‘Select All’ to highlight all rows. Once rows have been approved or rejected, the user must save their edits. Any approval or rejections that are not saved will be ignored.
+    ![approve_merge_interface](images/scag_10_11_17/approve_merge_interface.png)
 
-![approve_merge_interface](images/scag_10_11_17/approve_merge_interface.png)
+    Figure 8: Approval interface
 
-Figure 8: Approval interface
+  2. **_Merging:_** Once features have been reviewed and edits approved, the manager can merge all approved features into the Master version of the layer. Within the approval interface, the user can toggle the Merge screen. This will provide the user with the option to merge approved features. After clicking on the Merge button, a backend process will handle filtering and merging data tables.
 
-* **_Merging:_** Once features have been reviewed and edits approved, the manager can merge all approved features into the Master version of the layer. Within the approval interface, the user can toggle the Merge screen. This will provide the user with the option to merge approved features. After clicking on the Merge button, a backend process will handle filtering and merging data tables.
+    ![approve_merge_merging](images/scag_10_11_17/approve_merge_merging.png)
 
-![approve_merge_merging](images/scag_10_11_17/approve_merge_merging.png)
+      Figure 9: Merging interface
 
-Figure 9: Merging interface
+  ## **2. Layer Management Window**
 
-## **2. Layer Management Window**
+  The Layer Management window on the left side of the SPM user interface displays layers that have been preloaded into the SPM, and that can be turned on for display and activated for selection, editing, and queries. See Appendix A for descriptions of the data available via the SPM.
 
-The Layer Management window on the left side of the SPM user interface displays layers that have been preloaded into the SPM, and that can be turned on for display and activated for selection, editing, and queries. See Appendix A for descriptions of the data available via the SPM.
+  The Layer Management window consists of 4 sections:
+  - a. Layer List
+  - b. Layer Menu
+  - c. Reordering Layers Menu
+  - d. Upload
 
-The Layer Management window consists of 4 sections:
-- a. Layer List
-- b. Layer Menu
-- c. Reordering Layers Menu
-- d. Upload
+  ![layer_manager_window](images/scag_10_11_17/layer_manager_window.png)
 
-![layer_manager_window](images/scag_10_11_17/layer_manager_window.png)
+  Figure 10: Layer Management window
 
-Figure 10: Layer Management window
+  ### **_2-1	Layers List_**
 
-### **_2-1	Layers List_**
+  The Layers List is broken up into 3 sections:
+  * Basemaps
+  * Editable Layers
+  * Reference
 
-The Layers List is broken up into 3 sections:
-* Basemaps
-* Editable Layers
-* Reference
+  Any layer under the Editable Layers section contain fields that can be edited by the user. See Appendix B for the list of fields definitions with editable fields highlighted. For definitions of each of the layers please reference Appendix A.
 
-Any layer under the Editable Layers section contain fields that can be edited by the user. See Appendix B for the list of fields definitions with editable fields highlighted. For definitions of each of the layers please reference Appendix A.
+  The user can select an active layer by clicking on the layer name and the active layer will be highlighted in blue.  From the Figure 10 above, SCAG Existing Land Use Parcels is visible on the map (checkbox) and is the active layer (blue highlight).  
 
-The user can select an active layer by clicking on the layer name and the active layer will be highlighted in blue.  From the Figure 10 above, SCAG Existing Land Use Parcels is visible on the map (checkbox) and is the active layer (blue highlight).  
+  > **Important:** Any map selection, attribute query, export layer, export csv initiated by the user will occur on the active layer regardless of it is visible or not.
 
-> **Important:** Any map selection, attribute query, export layer, export csv initiated by the user will occur on the active layer regardless of it is visible or not.
+  Each layer’s legend is viewable by clicking on the arrow in front of the layer and then expanding the arrow that appears below the layer.
 
-Each layer’s legend is viewable by clicking on the arrow in front of the layer and then expanding the arrow that appears below the layer.
+  ![layer_management_legend](images/scag_10_11_17/layer_manager_legend.png)
 
-![layer_management_legend](images/scag_10_11_17/layer_manager_legend.png)
+  Figure 11: Layer Legend
 
-Figure 11: Layer Legend
+  ### **_2-2	Layer Menu_**
 
-### **_2-2	Layer Menu_**
+  The Layers Menu is accessed in the upper right section of the Layer Management Window via the button ![Layers Button](images/scag_10_11_17/layers.png). The Layers Menu has 3 options:
 
-[layers_icon]: <images/scag_10_11_17/layers.png>
+    * Export Active Layer to gdb
+    * Layer Symbology
+    * Manage Layers
 
-The Layers Menu is accessed in the upper right section of the Layer Management Window via the button ![Layers Button][layers_icon]. The Layers Menu has 3 options:
+    ![layer_menu](images/scag_10_11_17/layer_menu.png)
 
-* Export Active Layer to gdb
-* Layer Symbology
-* Manage Layers
+  Figure 12: Layer Menu
 
-![layer_menu](images/scag_10_11_17/layer_menu.png)
+ **_Exporting Active Layer to gdb:_** The user can initiate exporting by clicking ‘OK’ on a window that opens up once the user clicks on the ‘Export Active Layer – to gdb’ in the drop down.  By default, the exported layer is saved to the user’s default Download folder.
 
-Figure 12: Layer Menu
+ **_Layer Symbology:_** The Layer symbology allows the user to modify the way a layer is displayed on the map. A user can add new styles, edit previously saved styles, and view the default style for the active layer’s legend. The user can open the Layer Symbology by clicking on the ‘Layer Symbology’ in the drop down.  The default style is set by SCAG and is not editable.
 
-* **_Exporting Active Layer to gdb:_** The user can initiate exporting by clicking ‘OK’ on a window that opens up once the user clicks on the ‘Export Active Layer – to gdb’ in the drop down.  By default, the exported layer is saved to the user’s default Download folder.
+  ![layer_symbology](images/scag_10_11_17/layer_symbology.png)
 
-* **_Layer Symbology:_** The Layer symbology allows the user to modify the way a layer is displayed on the map. A user can add new styles, edit previously saved styles, and view the default style for the active layer’s legend. The user can open the Layer Symbology by clicking on the ‘Layer Symbology’ in the drop down.  The default style is set by SCAG and is not editable.
+  Figure 13: Layer Symbology window
 
-![layer_symbology](images/scag_10_11_17/layer_symbology.png)
+  New styles can be added by clicking on the add layer style button ![plus](images/scag_10_11_17/plus.png) in the Layer Symbology window. By default, all new layers are added with a single symbol. The user can select style type (single, categorical, or quantitative legends) and then attribute, if categorical or quantitative is selected, on which the selected style type is based.
 
-Figure 13: Layer Symbology window
+  The user can add all unique values of the selected table attribute by clicking on ‘Add All Values’ (for categorical type) or ‘Add All Ranges’ (for quantitative type) button, activated when attribute is selected.
 
-New styles can be added by clicking on the add layer style button ![plus](images/scag_10_11_17/plus.png) in the Layer Symbology window. By default, all new layers are added with a single symbol. The user can select style type (single, categorical, or quantitative legends) and then attribute, if categorical or quantitative is selected, on which the selected style type is based.
+    ![layer_symbology1](images/scag_10_11_17/layer_symbology_1.png)
 
-The user can add all unique values of the selected table attribute by clicking on ‘Add All Values’ (for categorical type) or ‘Add All Ranges’ (for quantitative type) button, activated when attribute is selected.
+    The Layer Symbology window also provides options to edit basic symbol properties such as color, line width and opacity level. To save changes the user must click the save button when finished editing.
 
-![layer_symbology1](images/scag_10_11_17/layer_symbology_1.png)
+    ![layer_symbology2](images/scag_10_11_17/layer_symbology_2.png)
 
-The Layer Symbology window also provides options to edit basic symbol properties such as color, line width and opacity level. To save changes the user must click the save button when finished editing.
+ **_Manage Layers:_** The Manage Layers menu allows users to modify the layers visible in the Layers list. The user can check or uncheck layers here to update the Layer List.
 
-![layer_symbology2](images/scag_10_11_17/layer_symbology_2.png)
+  ![manage_layers](images/scag_10_11_17/manage_layers.png)
 
-* **_Manage Layers:_** The Manage Layers menu allows users to modify the layers visible in the Layers list. The user can check or uncheck layers here to update the Layer List.
+  Figure 14: Manage Layers window
 
-![manage_layers](images/scag_10_11_17/manage_layers.png)
+    ### **_2-3	Reordering Layers Menu_**
 
-Figure 14: Manage Layers window
+    The user can re-order layers on the map by clicking on the arrow button ![Reorder Arrow](images/scag_10_11_17/reorder_arrow.png) on the right side of the Layers Tool Bar. This button will open a window where the user can re-order the layers by clicking on the layer name and dragging it into the order the user prefers within the visible list. This order corresponds to the layer order on the map.
 
-### **_2-3	Reordering Layers Menu_**
+    ![reordering_layers](images/scag_10_11_17/reordering_layers.png)
 
-[reorder_arrow]: <images/scag_10_11_17/reorder_arrow.png>
+    Figure 15: Reordering Layers window
 
-The user can re-order layers on the map by clicking on the arrow button ![Reorder Arrow][reorder_arrow] on the right side of the Layers Tool Bar. This button will open a window where the user can re-order the layers by clicking on the layer name and dragging it into the order the user prefers within the visible list. This order corresponds to the layer order on the map.
+    ### **_2-4 Upload_**
 
-![reordering_layers](images/scag_10_11_17/reordering_layers.png)
+    Upload geodatabase (.gdb) and shapefiles (.shp) directly into the SPM using the Upload button at the bottom left corner of the page (also see ArcIntegration for importing layers from ArcMap directly to SPM).
 
-Figure 15: Reordering Layers window
+    Once the upload button is clicked, select the zipped gdb or shapefile in the file selector. The layer will start uploading immediately and is automatically added to the Layer Management Window once completed. Uploaded layers are added as reference layers to the current project and are visible to all users of that project.
 
-### **_2-4 Upload_**
+    ![upload](images/scag_10_11_17/upload.png)
 
-Upload geodatabase (.gdb) and shapefiles (.shp) directly into the SPM using the Upload button at the bottom left corner of the page (also see ArcIntegration for importing layers from ArcMap directly to SPM).
+    Figure 16: Upload button
 
-Once the upload button is clicked, select the zipped gdb or shapefile in the file selector. The layer will start uploading immediately and is automatically added to the Layer Management Window once completed. Uploaded layers are added as reference layers to the current project and are visible to all users of that project.
+    **Note:** The upload file size limit is 100 MB
 
-![upload](images/scag_10_11_17/upload.png)
+    ## **3. Map Tool Bar**
 
-Figure 16: Upload button
+    Clicking on an icon on the map tool bar allows the user to zoom and navigate around the map as well as select and identify map features. The user can hover their pointer to get the ‘tool tip’ to identify what button corresponds with each selector.
 
-**Note:** The upload file size limit is 100 MB
+    ![Toolbar](images/scag_10_11_17/selector_tools.png)
 
-## **3. Map Tool Bar**
+    Figure 17: Map Tool bar
 
-Clicking on an icon on the map tool bar allows the user to zoom and navigate around the map as well as select and identify map features. The user can hover their pointer to get the ‘tool tip’ to identify what button corresponds with each selector.
+    ![Zoom to Extent](images/scag_10_11_17/extent_selector.png) **_Zoom to Project Extent:_** This tool allows the user to zoom the current map to the project map extent. The project in the SPM refers to a local jurisdiction.
 
-[selector_tools]: <images/scag_10_11_17/selector_tools.png>
-![Toolbar][selector_tools]
+    ![Zoom to Selection](images/scag_10_11_17/zoom_selected.png) **_Zoom to Selection Extent:_** This tool allows the user to zoom the current map to the extent of selected features of the Active Layer.
 
-Figure 17: Map Tool bar
+    ![Clear Selection](images/scag_10_11_17/cancel_select.png) **_Clear Selection:_** This tool clears the selected features of the Active Layer.
 
-[extent_selector]: <images/scag_10_11_17/extent_selector.png>
-[zoom_selected]: <images/scag_10_11_17/zoom_selected.png>
-[cancel_select]: <images/scag_10_11_17/cancel_select.png>
-[hand_select]: <images/scag_10_11_17/hand_select.png>
-[info_select]: <images/scag_10_11_17/info_select.png>
-[pointer_select]: <images/scag_10_11_17/pointer_select.png>
-[box_select]: <images/scag_10_11_17/box_select.png>
-[polygon_select]: <images/scag_10_11_17/polygon_select.png>
-[download_select]: <images/scag_10_11_17/download_selector.png>
+    ![Navigate](images/scag_10_11_17/hand_select.png) **_Navigate_:** This tool allows the user to navigate around the map by clicking and dragging on the map. **Tip:** The user can hold ‘Shift’ and drag to create zoom extent.
 
-![Zoom to Extent][extent_selector] **_Zoom to Project Extent:_** This tool allows the user to zoom the current map to the project map extent. The project in the SPM refers to a local jurisdiction.
+    ![Identify](images/scag_10_11_17/info_select.png)**_Identify_:** This tool is activated when a feature is selected. The Identify tool opens a moveable summary window where the user can view the attributes of the selected feature.
 
-![Zoom to Selection][zoom_selected] **_Zoom to Selection Extent:_** This tool allows the user to zoom the current map to the extent of selected features of the Active Layer.
+    ![Point Selector](images/scag_10_11_17/pointer_select.png) **_Point Selector:_** The point selector selects the feature that intersects with a point where the user clicks on the map.
 
-![Clear Selection][cancel_select] **_Clear Selection:_** This tool clears the selected features of the Active Layer.
+    ![Rectangle Selector](images/scag_10_11_17/box_select.png) **_Rectangle Selector:_** The rectangle selector selects the feature that intersects with a rectangle formed by the user clicking and dragging across the map.
 
-![Navigate][hand_select] **_Navigate_:** This tool allows the user to navigate around the map by clicking and dragging on the map. **Tip:** The user can hold ‘Shift’ and drag to create zoom extent.
+    ![Polygon Selector](images/scag_10_11_17/polygon_select.png) **_Polygon Selector:_** The polygon selector selects the feature that intersects with a user defined polygon shape formed by the user defining each node of the polygon by clicking on the map. Double clicking will stop forming the polygon selection.  
 
-![Identify][info_select] **_Identify_:** This tool is activated when a feature is selected. The Identify tool opens a moveable summary window where the user can view the attributes of the selected feature.
+    ![Download Selector](images/scag_10_11_17/download_selector.png) **_Export Map:_** The Export Map button takes a snapshot of the current map and downloads the map as a jpg image to the user’s default downloads file.
 
-![Point Selector][pointer_select] **_Point Selector:_** The point selector selects the feature that intersects with a point where the user clicks on the map.
+  >  **Tip:** ***Multi-select*** can be activated by holding down the CTRL/CMD key (Windows/Mac) for the Point   ![Point Selector](images/scag_10_11_17/pointer_select.png), Rectangle ![Rectangle Selector](images/scag_10_11_17/box_select.png), and Polygon  ![Polygon Selector](images/scag_10_11_17/polygon_select.png).
 
-![Rectangle Selector][box_select] **_Rectangle Selector:_** The rectangle selector selects the feature that intersects with a rectangle formed by the user clicking and dragging across the map.
+  ## **4. Layer Editor**
 
-![Polygon Selector][polygon_select] **_Polygon Selector:_** The polygon selector selects the feature that intersects with a user defined polygon shape formed by the user defining each node of the polygon by clicking on the map. Double clicking will stop forming the polygon selection.  
+  The Layer Editor allows the user to edit or comment upon select layer attributes. The editable layers are listed in the Layer Management Window under Editable Layers. If a layer is editable, when that layer is active in the layer manager, the user can open the Layer Editor by clicking on the ‘Editor’ button on the right side of the screen to view and edit specific attributes.
 
-![Download Selector][download_select] **_Export Map:_** The Export Map button takes a snapshot of the current map and downloads the map as a jpg image to the user’s default downloads file.
+  ![layer_editor](images/scag_10_11_17/layer_editor.png)
 
-> **Tip:** ***Multi-select*** can be activated by holding down the CTRL/CMD key (Windows/Mac) for the Point ![Point Selector][pointer_select], Rectangle ![Rectangle Selector][box_select], and Polygon ![Polygon Selector][polygon_select] Selectors.
+  Figure 18: Layer Editor window
 
-## **4. Layer Editor**
+  The editor operates on the currently selected features of the active layer. If there is more than one feature selected, any changes made in the editor window will populate all rows with those values unless the layer is configured to only allow editing of one row at a time.
 
-The Layer Editor allows the user to edit or comment upon select layer attributes. The editable layers are listed in the Layer Management Window under Editable Layers. If a layer is editable, when that layer is active in the layer manager, the user can open the Layer Editor by clicking on the ‘Editor’ button on the right side of the screen to view and edit specific attributes.
+  In case where a layer is configured to only allow editing of one row at a time (e.g., Tier 2 TAZ), following message will be displayed indicating that only one record at a time can be edited.
 
-![layer_editor](images/scag_10_11_17/layer_editor.png)
+  ![too_many_records_error](images/scag_10_11_17/too_many_records_error.png)
 
-Figure 18: Layer Editor window
+  The layer attribute drop down allows the user to edit attributes of currently selected features of the active layer and add comments in the notes box associated to that specific edit. To save changes to edited attributes the user must push the apply button when finished editing. If the user changes the selected features without saving changes, those changes will not be saved.
 
-The editor operates on the currently selected features of the active layer. If there is more than one feature selected, any changes made in the editor window will populate all rows with those values unless the layer is configured to only allow editing of one row at a time.
+  The undo button is activated once changes are saved.
 
-In case where a layer is configured to only allow editing of one row at a time (e.g., Tier 2 TAZ), following message will be displayed indicating that only one record at a time can be edited.
+  ![undo_example](images/scag_10_11_17/undo_example.png)
 
-![too_many_records_error](images/scag_10_11_17/too_many_records_error.png)
+  ### **_4-1 Undo / Redo_** ![undo_redo](images/scag_10_11_17/undo_redo.png)
 
-The layer attribute drop down allows the user to edit attributes of currently selected features of the active layer and add comments in the notes box associated to that specific edit. To save changes to edited attributes the user must push the apply button when finished editing. If the user changes the selected features without saving changes, those changes will not be saved.
+  The undo and redo functionality allows users to undo or redo their most recent changes on the active layer.
 
-The undo button is activated once changes are saved.
+  *	**_Undo:_** Clicking the undo button will undo the most   recently saved change on the active layer regardless of the current selection.
 
-![undo_example](images/scag_10_11_17/undo_example.png)
+  *	**_Redo:_** Clicking the redo button will redo the most recent change that was made using the undo button regardless of the current selection.
 
-### **_4-1 Undo / Redo_** ![undo_redo](images/scag_10_11_17/undo_redo.png)
-
-The undo and redo functionality allows users to undo or redo their most recent changes on the active layer.
-
-*	**_Undo:_** Clicking the undo button will undo the most recently saved change on the active layer regardless of the current selection.
-
-*	**_Redo:_** Clicking the redo button will redo the most recent change that was made using the undo button regardless of the current selection.
-
-**Tip:** If the user hovers of the undo or redo buttons, they will see a message with the above definitions.
+  **Tip:** If the user hovers of the undo or redo buttons, they will see a message with the above definitions.
 
 # **IV.	ArcGIS Integration**
 
@@ -372,54 +356,54 @@ This customized python toolbox(.pyt) allows ArcMap users to upload their layers 
   ![arctoolbox_troubleshooting_3](images/scag_10_11_17/arctoolbox_troubleshooting_3.png)
 
 # **V.	User Manager**
-  
+
   The User Manager allows managers and admin users to manage users in their project. Non-manager or non-admin users can update their user profiles. The User Manager can be accessed from the user profile dropdown that appears by clicking on your name. Click on the ‘Manage Users’ to go to the User Management home page.
-  
+
   ![user_manager_1](images/scag_10_11_17/user_manager_1.png)
-  
+
   Figure 20: User Manager
-  
+
   In this section you will find:
-  
+
   * How to update your profile
   * How to create a new user
   * How to update a user’s profile
-  
-## **1. How to update your profile**
-  
-  1.	In the upper right corner, click on your email address to expand the drop-down list.  From the drop-down, select ‘Update Profile.’
-  
-    ![user_manager_2](images/scag_10_11_17/user_manager_2.png)
-  
-  2.	Make the necessary changes to your user profile page and click ‘Save’ to apply the changes, or ‘Cancel’ to cancel.
-  
-    ![user_manager_3](images/scag_10_11_17/user_manager_3.png)
-  
-    **Note:** When a change is made to the Project’ drop-down field, the available roles in the ‘Role’ drop-down list will automatically update. Not every role is available to every project. Also not that ‘New Password’ and ‘Confirm New Password’ fields are optional – they should only be completed if you want to reset your password.
-  
-## **2. How to create a new user**
-  
-  1. Administrative and manager users can create new users. To add a new user, click on your email address in the upper right corner to expand the drop-down list and select ‘Add User’.
-  
-  2. Complete the following fields:
-  
-    ![user_manager_4](images/scag_10_11_17/user_manager_4.png)
-  
-    - _Project_ - This property associates the user to a municipality (or administrative group)
-    - _Role_ - The role the user fulfills, e.g. ‘Manager’ or ‘User’
-    - _Name_ - This field is optional
-    - _Email_ - The email address of the user to be create. It must not already be used for another SPM account
-    - _Active_ - If this bow is unchecked, the user will not be able to log in to SPM. It defaults to checked. Uncheck this if a user should not have access to SPM
-    - _Password and Confirm Password_ – User who are given a temporary password should log in to this User Manager site and update their password.
-  
-  3. Click ‘Save’
-  
-## **3. How to update a user’s profile**
-  
-  1. Administrative and manager users can update the profiles of users they manage. To modify a user profile, find the user in the list view and click on that user’s row.
-  
-    ![user_manager_5](images/scag_10_11_17/user_manager_5.png)
-  
-  2.	The user’s profile page will show similar fields as those described in ‘How to create a user’, with one difference:
-  
-    * _New Password and Confirm New Password_ – These fields are optional and should be set if the user needs to have their password reset.
+
+  ## **1. How to update your profile**
+
+    1.	In the upper right corner, click on your email address to expand the drop-down list.  From the drop-down, select ‘Update Profile.’
+
+      ![user_manager_2](images/scag_10_11_17/user_manager_2.png)
+
+    2.	Make the necessary changes to your user profile page and click ‘Save’ to apply the changes, or ‘Cancel’ to cancel.
+
+      ![user_manager_3](images/scag_10_11_17/user_manager_3.png)
+
+      **Note:** When a change is made to the Project’ drop-down field, the available roles in the ‘Role’ drop-down list will automatically update. Not every role is available to every project. Also not that ‘New Password’ and ‘Confirm New Password’ fields are optional – they should only be completed if you want to reset your password.
+
+    ## **2. How to create a new user**
+
+    1. Administrative and manager users can create new users. To add a new user, click on your email address in the upper right corner to expand the drop-down list and select ‘Add User’.
+
+    2. Complete the following fields:
+
+      ![user_manager_4](images/scag_10_11_17/user_manager_4.png)
+
+      - _Project_ - This property associates the user to a municipality (or administrative group)
+      - _Role_ - The role the user fulfills, e.g. ‘Manager’ or ‘User’
+      - _Name_ - This field is optional
+      - _Email_ - The email address of the user to be create. It must not already be used for another SPM account
+      - _Active_ - If this bow is unchecked, the user will not be able to log in to SPM. It defaults to checked. Uncheck this if a user should not have access to SPM
+      - _Password and Confirm Password_ – User who are given a temporary password should log in to this User Manager site and update their password.
+
+    3. Click ‘Save’
+
+    ## **3. How to update a user’s profile**
+
+    1. Administrative and manager users can update the profiles of users they manage. To modify a user profile, find the user in the list view and click on that user’s row.
+
+      ![user_manager_5](images/scag_10_11_17/user_manager_5.png)
+
+    2.	The user’s profile page will show similar fields as those described in ‘How to create a user’, with one difference:
+
+      * _New Password and Confirm New Password_ – These fields are optional and should be set if the user needs to have their password reset.
