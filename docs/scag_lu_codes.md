@@ -161,7 +161,7 @@
 |	![Undevelopable or Protected Land][Undevelopable or Protected Land] Undevelopable or Protected Land	|	8888 Undevelopable or Protected Land	|
 |	![Unknown][Unknown] Unknown	|	9999 Unknown	|
 
-For the latest 2016 SCAG General Plan dataset correspondence table,  click [this link.](https://bitbucket.org/scag-spm/scag-spm-documentation/raw/46aa7bd9a162468016562a68e0d6f9fd870ac67f/docs/files/GP_correspondence_Oct2016.xlsx)
+For the latest 2016 SCAG General Plan dataset correspondence table,  click [this link.](https://bitbucket.org/scag-spm/scag-spm-documentation/src/d276d4b0ee46702d8778c785a0a51e9c2a243f0c/docs/files/GP_correspondence_Oct2016.xlsx)
 
 
 For the latest 2016 SCAG Specific Plan dataset correspondence table,  click [this link.](https://bitbucket.org/scag-spm/scag-spm-documentation/raw/46aa7bd9a162468016562a68e0d6f9fd870ac67f/docs/files/SP_correspondence_Oct2017.xlsx)
