@@ -53,79 +53,76 @@ Figure 1: SPM Data Management Framework User Interface
 
   **Approval/Merge:** A user with manager or director-level permissions can approve edits and merge those edits into master versions of the editable layers.
 
-  ### **_1-1 Project Info_**      ![project_info_title](images/scag_10_11_17/project_info_title.png)
+### **_1-1 Project Info_**      ![project_info_title](images/scag_10_11_17/project_info_title.png)
 
-  The project info section displays charts on Population, Households, and Employment on the current project. It also includes a link to this User Guide.
+The project info section displays charts on Population, Households, and Employment on the current project. It also includes a link to this User Guide.
 
-  ![project_info](images/scag_10_11_17/project_info.png)
+![project_info](images/scag_10_11_17/project_info.png)
 
-  Figure 3: Project Info window
+Figure 3: Project Info window
+**Tip:** Hover the cursor over the charts to see more detailed information on the data.
 
-  **Tip:** Hover the cursor over the charts to see more detailed information on the data.
+### **_1-2 Data Explorer_** ![data_explorer_title](images/scag_10_11_17/data_explorer_title.png)
 
-  ### **_1-2 Data Explorer_** ![data_explorer_title](images/scag_10_11_17/data_explorer_title.png)
+The data explorer query functionality and the map selector tools in the SPM are linked by default. When a user selects features on the map with the map selector tools, the attributes will populate in the query table window. If the user inputs an attribute query with no map selection, the map will show the features selected from the attribute query. The user also has the option to use attribute selections and map selections in combination.
 
-  The data explorer query functionality and the map selector tools in the SPM are linked by default. When a user selects features on the map with the map selector tools, the attributes will populate in the query table window. If the user inputs an attribute query with no map selection, the map will show the features selected from the attribute query. The user also has the option to use attribute selections and map selections in combination.
+![data_explorer](images/scag_10_11_17/data_explorer.png)
+Figure 4: Data Explorer window
 
-  ![data_explorer](images/scag_10_11_17/data_explorer.png)
-  Figure 4: Data Explorer window
+**Querying Attributes:** The user has many options to form their query and to show helpful information in the user interface:
 
-  **Querying Attributes:** The user has many options to form their query and to show helpful information in the user interface:
+![query_window](images/scag_10_11_17/query_window.png)
 
-  ![query_window](images/scag_10_11_17/query_window.png)
+Figure 5: Query options
 
-  Figure 5: Query options
+- _Select Attributes shortcut:_ Allows user to select from a drop down of attributes
+- _Operators shortcut:_ Allows user to select operators from a drop-down list
+- _AND/OR shortcut:_ Allows user a shortcut to the common AND/OR/parenthesis operators
+- _Limit Results to Selected Area:_ If the user has selected features with a map selector tool and input an attribute query, they have the option to limit the query result to the map selection or apply them to the whole dataset.
+- _Clear button:_ Clears the selection
+- _Query button:_ Executes the query
 
-  - _Select Attributes shortcut:_ Allows user to select from a drop down of attributes
-  - _Operators shortcut:_ Allows user to select operators from a drop-down list
-  - _AND/OR shortcut:_ Allows user a shortcut to the common AND/OR/parenthesis operators
-  - _Limit Results to Selected Area:_ If the user has selected features with a map selector tool and input an attribute query, they have the option to limit the query result to the map selection or apply them to the whole dataset.
-  - _Clear button:_ Clears the selection
-  - _Query button:_ Executes the query
+SPM attribute querying functionality utilizes SQL syntax to tell the database what features the user would like to select. The user can select attribute names from a drop-down list by clicking on the arrow button next to the ‘Where’ clause or type them in.  
 
-  SPM attribute querying functionality utilizes SQL syntax to tell the database what features the user would like to select. The user can select attribute names from a drop-down list by clicking on the arrow button next to the ‘Where’ clause or type them in.  
+_The following comparison/equality operators are supported:_
 
-  _The following comparison/equality operators are supported:_
+  * Greater than : >
+  * Less than : <
+  * Greater than or equal to : >=
+  * Less than or equal to : <=
+  * Equals : =
+  * Not equal: !=
 
-      * Greater than : >
-      * Less than : <
-      * Greater than or equal to : >=
-      * Less than or equal to : <=
-      * Equals : =
-      * Not equal: !=
+_For querying strings, the following syntax can be used (must be capitals):_
 
-  _For querying strings, the following syntax can be used (must be capitals):_
+* BEGINS_WITH : String begins with a certain letter or group of letters
+* ENDS_WITH : String ends with a certain letter or group of letters
+* CONTAINS: String contains a certain letter or group of letters
 
-    * BEGINS_WITH : String begins with a certain letter or group of letters
-    * ENDS_WITH : String ends with a certain letter or group of letters
-    * CONTAINS: String contains a certain letter or group of letters
+_Multiple attribute queries are supported using the following syntax (must be capitals):_
 
-  _Multiple attribute queries are supported using the following syntax (must be capitals):_
+* AND : SQL ‘and’ syntax, attributes must meet both query requirements
+* OR : SQL ‘or’ syntax, attributes must meet either query requirements
 
-    * AND : SQL ‘and’ syntax, attributes must meet both query requirements
-    * OR : SQL ‘or’ syntax, attributes must meet either query requirements
+> **Tip:** User can access drop down menu of attributes, operators, and AND/OR/parenthesis syntax for a quicker query.
 
-  > **Tip:** User can access drop down menu of attributes, operators, and AND/OR/parenthesis syntax for a quicker query.
+*Query Examples:*
 
-  *Query Examples:*
+  _Example 1_: Return all rows with land use code 1200 with a dwelling unit count greater than 2:  land_use16 = 1200 AND du>=2
 
-      _Example 1_: Return all rows with land use code 1200 with a dwelling unit count greater than 2:        land_use16 = 1200 AND du>=2
+  _Example 2_: Return all parcels with an apn that begins with 580 or an apn that begins with 104: apn BEGINS_WITH "580" OR apn BEGINS_WITH "104"
 
-      _Example 2_: Return all parcels with an apn that begins with 580 or an apn that begins with 104:
-      apn BEGINS_WITH "580" OR apn BEGINS_WITH "104"
+**Joining Tables:** SPM allows the user to join and query spatial tables of different geography types and geographic scales. The user utilizes these pre-defined join tables by selecting the desired table from the drop-down button in the query window. Having selected a table to join, the user will have access to all fields in that join table. Any query making use of join fields will utilize the pre-defined spatial or attribute relationship.
 
-  **Joining Tables:** SPM allows the user to join and query spatial tables of different geography types and geographic scales. The user utilizes these pre-defined join tables by selecting the desired table from the drop-down button in the query window. Having selected a table to join, the user will have access to all fields in that join table. Any query making use of join fields will utilize the pre-defined spatial or attribute relationship.
+![join_table](images/scag_10_11_17/join_table.png)
 
-  ![join_table](images/scag_10_11_17/join_table.png)
+Figure 6: Join tables
 
-  Figure 6: Join tables
+>**Important:** If the user is querying a field from the join table that has the same name as a field in the source table, the system defaults to the source table field. To query the join table field, the user must write the *name_of_join_table.field_name* or select it from a drop-down list by clicking the arrow next to the ‘Where’ clause in the Query window.
 
-  >**Important:** If the user is querying a field from the join table that has the same name as a field in the source table, the system defaults to the source table field. To query the join table field, the user must write the *name_of_join_table.field_name* or select it from a drop-down list by clicking the arrow next to the ‘Where’ clause in the Query window.
+**Exporting Query Results:** User can export the current query result to a csv file by clicking on the ‘Export as CSV’ button in the upper right corner of the Data Explorer window.
 
-  **Exporting Query Results:** User can export the current query result to a csv file by clicking on the ‘Export as CSV’ button in the upper right corner of the Data Explorer window.
-
-  ### **_1-3 Approve and Merge_**             ![approve_merge_title](images/scag_10_11_17/approve_merge_title.png)
-
+### **_1-3 Approve and Merge_**                     ![approve_merge_title](images/scag_10_11_17/approve_merge_title.png)
   The Approve and Merge interface is accessible to users with manager or director-level permissions. The approval interface allows managers to review and approve/reject edits made by any user. Through easy to use drop-down queries, edited features can be reviewed, approved or rejected, and merged into the master version.
 
   ![approve_merge](images/scag_10_11_17/approve_merge.png)
