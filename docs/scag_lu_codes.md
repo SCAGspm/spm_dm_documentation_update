@@ -164,4 +164,4 @@
 For the latest 2016 SCAG General Plan dataset correspondence table,  click [this link.](https://bitbucket.org/scag-spm/scag-spm-documentation/raw/46aa7bd9a162468016562a68e0d6f9fd870ac67f/docs/files/GP_correspondence_Oct2016.xlsx)
 
 
-For the latest 2017 SCAG Specific Plan dataset correspondence table,  click [this link.](https://bitbucket.org/scag-spm/scag-spm-documentation/raw/46aa7bd9a162468016562a68e0d6f9fd870ac67f/docs/files/SP_correspondence_Oct2017.xlsx)
+For the latest 2016 SCAG Specific Plan dataset correspondence table,  click [this link.](https://bitbucket.org/scag-spm/scag-spm-documentation/raw/46aa7bd9a162468016562a68e0d6f9fd870ac67f/docs/files/SP_correspondence_Oct2017.xlsx)
