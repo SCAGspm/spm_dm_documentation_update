@@ -289,6 +289,48 @@ network as part of the 2020 RTP/SCS development process and SCAG shall not be re
 local jurisdiction’s use of this map. Updates to this information will be forthcoming as information
 becomes available.
 
+![Bike Lanes](images/scag_10_11_17/bike_lanes.png) _Bike Lanes_
+
+The Southern California Regional Bikeway Shapefile (RBS) has been compiled in coordination with
+each of the six County Transportation Commissions (Imperial, Orange, Los Angeles, Riverside, San
+Bernardino, and Ventura). SCAG has developed standard data fields using existing fields from each
+county and others identified by stakeholders and consultants. Definitions of each field can be found in the data dictionary for the project which is currently under development.
+
+The RBS includes both existing and planned facilities and was compiled from shapefiles provided
+by each county transportation commission. Commissions use different strategies for compiling their files so some counties may be more up to date and contain different amounts of data than others. Existing routes are facilities that currently are installed upon city streets or paths. Planned facilities are those contained in city or county level plans that have not yet been constructed. Each route is classified based on definitions for bicycle routes as outlined below. Class 1-4 are defined by the
+California Highway Design Manual. Class 5 is a SCAG defined route type.
+
+Class Definitions:
+
+• Class I Bikeway (Bike Path): Provides a completely separated facility for the exclusive use
+of bicycles and pedestrians with crossflow by vehicles minimized.
+
+• Class II Bikeway (Bike Lane): Provides a striped lane for one-way bike travel on a street or
+highway.
+
+• Class III Bikeway (Bike Route): Provides for shared use with pedestrian or motor vehicle
+traffic.
+
+• Class IV Bikeway (Separated Bikeway): Provides for the exclusive use of bicycles and
+includes a separation (e.g., grade separation, flexible posts, inflexible physical barrier, or onstreet parking) required between the separated bikeway and the through vehicular traffic.
+
+• Class V Bikeway (Bicycle Friendly Boulevard): Bicycle Friendly Boulevard are facilities
+parallel to major corridors and that provide a calmer, safer alternative for bicyclists of all
+ages and skill levels. Bicycle Friendly Streets include traffic calming elements beyond
+traditional signage, such as roundabouts, diverters, curb extensions, etc.
+
+![Truck Routes](images/scag_10_11_17/truck_routes.png) _Truck Routes_
+
+The Southern California Regional Truck Route Shapefile (RTRS) has been compiled using
+the general plans and municipal codes of the jurisdictions in areas of each of the six County
+Transportation Commissions (Imperial, Orange, Los Angeles, Riverside, San Bernardino, and
+Ventura). SCAG has developed standard data fields based on information found in local general
+plan and municipal codes to identify roadways and roadway segments that are designated as truck
+routes by the cities.
+
+The RTRS includes truck routes on existing local facilities. Jurisdictions use different criteria
+(e.g., weight, axles, time of day, etc.) to designate a truck route for their city. For the purposes of the RTRS, weight was used as the factor to determine truck route locations as this was the most commonly used criterion. Existing truck routes are those that are specifically identified as facilities where trucks are generally permitted during all times, or the majority, of a day. It should be recognized that most jurisdictions permit truck to travel on any roadway segment with clear limitations to their movement (e.g., direct delivery to locations not on a designated route). Each route is at the discretion of its jurisdiction. Confirmation and updates to the RTRS will allow SCAG member cities to understand and develop policy regarding intra-city and intercity truck route connections and gaps, and connections to industrial uses within jurisdictional boundaries.
+
 ![Census Tracts](images/scag_10_11_17/census_tracts.png) _Census Tracts_
 
 Census Tracts are small, relatively permanent statistical subdivisions of a county or equivalent entity, and were defined by local participants as part of the 2010 Census Participant Statistical Areas Program. The Census Bureau delineated the census tracts in situations where no local participant existed or where all the potential participants declined to participate. The primary purpose of census tracts is to provide a stable set of geographic units for the presentation of census data and comparison back to previous decennial censuses. Census tracts generally have a population size between 1,200 and 8,000 people, with an optimum size of 4,000 people. The spatial size of census tracts varies widely depending on the density of settlement.
