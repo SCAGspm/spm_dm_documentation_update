@@ -22,75 +22,36 @@ The following layers grouped under Editable Layers present jurisdictional level 
 
 ![2016_existing_land_use_parcels](images/scag_10_11_17/2016_existing_land_use_parcels.png) _2016 SCAG Existing Land Use Parcels_
 
-The base year of the 2020 RTP/SCS is 2016. To develop the base year existing land use data,
-SCAG has used property land use information acquired from DMP and SCAG’s 2016 existing land
-use data. Using a correspondence between DMP land use codes and SCAG’s standardized 2016
-Land Use Codes, DMP land use codes were converted to SCAG Land Use Code system. As noted
-for general plan land use and zoning data, existing land use data are shown at the parcel level and, in some areas, data may be generalized, because SCAG’s parcel level database does not support multiple uses on a single parcel. Due to this limitation, if site specific data is necessary, users should always reference a local agency’s adopted documents or field surveys to determine actual land use designations. For detailed information on the Land Use codes, please refer to Appendix C.
+The base year of the 2020 RTP/SCS is 2016. To develop the base year existing land use data, SCAG has used property land use information acquired from DMP and SCAG’s 2016 existing land use data. Using a correspondence between DMP land use codes and SCAG’s standardized 2016 Land Use Codes, DMP land use codes were converted to SCAG Land Use Code system. As noted for general plan land use and zoning data, existing land use data are shown at the parcel level and, in some areas, data may be generalized, because SCAG’s parcel level database does not support multiple uses on a single parcel. Due to this limitation, if site specific data is necessary, users should always reference a local agency’s adopted documents or field surveys to determine actual land use designations. For detailed information on the Land Use codes, please refer to Appendix C.
 
-![general_plan_parcels](images/scag_10_11_17/general_plan_parcels.png) _2016 SCAG General Plan Parcels_
+![general_plan_parcels](images/scag_10_11_17/general_plan_parcels.png) _2016 SCAG General Plan Land Use & Zoning Parcels_
 
-Beginning in March 2017, SCAG collected local general plan land use and zoning information.
-Through the process of collecting general plan and zoning documents, SCAG staff made every
-effort to ensure the data reflects the most current general plan land use and zoning data. The general plan land use and zoning documents, maps, and/or GIS files collected were coded into GIS format at the parcel level. Parcel boundary data were acquired from county assessor’s offices. General plan land use and zoning data are shown at the parcel level and depict a local agency’s adopted documents. However, the data shown in some areas may be generalized, because the parcel level database representing general plan land use and zoning data does not support multiple uses or designations on a single parcel (either splitting the parcel or representing overlays). Due to this limitation, if site specific data is necessary, users should always reference a local agency’s adopted documents or field surveys to determine actual land use designations. At the jurisdiction level, both general plan land use and zoning maps are prepared with local land use or zoning codes,
-consistent with those used in each local jurisdiction, as well as with the SCAG’s standardized 2016 Land Use Codes. For detailed information on the standardized Land Use codes, please refer to Appendix C.
+Beginning in March 2017, SCAG collected local general plan land use and zoning information. Through the process of collecting general plan and zoning documents, SCAG staff made every effort to ensure the data reflects the most current general plan land use and zoning data. The general plan land use and zoning documents, maps, and/or GIS files collected were coded into GIS format at the parcel level. Parcel boundary data were acquired from county assessor’s offices. General plan land use and zoning data are shown at the parcel level and depict a local agency’s adopted documents. However, the data shown in some areas may be generalized, because the parcel level database representing general plan land use and zoning data does not support multiple uses or designations on a single parcel (either splitting the parcel or representing overlays). Due to this limitation, if site specific data is necessary, users should always reference a local agency’s adopted documents or field surveys to determine actual land use designations. At the jurisdiction level, both general plan land use and zoning maps are prepared with local land use or zoning codes, consistent with those used in each local jurisdiction, as well as with the SCAG’s standardized 2016 Land Use Codes. For detailed information on the standardized Land Use codes, please refer to Appendix C.
 
 ![specific_plan_parcels](images/scag_10_11_17/general_plan_parcels.png) _2016 SCAG Specific Plan Parcels_
 
 Beginning in August 2016, SCAG collected local specific plan land use information. Through the process of collecting specific plan documents, SCAG staff made every effort to ensure the data reflects the most current specific plan land use data. The specific plan land use documents, maps, and/or GIS files collected were coded into GIS format at the parcel level. Parcel boundary data were acquired from county assessor’s offices. Specific plan land use data are shown at the parcel level and depict a local agency’s adopted documents. As noted for general plan land use and zoning data, specific plan land use data are shown at the parcel level and, in some areas, data may be generalized, because SCAG’s parcel level database does not support multiple uses on a single parcel. Due to this limitation, if site specific data is necessary, users should always reference a local agency’s adopted documents or field surveys to determine actual land use designations.
 
-![zoning_parcels](images/scag_10_11_17/general_plan_parcels.png) _2016 SCAG Zoning Parcels_
-
-This is parcel-based SCAG's regional zoning dataset (October 2017 version). Beginning in August 2016, SCAG staff collected local zoning information to ensure the data reflects the most current zoning data. The zoning ordinances, maps and/or GIS shapefiles collected were coded into GIS shapefiles at the parcel level. The data shown in some areas may be generalized, because the parcel level database representing zoning codes does not support multiple uses or designations on a single parcel (either splitting the parcel or representing overlays). Due to this limitation, if site specific data is necessary, users should always reference a local agency's adopted documents to determine actual zoning standards. Please note this dataset may undergo changes as SCAG continues to update its land use datasets in collaboration with local jurisdictions in the SCAG Region.
-
-
 ![entitlement_parcels](images/scag_10_11_17/entitlement_parcels.png) _2016 Entitlement Parcels_
 
-Based on feedback from stakeholders, SCAG convened the Entitlement Working Group comprised
-of professionals in the building industry and development services to help inform the update of
-local data for use in the 2020 RTP/SCS and Regional Housing Needs Assessment (RHNA). The
-objectives of the working group include:
+Based on feedback from stakeholders, SCAG convened the Entitlement Working Group comprised of professionals in the building industry and development services to help inform the update of local data for use in the 2020 RTP/SCS and Regional Housing Needs Assessment (RHNA).
 
-• Assessing and enhancing SCAG’s current entitlement database, specifically with regard to
-the density, intensity, and phasing of future development projects,
+The objectives of the working group include:
 
-• Providing feedback on how best to engage with stakeholders to ensure the accuracy of
-SCAG’s local data, and
+• Assessing and enhancing SCAG’s current entitlement database, specifically with regard to the density, intensity, and phasing of future development projects,
 
-• Starting to build the foundation to develop the “Shared Vision” in growth forecast and land
-use for the 2020 RTP/SCS.
+• Providing feedback on how best to engage with stakeholders to ensure the accuracy of SCAG’s local data, and
 
-SCAG established its regional entitlement database based on inputs provided by this working
-group. Maps were made separately for better presentation of the entitlement projects and available
-for local jurisdiction’s review at http://scagrtpscs.net/Pages/DataMapBooks.aspx. It should be
-noted that the entitlement data will be further reviewed and updated as SCAG continue to receive
-input and comments from subregions and local jurisdictions during the Local Input & Envisioning
-Process for the 2020 RTP/SCS.
+• Starting to build the foundation to develop the “Shared Vision” in growth forecast and land use for the 2020 RTP/SCS.
+
+SCAG established its regional entitlement database based on inputs provided by this working group. Maps were made separately for better presentation of the entitlement projects and available for local jurisdiction’s review at http://scagrtpscs.net/Pages/DataMapBooks.aspx. It should be noted that the entitlement data will be further reviewed and updated as SCAG continue to receive input and comments from subregions and local jurisdictions during the Local Input & Envisioning Process for the 2020 RTP/SCS.
 
 
 ![infill_parcels](images/scag_10_11_17/entitlement_parcels.png) _Parcels with Potential Infill Opportunity_
 
-In 2005, the Institute of Urban and Regional Development (IURD) at University of California,
-Berkeley, conducted the statewide infill study, designed to provide an assessment of infill
-opportunities, a robust estimate of how many housing units might reasonably be built on available
-infill sites, and an evaluation of the critical market and policy gaps that remain to be filled. Amongst the objectives of the IURD’s infill study is to develop a statewide, parcel-based inventory of
-potential infill sites. The study identified infill sites as vacant or potentially redevelopable parcels located in existing urban neighborhoods, based on an analysis of county assessors’ parcel data. A vacant parcel is defined as one that has no inhabitable structure or building, or is currently not in use for extractive purposes. Sites with structures too small to be inhabited, or for which the structure value is too small, are also deemed to be vacant. To be counted as infill-ready, a vacant parcel must also be privately owned and available and feasible for potential urban development. Redevelopable parcels, or henceforth, refill parcels, are privately owned, previously-developed parcels, but for which the improvement-value-to-land value (I/L) ratio is less than 1.0 for commercial and multi-family properties, and less than 0.5 for single-family properties.
+In 2005, the Institute of Urban and Regional Development (IURD) at University of California, Berkeley, conducted the statewide infill study, designed to provide an assessment of infill opportunities, a robust estimate of how many housing units might reasonably be built on available infill sites, and an evaluation of the critical market and policy gaps that remain to be filled. Amongst the objectives of the IURD’s infill study is to develop a statewide, parcel-based inventory of potential infill sites. The study identified infill sites as vacant or potentially redevelopable parcels located in existing urban neighborhoods, based on an analysis of county assessors’ parcel data. A vacant parcel is defined as one that has no inhabitable structure or building, or is currently not in use for extractive purposes. Sites with structures too small to be inhabited, or for which the structure value is too small, are also deemed to be vacant. To be counted as infill-ready, a vacant parcel must also be privately owned and available and feasible for potential urban development. Redevelopable parcels, or henceforth, refill parcels, are privately owned, previously-developed parcels, but for which the improvement-value-to-land value (I/L) ratio is less than 1.0 for commercial and multi-family properties, and less than 0.5 for single-family properties.
 
-To conduct the infill analysis for the SCAG Region, the similar approach was applied to identify
-potential infill sites by using the most recent county assessor’s property information obtained from
-the Digital Map Product (DMP) in October 2016. Additionally, SCAG utilized SCAG’s regional land
-use datasets and publicly available reference information, including but not limited to: California
-Protected Areas Database (CPAD), California Conservation Easement Database (CCED), California
-School Campus Database (CSCD) and important farmlands from Farmland Mapping and Monitoring
-Program (FMMP). Please note the quality of assessors’ parcel data varies by county, with land
-and structure assessments based on older transactions being particularly problematic, especially
-for properties that were last sold prior to 1990, or for properties that were renovated but not
-reassessed. It may seem fairly reasonable to believe that this study overestimates the number of
-potential infill parcels primarily due to inaccurate or outdated assessor’s property information. It
-is quite possible that many of the parcels identified as possibly economically underutilized, and
-therefore ripe for infill development, may be neither physically deteriorated nor economically
-under-valued. Based on the approach used to identify the infill sites, it is not known which, if any,
-of the identified infill sites might be made available by their current owners for sale or development. Therefore, it should be noted that the analysis presented in this study is essentially a starting point for more detailed analyses to be undertaken in collaboration with local governments and will be further reviewed and updated as SCAG continue to receive input and comments from subregions and local jurisdictions during the Local Input & Envisioning Process for the 2020 RTP/SCS.
+To conduct the infill analysis for the SCAG Region, the similar approach was applied to identify potential infill sites by using the most recent county assessor’s property information obtained from the Digital Map Product (DMP) in October 2016. Additionally, SCAG utilized SCAG’s regional land use datasets and publicly available reference information, including but not limited to: California Protected Areas Database (CPAD), California Conservation Easement Database (CCED), California School Campus Database (CSCD) and important farmlands from Farmland Mapping and Monitoring Program (FMMP). Please note the quality of assessors’ parcel data varies by county, with land and structure assessments based on older transactions being particularly problematic, especially for properties that were last sold prior to 1990, or for properties that were renovated but not reassessed. It may seem fairly reasonable to believe that this study overestimates the number of potential infill parcels primarily due to inaccurate or outdated assessor’s property information. It is quite possible that many of the parcels identified as possibly economically underutilized, and therefore ripe for infill development, may be neither physically deteriorated nor economically under-valued. Based on the approach used to identify the infill sites, it is not known which, if any, of the identified infill sites might be made available by their current owners for sale or development. Therefore, it should be noted that the analysis presented in this study is essentially a starting point for more detailed analyses to be undertaken in collaboration with local governments and will be further reviewed and updated as SCAG continue to receive input and comments from subregions and local jurisdictions during the Local Input & Envisioning Process for the 2020 RTP/SCS.
 
 ![tier2taz](images/scag_10_11_17/tier2_taz.png) _Tier2 TAZ_
 
@@ -135,9 +96,8 @@ The classification system of farmland was developed by combing technical soil ra
 
 ![CPAD Holdings](images/scag_10_11_17/cpad_holdings.png) _CPAD Holdings_
 
-California Protected Area Database (CPAD) is a GIS inventory of all publicly owned protected open space lands in the State of California through fee ownership.
-
-The “protected” status in CPAD does not refer to a specific level of conservation for biodiversity values, but a general commitment to maintain the property for open space uses. The lands in CPAD are defined based on the agencies that own the fee title to the property, not the managing parties. Also, CPAD is not the database of all public lands, but that of all “publicly owned” open space. The owning agencies include public and non-profits, but currently the private owners and properties under the use of easements are excluded.
+The database is prepared into three feature classes; Holdings, Units, and Super Units. Holdings are the parcel level open space information, which correspond to assessor or tax parcel boundaries. Units and Super Units are the aggregated features for the cartographic representation. (Units: the aggregation of Holdings into specific parks and reserves / Super Units: the aggregation of federal and state Holdings regardless county boundaries) All classes of data are downloadable through their website at http://www.calands.org. For user constraints, refer to the License Agreement.
+GreenInfo Network has released several versions of the CPAD since March, 2008. The most up-todate version is CPAD v.2017a, which was released in August, 2017. For more information on CPAD update histories and changes, see their website at http://www.calands.org/data.
 
 #### **Table A2: CPAD Holdings by Ownership – Legend**
 
@@ -159,23 +119,11 @@ The “protected” status in CPAD does not refer to a specific level of conserv
 
 ![habitat_conservation_areas](images/scag_10_11_17/habitat_conservation_areas.png) _Habitat Conservation Areas_
 
-The data on natural community and habitat conservation plan are from the Natural Community
-Conservation Planning (NCCP) program of California Department of Fish and Wildlife. With
-partnerships with public and private organizations, NCCP is an effort for the protection and
-perpetuation of biological diversity, while allowing compatible and appropriate economic activity.
-The NCCP program started in 1991 under the State’s Natural Community Conservation Planning
-Act, which has broader orientation and objectives than the previous laws limited to the protection of
-species already declined in number significantly.
+The data on natural community and habitat conservation plan are from the Natural Community Conservation Planning (NCCP) program of California Department of Fish and Wildlife. With partnerships with public and private organizations, NCCP is an effort for the protection and perpetuation of biological diversity, while allowing compatible and appropriate economic activity. The NCCP program started in 1991 under the State’s Natural Community Conservation Planning Act, which has broader orientation and objectives than the previous laws limited to the protection of species already declined in number significantly.
 
-The primary objective is to conserve natural communities at the ecosystem level, while
-accommodating compatible land use. By considering the long-term stability of wildlife and plant
-communities, and including key interests in the planning process, it aims at anticipating and
-preventing the controversies in the surrounding areas of the species.
+The primary objective is to conserve natural communities at the ecosystem level, while accommodating compatible land use. By considering the long-term stability of wildlife and plant communities, and including key interests in the planning process, it aims at anticipating and preventing the controversies in the surrounding areas of the species.
 
-A local agency is in charge of monitoring the development of a conservation plan in cooperation
-with landowners, environmental organizations and other interest parties. The Department of Fish
-and Wildlife provides necessary support, direction, and guidance to NCCP participants.3 For more
-information on the NCCP phases and guidance, refer to their website at https://www.wildlife.ca.gov/Conservation/Planning/NCCP.
+A local agency is in charge of monitoring the development of a conservation plan in cooperation with landowners, environmental organizations and other interest parties. The Department of Fish and Wildlife provides necessary support, direction, and guidance to NCCP participants.3 For more information on the NCCP phases and guidance, refer to their website at https://www.wildlife.ca.gov/Conservation/Planning/NCCP.
 
 ![endangered_species](images/scag_10_11_17/endangered_species.png) _Endangered Species_
 
@@ -212,124 +160,67 @@ The precision or accuracy level (ACC_CLASS) represents spatial uncertainty on a 
 | 1 mile | 9: Circular feature with a 1,600 meter radius (1 mile) |
 | 5 mile | 10: Circular feature with a 8,000 meter radius (5 miles) |
 
-The element occurrence count (EOCOUNT) represents how many occurrences share the same
-spatial feature. An EOCOUNT greater than one indicates the presence of a “multiple.”
-For more information on the CNDDB, please refer to their website (https://www.wildlife.ca.gov/Data/CNDDB). The CNDDB is offered on a yearly subscription basis, and is prohibited from being distributed to anyone outside the subscribing organizations. The data can be ordered online at https://www.wildlife.ca.gov/Data/CNDDB/Maps-and-Data. Also, the web-based CNDDB
-QuickView Tool which provides users with a list of all tracked elements that have been documented by the CNDDB to occur in a selected USGS 7.5’ topographic quad or in a selected county is available at https://www.wildlife.ca.gov/Data/CNDDB/Maps-and-Data#43018410-cnddb-quickview-tool.
+The element occurrence count (EOCOUNT) represents how many occurrences share the same spatial feature. An EOCOUNT greater than one indicates the presence of a “multiple.”
+For more information on the CNDDB, please refer to their website (https://www.wildlife.ca.gov/Data/CNDDB). The CNDDB is offered on a yearly subscription basis, and is prohibited from being distributed to anyone outside the subscribing organizations. The data can be ordered online at https://www.wildlife.ca.gov/Data/CNDDB/Maps-and-Data. Also, the web-based CNDDB QuickView Tool which provides users with a list of all tracked elements that have been documented by the CNDDB to occur in a selected USGS 7.5’ topographic quad or in a selected county is available at https://www.wildlife.ca.gov/Data/CNDDB/Maps-and-Data#43018410-cnddb-quickview-tool.
 
 ![flood_zones](images/scag_10_11_17/flood_zones.png) _Flood Zones_
 
-The flood area maps are based on the Digital Flood Insurance Rate Map (DFIRM), obtained from
-Federal Emergency Management Agency (FEMA) in August 2017. The DFIRM Database is a
-digital version of the FEMA Flood Insurance Rate Maps (FIRM)2 that is designed for use with
-digital mapping and analysis software. The FIRM is created by FEMA for the purpose of floodplain
-management, mitigation, and insurance activities for the National Flood Insurance Program (NFIP).
+The flood area maps are based on the Digital Flood Insurance Rate Map (DFIRM), obtained from Federal Emergency Management Agency (FEMA) in August 2017. The DFIRM Database is a
+digital version of the FEMA Flood Insurance Rate Maps (FIRM)2 that is designed for use with digital mapping and analysis software. The FIRM is created by FEMA for the purpose of floodplain management, mitigation, and insurance activities for the National Flood Insurance Program (NFIP).
 
-FEMA prepares the flood maps to show the extent of flood hazard in a flood prone community by
-conducting engineering studies called “Flood Insurance Studies (FISs). From the study, FEMA
-delineate Special Flood Hazard Areas (SFHAs), which are subject to inundation by a flood that
-has a 1 percent or greater chance of being equaled or exceeded during any given year. This type of
-flood is commonly referred to as ‘the 100-year flood’ or base flood. The 100-year flood has a 26
-percent chance of occurring during a 30 year period, the length of many mortgages. The 100-year
-flood is a regulatory standard used by Federal and most State agencies to administer floodplain
-management programs.
+FEMA prepares the flood maps to show the extent of flood hazard in a flood prone community by conducting engineering studies called “Flood Insurance Studies (FISs). From the study, FEMA delineate Special Flood Hazard Areas (SFHAs), which are subject to inundation by a flood that has a 1 percent or greater chance of being equaled or exceeded during any given year. This type of flood is commonly referred to as ‘the 100-year flood’ or base flood. The 100-year flood has a 26 percent chance of occurring during a 30 year period, the length of many mortgages. The 100-year flood is a regulatory standard used by Federal and most State agencies to administer floodplain management programs.
 
-The FIRM includes data on the 100-year (1% annual chance of occurring) and 500-year (0.2%
-annual chance of occurring) floodplains. The flood maps developed by FEMA are primary tools for
-state and local governments to mitigate the effects of flooding in their communities. The data are
-available to the public at FEMA’s Map Service Center (https://msc.fema.gov/portal/). You may also
-request the related documents or other maps, such as FIS result report, or a Flood Boundary and
-Floodway Map (FBFM). For more information on the FIRM, refer to their website at https://www.fema.gov/flood-insurance-rate-map-firm.
+The FIRM includes data on the 100-year (1% annual chance of occurring) and 500-year (0.2% annual chance of occurring) floodplains. The flood maps developed by FEMA are primary tools for state and local governments to mitigate the effects of flooding in their communities. The data are available to the public at FEMA’s Map Service Center (https://msc.fema.gov/portal/). You may also request the related documents or other maps, such as FIS result report, or a Flood Boundary and Floodway Map (FBFM). For more information on the FIRM, refer to their website at https://www.fema.gov/flood-insurance-rate-map-firm.
 
 ![Major Transit Stops](images/scag_10_11_17/major_transit_stops.png) _Major Transit Stops_
 
 A site containing an existing rail transit station, a ferry terminal served by either a bus or rail transit service, or the intersection of two or more major bus routes with a frequency of service interval of 15 minutes or less during the morning and afternoon peak commute periods (CA Public Resource Code Section 21064.3). It also includes major transit stops that are included in the applicable regional transportation plan.
 
-Please note that this map may undergo changes as SCAG continues to update its transportation
-network as part of the 2020 RTP/SCS development process and SCAG shall not be responsible for
-local jurisdiction’s use of this map. Updates to this information will be forthcoming as information
-becomes available.
+Please note that this map may undergo changes as SCAG continues to update its transportation network as part of the 2020 RTP/SCS development process and SCAG shall not be responsible for local jurisdiction’s use of this map. Updates to this information will be forthcoming as information becomes available.
 
 ![High Quality Transit Corridors](images/scag_10_11_17/high_quality_transit_corridors.png) _High Quality Transit Corridors_
 
 A corridor with fixed route Transitbus service with service intervals no longer than 15 minutes during peak commute hours.
 
-Please note that this map may undergo changes as SCAG continues to update its transportation
-network as part of the 2020 RTP/SCS development process and SCAG shall not be responsible for
-local jurisdiction’s use of this map. Updates to this information will be forthcoming as information
-becomes available.
+Please note that this map may undergo changes as SCAG continues to update its transportation network as part of the 2020 RTP/SCS development process and SCAG shall not be responsible for local jurisdiction’s use of this map. Updates to this information will be forthcoming as information becomes available.
 
 ![High Quality Transit Areas](images/scag_10_11_17/high_quality_transit_areas.png) _High Quality Transit Areas_
 
 SCAG’s High Quality Transit Area (HQTA) is within one-half mile from major transit stops and high quality transit corridors and developed based on the language in SB375. This is the HQTA in the SCAG Region for planned year 2040, extracted from are extracted from the 2016-2040 RTP/SCS Amendment #2 2040 planned year transit network data. The definition that SCAG has been using for the HQTA is based on the language in SB375.
 
-Please note that this map may undergo changes as SCAG continues to update its transportation
-network as part of the 2020 RTP/SCS development process and SCAG shall not be responsible for
-local jurisdiction’s use of this map. Updates to this information will be forthcoming as information
-becomes available.
+Please note that this map may undergo changes as SCAG continues to update its transportation network as part of the 2020 RTP/SCS development process and SCAG shall not be responsible for local jurisdiction’s use of this map. Updates to this information will be forthcoming as information becomes available.
 
 ![Transit Priority Areas](images/scag_10_11_17/transit_priority_areas.png) _Transit Priority Areas_
 
-As defined in SB 743, “Transit Priority Area” means an area within one-half mile of a major transit
-stop that is existing or planned, if the planned stop is scheduled to be completed within the planning
-horizon included in a Transportation Improvement Program adopted pursuant to Section 450.216
-or 450.322 of Title 23 of the Code of Federal Regulations.
+As defined in SB 743, “Transit Priority Area” means an area within one-half mile of a major transit stop that is existing or planned, if the planned stop is scheduled to be completed within the planning horizon included in a Transportation Improvement Program adopted pursuant to Section 450.216 or 450.322 of Title 23 of the Code of Federal Regulations.
 
-To assist in identifying the transit priority areas, SCAG identifies the major transit stops and their
-surrounding areas in one-half mile radius distance. Major transit stops are extracted from 2040
-plan year data of the 2016-2040 RTP/SCS Amendment #2 and modified by inputs from transit
-operators and local jurisdictions.This inventory is based on available information at the time
-regarding existing and planned transit service. However, transit agencies make adjustments to
-bus service on a regular basis. Local jurisdictions are encouraged to consult with their appropriate
-transit provider(s) to obtain the latest information on existing transit routes and frequencies.
-The definition of major transit stops is as follows:
+To assist in identifying the transit priority areas, SCAG identifies the major transit stops and their surrounding areas in one-half mile radius distance. Major transit stops are extracted from 2040 plan year data of the 2016-2040 RTP/SCS Amendment #2 and modified by inputs from transit operators and local jurisdictions.This inventory is based on available information at the time regarding existing and planned transit service. However, transit agencies make adjustments to bus service on a regular basis. Local jurisdictions are encouraged to consult with their appropriate transit provider(s) to obtain the latest information on existing transit routes and frequencies.
 
-Please note that this map may undergo changes as SCAG continues to update its transportation
-network as part of the 2020 RTP/SCS development process and SCAG shall not be responsible for
-local jurisdiction’s use of this map. Updates to this information will be forthcoming as information
-becomes available.
+Please note that this map may undergo changes as SCAG continues to update its transportation network as part of the 2020 RTP/SCS development process and SCAG shall not be responsible for local jurisdiction’s use of this map. Updates to this information will be forthcoming as information becomes available.
 
 ![Bike Lanes](images/scag_10_11_17/bike_lanes.png) _Bike Lanes_
 
-The Southern California Regional Bikeway Shapefile (RBS) has been compiled in coordination with
-each of the six County Transportation Commissions (Imperial, Orange, Los Angeles, Riverside, San
-Bernardino, and Ventura). SCAG has developed standard data fields using existing fields from each
-county and others identified by stakeholders and consultants. Definitions of each field can be found in the data dictionary for the project which is currently under development.
+The Southern California Regional Bikeway Shapefile (RBS) has been compiled in coordination with each of the six County Transportation Commissions (Imperial, Orange, Los Angeles, Riverside, San Bernardino, and Ventura). SCAG has developed standard data fields using existing fields from each county and others identified by stakeholders and consultants. Definitions of each field can be found in the data dictionary for the project which is currently under development.
 
-The RBS includes both existing and planned facilities and was compiled from shapefiles provided
-by each county transportation commission. Commissions use different strategies for compiling their files so some counties may be more up to date and contain different amounts of data than others. Existing routes are facilities that currently are installed upon city streets or paths. Planned facilities are those contained in city or county level plans that have not yet been constructed. Each route is classified based on definitions for bicycle routes as outlined below. Class 1-4 are defined by the
-California Highway Design Manual. Class 5 is a SCAG defined route type.
+The RBS includes both existing and planned facilities and was compiled from shapefiles provided by each county transportation commission. Commissions use different strategies for compiling their files so some counties may be more up to date and contain different amounts of data than others. Existing routes are facilities that currently are installed upon city streets or paths. Planned facilities are those contained in city or county level plans that have not yet been constructed. Each route is classified based on definitions for bicycle routes as outlined below. Class 1-4 are defined by the California Highway Design Manual. Class 5 is a SCAG defined route type.
 
 Class Definitions:
 
-• Class I Bikeway (Bike Path): Provides a completely separated facility for the exclusive use
-of bicycles and pedestrians with crossflow by vehicles minimized.
+• Class I Bikeway (Bike Path): Provides a completely separated facility for the exclusive use of bicycles and pedestrians with crossflow by vehicles minimized.
 
-• Class II Bikeway (Bike Lane): Provides a striped lane for one-way bike travel on a street or
-highway.
+• Class II Bikeway (Bike Lane): Provides a striped lane for one-way bike travel on a street or highway.
 
-• Class III Bikeway (Bike Route): Provides for shared use with pedestrian or motor vehicle
-traffic.
+• Class III Bikeway (Bike Route): Provides for shared use with pedestrian or motor vehicle traffic.
 
-• Class IV Bikeway (Separated Bikeway): Provides for the exclusive use of bicycles and
-includes a separation (e.g., grade separation, flexible posts, inflexible physical barrier, or onstreet parking) required between the separated bikeway and the through vehicular traffic.
+• Class IV Bikeway (Separated Bikeway): Provides for the exclusive use of bicycles and includes a separation (e.g., grade separation, flexible posts, inflexible physical barrier, or onstreet parking) required between the separated bikeway and the through vehicular traffic.
 
-• Class V Bikeway (Bicycle Friendly Boulevard): Bicycle Friendly Boulevard are facilities
-parallel to major corridors and that provide a calmer, safer alternative for bicyclists of all
-ages and skill levels. Bicycle Friendly Streets include traffic calming elements beyond
-traditional signage, such as roundabouts, diverters, curb extensions, etc.
+• Class V Bikeway (Bicycle Friendly Boulevard): Bicycle Friendly Boulevard are facilities parallel to major corridors and that provide a calmer, safer alternative for bicyclists of all ages and skill levels. Bicycle Friendly Streets include traffic calming elements beyond traditional signage, such as roundabouts, diverters, curb extensions, etc.
 
 ![Truck Routes](images/scag_10_11_17/truck_routes.png) _Truck Routes_
 
-The Southern California Regional Truck Route Shapefile (RTRS) has been compiled using
-the general plans and municipal codes of the jurisdictions in areas of each of the six County
-Transportation Commissions (Imperial, Orange, Los Angeles, Riverside, San Bernardino, and
-Ventura). SCAG has developed standard data fields based on information found in local general
-plan and municipal codes to identify roadways and roadway segments that are designated as truck
-routes by the cities.
+The Southern California Regional Truck Route Shapefile (RTRS) has been compiled using the general plans and municipal codes of the jurisdictions in areas of each of the six County Transportation Commissions (Imperial, Orange, Los Angeles, Riverside, San Bernardino, and Ventura). SCAG has developed standard data fields based on information found in local general plan and municipal codes to identify roadways and roadway segments that are designated as truck routes by the cities.
 
-The RTRS includes truck routes on existing local facilities. Jurisdictions use different criteria
-(e.g., weight, axles, time of day, etc.) to designate a truck route for their city. For the purposes of the RTRS, weight was used as the factor to determine truck route locations as this was the most commonly used criterion. Existing truck routes are those that are specifically identified as facilities where trucks are generally permitted during all times, or the majority, of a day. It should be recognized that most jurisdictions permit truck to travel on any roadway segment with clear limitations to their movement (e.g., direct delivery to locations not on a designated route). Each route is at the discretion of its jurisdiction. Confirmation and updates to the RTRS will allow SCAG member cities to understand and develop policy regarding intra-city and intercity truck route connections and gaps, and connections to industrial uses within jurisdictional boundaries.
+The RTRS includes truck routes on existing local facilities. Jurisdictions use different criteria (e.g., weight, axles, time of day, etc.) to designate a truck route for their city. For the purposes of the RTRS, weight was used as the factor to determine truck route locations as this was the most commonly used criterion. Existing truck routes are those that are specifically identified as facilities where trucks are generally permitted during all times, or the majority, of a day. It should be recognized that most jurisdictions permit truck to travel on any roadway segment with clear limitations to their movement (e.g., direct delivery to locations not on a designated route). Each route is at the discretion of its jurisdiction. Confirmation and updates to the RTRS will allow SCAG member cities to understand and develop policy regarding intra-city and intercity truck route connections and gaps, and connections to industrial uses within jurisdictional boundaries.
 
 ![Census Tracts](images/scag_10_11_17/census_tracts.png) _Census Tracts_
 
@@ -339,22 +230,8 @@ Census Tracts are small, relatively permanent statistical subdivisions of a coun
 
 This dataset contains the official subregional boundaries for the SCAG region. The data has been updated as of August 2013 to incorporate changes in Western Riverside Council of Governments (WRCOG) and Coachella Valley Association of Governments (CVAG) in the County of Riverside.
 
-![Sea Level Rise](images/scag_10_11_17/sea_level_rise.png) _Sea Level Rise 1ft/2ft_
+![Sea Level Rise](images/scag_10_11_17/sea_level_rise.png) _Sea Level Rise 2ft_
 
-The Coastal Inundation data were obtained from the National Oceanic and Atmospheric
-Administration (NOAA) Coastal Services Center’s online mapping viewer depicting potential sea
-level rise and its associated impacts on the nation’s coastal areas. These data depict the potential
-inundation of coastal areas resulting from a projected 2 feet rise in sea level above current Mean
-Higher High Water (MHHW) conditions.
+The Coastal Inundation data were obtained from the National Oceanic and Atmospheric Administration (NOAA) Coastal Services Center’s online mapping viewer depicting potential sea level rise and its associated impacts on the nation’s coastal areas. These data depict the potential inundation of coastal areas resulting from a projected 2 feet rise in sea level above current Mean Higher High Water (MHHW) conditions.
 
-The process used to produce the data can be described as a modified bathtub approach that
-attempts to account for both local/regional tidal variability as well as hydrological connectivity.
-The process uses two source datasets to derive the final inundation rasters and polygons and
-accompanying low-lying polygons for each iteration of sea level rise: the Digital Elevation Model
-(DEM) of the area and a tidal surface model that represents spatial tidal variability. The tidal model
-is created using the NOAA National Geodetic Survey’s VDATUM datum transformation software
-(http://vdatum.noaa.gov) in conjunction with spatial interpolation/extrapolation methods and
-represents the MHHW tidal datum in orthometric values (North American Vertical Datum of 1988).
-The model used to produce these data does not account for erosion, subsidence, or any future
-changes in an area’s hydrodynamics. It is simply a method to derive data in order to visualize the
-potential scale, not exact location, of inundation from sea level rise.
+The process used to produce the data can be described as a modified bathtub approach that attempts to account for both local/regional tidal variability as well as hydrological connectivity. The process uses two source datasets to derive the final inundation rasters and polygons and accompanying low-lying polygons for each iteration of sea level rise: the Digital Elevation Model (DEM) of the area and a tidal surface model that represents spatial tidal variability. The tidal model is created using the NOAA National Geodetic Survey’s VDATUM datum transformation software (http://vdatum.noaa.gov) in conjunction with spatial interpolation/extrapolation methods and represents the MHHW tidal datum in orthometric values (North American Vertical Datum of 1988). The model used to produce these data does not account for erosion, subsidence, or any future  changes in an area’s hydrodynamics. It is simply a method to derive data in order to visualize the potential scale, not exact location, of inundation from sea level rise.
