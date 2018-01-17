@@ -102,7 +102,7 @@ Office buildings are usually located on or adjacent to major streets, depending 
 
 If an area contains commercial strip use on the first floor and offices on the upper floors (3 - 10 stories), then the area is considered Low- to Medium-Rise Major Office Use. A commercial strip of two-story structures containing offices on the upper floors is considered retail strip development (1223).
 
-###### _1212	High-Rise Major Office Use _
+###### _1212	High-Rise Major Office Use_
 This category includes office buildings that are eleven to forty stories in height.
 
 The characteristics of the smaller high-rise office buildings are similar to medium-rise office buildings as described above. The taller office buildings are typically rectangular, with no particular regard for window accessibility. Older office buildings may be located side by side with retail commercial on the first floor. Modern suburban office buildings may have their own parking areas or landscaped surroundings. Many taller office buildings will have underground parking, or parking on the first few levels.
