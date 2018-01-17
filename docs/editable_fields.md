@@ -1,8 +1,8 @@
 ## **Appendix B - Fields Descriptions**
 
 #### **Table B1: Editable Layers List with Fields Descriptions**
- ***(_Editable Fields are highlighted in Bold Font_ |
- _Data types ~ N: Numeric, S: String_)***
+ *(_Editable Fields are highlighted in Bold Font_ |
+ _Data types ~ N: Numeric, S: String_)*
 
 |	Layer	|	Field Name	|	Description	| Type |
 |	--------------------	|	--------------------	|	--------------------	| --------------------	|
@@ -159,8 +159,8 @@
 |		|	approval_status	|	Approval Status (pending/approved/rejected)	|	S	|
 
 #### **Table B2: Reference Layers List with Fields Descriptions**
-***(_Editable Fields are highlighted in Bold Font_ |
-_Data types ~ N: Numeric, S: String_)***
+*(_Editable Fields are highlighted in Bold Font_ |
+_Data types ~ N: Numeric, S: String_)*
 
 |	Layer	|	Field Name	|	Description	| Type	|
 |	--------------------	|	--------------------	|	--------------------	| --------------------	|
