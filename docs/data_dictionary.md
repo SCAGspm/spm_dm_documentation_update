@@ -56,7 +56,7 @@ To conduct the infill analysis for the SCAG Region, the similar approach was app
 ![tier2taz](images/scag_10_11_17/tier2_taz.png) _Tier2 TAZ_
 
 SCAG developed the Transportation Analysis Zones (TAZ) for the SCAG Region. This is used to
-facilitate Travel Demand and Land Use Modeling needs at SCAG.
+facilitate Travel Demand and Land Use Modeling needs at SCAG. For jurisdictions in San Bernardino County, Tier 3 TAZ boundaries are available instead of Tier 2 TAZ.
 
 ![city_boundary](images/scag_10_11_17/city_boundary.png) _City Boundary_
 
