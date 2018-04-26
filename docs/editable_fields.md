@@ -112,7 +112,7 @@
 |		|	comment	|	System Comment	|	S	|
 |		|	approval_status	|	Approval Status (pending/approved/rejected)	|	S	|
 |	City/Tier2 TAZ	|	id	|	System Generated ID	|	N	|
-|		|	**tier2**	|	**TAZ's Unique ID**	|	**S**	|
+|	City/Tier 3 TAZ for San Bernardino jurisdictions	|	**tier2**	|	**TAZ's Unique ID**	|	**S**	|
 |		|	city	|	City Name	|	S	|
 |		|	county	|	County Name	|	S	|
 |		|	**pop16**	|	**2016 Population**	|	**N**	|
