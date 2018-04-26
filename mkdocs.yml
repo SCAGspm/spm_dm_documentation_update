@@ -4,9 +4,8 @@ theme: readthedocs
 
 pages:
 - User Guide: 'index.md'
-- User Manager: 'user_manager.md'
 - User Support: 'user_support.md'
-- Arc Integration: 'arc_plugin.md'
 - Appendix A - Data Dictionary: 'data_dictionary.md'
-- Appendix B - Editable Fields by Data Layer: 'editable_fields.md'
+- Appendix B - Field Descriptions by Data Layer: 'editable_fields.md'
 - Appendix C - SCAG Land Use Codes: 'scag_lu_codes.md'
+- Appendix D - SCAG Land Use Codes Descriptions: 'scag_lu_codes_description.md'

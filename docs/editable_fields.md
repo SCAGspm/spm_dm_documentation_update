@@ -1,9 +1,34 @@
 ## **Appendix B - Fields Descriptions**
 
-#### **Table B1: Fields Descriptions with Editable Fields in Bold**
+#### **Table B1: Editable Layers List with Fields Descriptions**
+ *(_Editable Fields are highlighted in Bold Font_ |
+ _Data types ~ N: Numeric, S: String_)*
 
-|	Layer	|	Field Name	|	Description	| Type	|
+|	Layer	|	Field Name	|	Description	| Type |
 |	--------------------	|	--------------------	|	--------------------	| --------------------	|
+|	2016 SCAG Entitlement Parcels	|	id	|	System Generated ID	|	N	|
+|		|	scaguid16	|	2016 SCAG Unique Parcel ID	|	S	|
+|		|	apn	|	Assessor’s Parcel Number	|	S	|
+|		|	**tract_no**	|	**Census Tract Number**	|	**S**	|
+|		|	**dev_agmt**	|	**Development Agreement Number**	|	**S**	|
+|		|	**address**	|	**Project Address**	|	**S**	|
+|		|	**date_appro**	|	**Date of Approval**	|	**S**	|
+|		|	**date_start**	|	**Start Date**	|	**S**	|
+|		|	**multi_par**	|	**Multiple Parcels**	|	**N**	|
+|		|	**proj_type**	|	**Project Type**	|	**S**	|
+|		|	**pop**	|	**Number of Population**	|	**N**	|
+|		|	**du_sf**	|	**Number of Single Family Units**	|	**N**	|
+|		|	**du_mf**	|	**Number of Multi-Family Units**	|	**N**	|
+|		|	**emp**	|	**Number of Employment**	|	**N**	|
+|		|	**emp_type**	|	**Type of Employment**	|	**S**	|
+|		|	**emp_sqft**	|	**Square Footage of Employment**	|	**N**	|
+|		|	**proj_phase**	|	**Phasing of Project**	|	**S**	|
+|		|	**time_limit**	|	**Time Limitation on Development Agreement**	|	**S**	|
+|		|	**notes**	|	**User Notes**	|	**S**	|
+|		|	updater_id	|	Username of the User Last Updated	|	S	|
+|		|	updated	|	Last Updated Time and Date	|	S	|
+|		|	comment	|	System Comment	|	S	|
+|		|	approval_status	|	Approval Status (pending/approved/rejected)	|	S	|
 |	2016 SCAG Existing Land Use Parcels	|	id	|	System Generated ID	|	N	|
 |		|	scaguid16	|	2016 SCAG Unique Parcel ID	|	S	|
 |		|	apn	|	Assessor’s Parcel Number	|	S	|
@@ -25,7 +50,7 @@
 |		|	**scag_gp_code16**	|	**2016 SCAG Land Use Code**	|	**N**	|
 |		|	**scag_gp_secondary**	|	**2016 SCAG Land Use Code for secondary use**	|	**N**	|
 |		|	scag_gp_code12	|	2012 SCAG General Plan Land Use Code	|	N	|
-|		|	city_gp_code16	|	2016 City General Plan Land Use Code	|	S	|
+|		|	**city_gp_code16**	|	**2016 City General Plan Land Use Code**	|	**S**	|
 |		|	city_gp_code12	|	2012 City General Plan Land Use Code	|	S	|
 |		|	**density**	|	**General Plan Densities: Density**	|	**N**	|
 |		|	**low**	|	**General Plan Densities: Lower End**	|	**N**	|
@@ -36,6 +61,17 @@
 |		|	county	|	County Name	|	S	|
 |		|	**notes**	|	**User Notes**	|	**S**	|
 |		|	land_use_definition_id	|	2016 SCAG Land Use Definition	|	S	|
+|		|	updater_id	|	Username of the User Last Updated	|	S	|
+|		|	updated	|	Last Updated Time and Date	|	S	|
+|		|	comment	|	System Comment	|	S	|
+|		|	approval_status	|	Approval Status (pending/approved/rejected)	|	S	|
+|	2016 SCAG Infill Parcels	|	id	|	System Generated ID	|	N	|
+|		|	scaguid16	|	2016 SCAG Unique Parcel ID	|	S	|
+|		|	apn	|	Assessor’s Parcel Number	|	S	|
+|		|	**inf_index**	|	**Infill Options: Vacant/Refill**	|	**S**	|
+|		|	city	|	City Name	|	S	|
+|		|	county	|	County Name	|	S	|
+|		|	**notes**	|	**User Notes**	|	**S**	|
 |		|	updater_id	|	Username of the User Last Updated	|	S	|
 |		|	updated	|	Last Updated Time and Date	|	S	|
 |		|	comment	|	System Comment	|	S	|
@@ -63,7 +99,7 @@
 |	2016 SCAG Zoning Parcels	|	id	|	System Generated ID	|	N	|
 |		|	scaguid16	|	2016 SCAG Unique Parcel ID	|	S	|
 |		|	apn	|	Assessor’s Parcel Number	|	S	|
-|		|	scag_zn_code16	|	2016 SCAG Zoning Code	|	N	|
+|		|	**scag_zn_code16**	|	**2016 SCAG Zoning Code**	|	**N**	|
 |		|	**city_zn_code16**	|	**2016 City Zoning Code**	|	**S**	|
 |		|	city_zn_code12	|	2012 City Zoning Code	|	S	|
 |		|	acres	|	Parcel Acreage	|	N	|
@@ -75,31 +111,8 @@
 |		|	updated	|	Last Updated Time and Date	|	S	|
 |		|	comment	|	System Comment	|	S	|
 |		|	approval_status	|	Approval Status (pending/approved/rejected)	|	S	|
-|	2016 SCAG Entitlement Parcels	|	id	|	System Generated ID	|	N	|
-|		|	scaguid16	|	2016 SCAG Unique Parcel ID	|	S	|
-|		|	apn	|	Assessor’s Parcel Number	|	S	|
-|		|	**tract_no**	|	**Census Tract Number**	|	**S**	|
-|		|	**dev_agmt**	|	**Development Agreement Number**	|	**S**	|
-|		|	**address**	|	**Project Address**	|	**S**	|
-|		|	**date_appro**	|	**Date of Approval**	|	**S**	|
-|		|	**date_start**	|	**Start Date**	|	**S**	|
-|		|	**multi_par**	|	**Multiple Parcels**	|	**N**	|
-|		|	**proj_type**	|	**Project Type**	|	**S**	|
-|		|	**pop**	|	**Number of Population**	|	**N**	|
-|		|	**du_sf**	|	**Number of Single Family Units**	|	**N**	|
-|		|	**du_mf**	|	**Number of Multi-Family Units**	|	**N**	|
-|		|	**emp**	|	**Number of Employment**	|	**N**	|
-|		|	**emp_type**	|	**Type of Employment**	|	**S**	|
-|		|	**emp_sqft**	|	**Square Footage of Employment**	|	**N**	|
-|		|	proj_phase	|	Phasing of Project	|	S	|
-|		|	time_limit	|	Time Limitation on Development Agreement	|	S	|
-|		|	**notes**	|	**User Notes**	|	**S**	|
-|		|	updater_id	|	Username of the User Last Updated	|	S	|
-|		|	updated	|	Last Updated Time and Date	|	S	|
-|		|	comment	|	System Comment	|	S	|
-|		|	approval_status	|	Approval Status (pending/approved/rejected)	|	S	|
 |	City/Tier2 TAZ	|	id	|	System Generated ID	|	N	|
-|		|	tier2	|	TAZ's Unique ID	|	S	|
+|	City/Tier 3 TAZ for San Bernardino jurisdictions	|	**tier2**	|	**TAZ's Unique ID**	|	**S**	|
 |		|	city	|	City Name	|	S	|
 |		|	county	|	County Name	|	S	|
 |		|	**pop16**	|	**2016 Population**	|	**N**	|
@@ -144,8 +157,32 @@
 |		|	updated	|	Last Updated Time and Date	|	S	|
 |		|	comment	|	System Comment	|	S	|
 |		|	approval_status	|	Approval Status (pending/approved/rejected)	|	S	|
-|	Reference Layer			|
-|	2040 High Quality Transit Area/ High Quality Transit Corridors/ Major Transit Stops/ Transit Priority Area	|	id	|	System Generated ID	|	N	|
+
+#### **Table B2: Reference Layers List with Fields Descriptions**
+*(_Editable Fields are highlighted in Bold Font_ |
+_Data types ~ N: Numeric, S: String_)*
+
+|	Layer	|	Field Name	|	Description	| Type	|
+|	--------------------	|	--------------------	|	--------------------	| --------------------	|
+|	2040 High Quality Transit Area/ High Quality Transit Corridors/ Major Transit Stops	|	id	|	System Generated ID	|	N	|
+|		|	**notes**	|	**User Notes**	|	**S**	|
+|		|	updater_id	|	Username of the User Last Updated	|	S	|
+|		|	updated	|	Last Updated Time and Date	|	S	|
+|		|	comment	|	System Comment	|	S	|
+|		|	approval_status	|	Approval Status (pending/approved/rejected)	|	S	|
+|	Transit Priority Area	|	id	|	System Generated ID	|	N	|
+|		|	name	|	0.5 Mile Buffer of Major Transit Stop	|	S	|
+|		|	county	|	County Name	|	S	|
+|		|	**notes**	|	**User Notes**	|	**S**	|
+|		|	updater_id	|	Username of the User Last Updated	|	S	|
+|		|	updated	|	Last Updated Time and Date	|	S	|
+|		|	comment	|	System Comment	|	S	|
+|		|	approval_status	|	Approval Status (pending/approved/rejected)	|	S	|
+|	Bike Lanes	|	id	|	System Generated ID	|	N	|
+|		|	name	|	Name of the Bike Lanes	|	S	|
+|		|	status	|	Current Status of the Bike Lanes : Existing; Proposed/Planned, |	S	|
+|		|	bike_class	|	Type of Bike Lanes: 1,2,3,4	|	N	|
+|		|	length	|	Length of Bike lanes (miles)	|	N	|
 |		|	city	|	City Name	|	S	|
 |		|	county	|	County Name	|	S	|
 |		|	**notes**	|	**User Notes**	|	**S**	|
@@ -181,8 +218,8 @@
 |		|	desg_nat	|	Primary land management description or designation based on the USGS GAP’s Master Stewardship List (MSL)	|	S	|
 |		|	layer	|	Symbology layer: Agency classifications used for general symbology |	S	|
 |		|	layer_scag	|	Layer SCAG |	S	|
-|		|	**notes**	|	User Notes |	S	|
-|		|	year	|	Year of Boundary | N |
+|		|	scag_acres	|	Scag Areas in Acreas |	N	|
+|		|	**notes**	|	**User Notes** |	**S**	|
 |		|	updater_id	|	Username of the User Last Updated	|	S	|
 |		|	updated	|	Last Updated Time and Date	|	S	|
 |		|	comment	|	System Comment	|	S	|
@@ -204,43 +241,51 @@
 |		|	ecological |	Information relevant to the ecological aspects of the site of the occurrence	|	S	|
 |		|	threat	|	Threats present at the site of the occurrence	|	S	|
 |		|	general	|	Information about population sizes, site quality, etc. |	S	|
-|		|	**notes**	|	User Notes |	S	|
+|		|	**notes**	|	**User Notes** |	**S**	|
 |		|	updater_id	|	Username of the User Last Updated	|	S	|
 |		|	updated	|	Last Updated Time and Date	|	S	|
 |		|	comment	|	System Comment	|	S	|
 |		|	approval_status	|	Approval Status (pending/approved/rejected)	|	S	|
 |	Farmland	|	id	|	System Generated ID	|	N	|
-|		|	scag_type	|	SCAG Type	|	S	|
-|		|	fmmp_type	|	Farmland Type	|	S	|
+|		|	**scag_type**	|	**SCAG Type**	|	**S**	|
+|		|	**fmmp_type**	|	**Farmland Type**	|	**S**	|
 |		|	county	|	County Name	|	S	|
 |		|	acres	|	Acreage	|	N	|
 |		|	year |	Year of Boundary | N	|
-|		|	**notes**	|	User Notes |	S	|
+|		|	**notes**	|	**User Notes** |	**S**	|
 |		|	updater_id	|	Username of the User Last Updated	|	S	|
 |		|	updated	|	Last Updated Time and Date	|	S	|
 |		|	comment	|	System Comment	|	S	|
 |		|	approval_status	|	Approval Status (pending/approved/rejected)	|	S	|
 |	Flood Zones	|	id	|	System Generated ID	|	N	|
 |		|	scag_fld_zone	|	Flood Zone	|	S	|
-|		|	**notes**	|	User Notes |	S	|
+|		|	**notes**	|	**User Notes** |	**S**	|
 |		|	updater_id	|	Username of the User Last Updated	|	S	|
 |		|	updated	|	Last Updated Time and Date	|	S	|
 |		|	comment	|	System Comment	|	S	|
 |		|	approval_status	|	Approval Status (pending/approved/rejected)	|	S	|
 |	Habitat Conservation Areas	|	id	|	System Generated ID	|	N	|
 |		|	name	|	Name of the Plan	|	S	|
-|		|	hcp	|	Habitat Conservation Plan |	S	|
-|		|	nccp	|	Natural Community Conservation Plan	|	S	|
+|		|	type	|	Type of the Plan:	Habitat Conservation Plan (hcp) and Natural Community Conservation Plan (nccp) |	S	|
 |		|	stage	|	In what stage is the planning process |	S	|  
 |		|	acres	|	Acreage	|	N	|
-|		|	**notes**	|	User Notes |	S	|
+|		|	**notes**	|	**User Notes** |	**S**	|
+|		|	updater_id	|	Username of the User Last Updated	|	S	|
+|		|	updated	|	Last Updated Time and Date	|	S	|
+|		|	comment	|	System Comment	|	S	|
+|		|	approval_status	|	Approval Status (pending/approved/rejected)	|	S	|
+|	Scenario Planning Zones |	id	|	System Generated ID	|	N	|
+|		|	spzid	|	Scenario Planning Zone ID |	S	|
+|		|	county	|	County Name	|	S	|
+|		|	city	|	City Name	|	S	|
+|		|	**notes**	|	**User Notes** |	**S**	|
 |		|	updater_id	|	Username of the User Last Updated	|	S	|
 |		|	updated	|	Last Updated Time and Date	|	S	|
 |		|	comment	|	System Comment	|	S	|
 |		|	approval_status	|	Approval Status (pending/approved/rejected)	|	S	|
 |	Sea Level Rise	|	id	|	System Generated ID	|	N	|
 |		|	year	|	Year of Boundary |	N	|
-|		|	**notes**	|	User Notes |	S	|
+|		|	**notes**	|	**User Notes** |	**S**	|
 |		|	updater_id	|	Username of the User Last Updated	|	S	|
 |		|	updated	|	Last Updated Time and Date	|	S	|
 |		|	comment	|	System Comment	|	S	|
@@ -250,7 +295,7 @@
 |		|	county	|	County Name	|	S	|
 |		|	acres	|	Acreage	|	N	|
 |		|	year	|	Year of Boundary | N	|
-|		|	**notes**	|	User Notes |	S	|
+|		|	**notes**	|	**User Notes** |	**S**	|
 |		|	updater_id	|	Username of the User Last Updated	|	S	|
 |		|	updated	|	Last Updated Time and Date	|	S	|
 |		|	comment	|	System Comment	|	S	|
@@ -261,16 +306,15 @@
 |		|	county	|	County Name	|	S	|
 |		|	acres	|	Acreage	|	N	|
 |		|	year	|	Year of Boundary | N	|
-|		|	**notes**	|	User Notes |	S	|
 |		|	updater_id	|	Username of the User Last Updated	|	S	|
 |		|	updated	|	Last Updated Time and Date	|	S	|
 |		|	comment	|	System Comment	|	S	|
 |		|	approval_status	|	Approval Status (pending/approved/rejected)	|	S	|
-|	Scenario Planning Zones |	id	|	System Generated ID	|	N	|
-|		|	spzid	|	Scenario Planning Zone ID |	S	|
-|		|	county	|	County Name	|	S	|
+| Truck Routes |	id	|	System Generated ID	|	N	|
+|		|	name	|	Name of the Truck Route |	S	|
 |		|	city	|	City Name	|	S	|
-|		|	**notes**	|	User Notes |	S	|
+|		|	county	|	County Name	|	S	|
+|		|	**notes**	|	**User Notes** |	**S**	|
 |		|	updater_id	|	Username of the User Last Updated	|	S	|
 |		|	updated	|	Last Updated Time and Date	|	S	|
 |		|	comment	|	System Comment	|	S	|
