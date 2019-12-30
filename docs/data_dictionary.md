@@ -236,7 +236,7 @@ The Coastal Inundation data were obtained from the National Oceanic and Atmosphe
 
 The process used to produce the data can be described as a modified bathtub approach that attempts to account for both local/regional tidal variability as well as hydrological connectivity. The process uses two source datasets to derive the final inundation rasters and polygons and accompanying low-lying polygons for each iteration of sea level rise: the Digital Elevation Model (DEM) of the area and a tidal surface model that represents spatial tidal variability. The tidal model is created using the NOAA National Geodetic Survey’s VDATUM datum transformation software (http://vdatum.noaa.gov) in conjunction with spatial interpolation/extrapolation methods and represents the MHHW tidal datum in orthometric values (North American Vertical Datum of 1988). The model used to produce these data does not account for erosion, subsidence, or any future  changes in an area’s hydrodynamics. It is simply a method to derive data in order to visualize the potential scale, not exact location, of inundation from sea level rise.
 
-_HQTA 2016_
+![HQTA 2016](images/scag_10_11_17/HQTA2016.png)_HQTA 2016_
 
 This is the draft High Quality Transit Areas (HQTA) in the SCAG Region for the year 2016, updated as of June 2019. SCAG’s HQTA is within one-half mile from major transit stops and high quality transit corridors and developed based on the language in SB375. The definitions of major transit stops and high quality transit corridors are as follows: 
 
@@ -247,7 +247,7 @@ B. High-Quality Transit Corridor (HQTC): A corridor with fixed route bus service
 This inventory is based on available information at the time regarding existing and planned transit service. However, transit agencies make adjustments to bus service on a regular basis. Users are encouraged to consult with their appropriate transit provider(s) to obtain the latest information on existing transit routes and frequencies. Please note this dataset may undergo changes as SCAG continues to update its transportation network and SCAG shall not be responsible for local jurisdiction's use of this map.|
 
 
-_HQTA 2045_
+![HQTA 2045](images/scag_10_11_17/HQTA2045.png)_HQTA 2045_
 
 This is the draft High Quality Transit Areas (HQTA) in the SCAG Region for the 2045 Plan, updated as of June 2019. SCAG’s HQTA is within one-half mile from major transit stops and high quality transit corridors and developed based on the language in SB375. The definitions of major transit stops and high quality transit corridors are as follows:
 
@@ -258,7 +258,7 @@ Major transit stops and high quality transit corridors are extracted from 2045 p
 
 This inventory is based on available information at the time regarding existing and planned transit service. However, transit agencies make adjustments to bus service on a regular basis. Users are encouraged to consult with their appropriate transit provider(s) to obtain the latest information on existing transit routes and frequencies. Please note this dataset may undergo changes as SCAG continues to update its transportation network and SCAG shall not be responsible for local jurisdiction's use of this map.
 
-_Priority Growth Areas_
+![PGA](images/scag_10_11_17/PGA.png)_Priority Growth Areas_
 
 The Priority Growth Areas are developed from the following five priority areas based on their ability to support potential mode shift and shorten trip distance. 
 * Job Centers ‐ Areas with significantly higher employment density than surrounding areas. Over 60 subareas are identified as having peak job density and capture locally significant job centers throughout all six counties in the region;
@@ -268,7 +268,7 @@ The Priority Growth Areas are developed from the following five priority areas b
 * Livable Corridors ‐ This arterial network is a subset of the high quality transit areas based on level of transit service and land use planning efforts, with a few additional arterials identified through corridor planning studies funded through the Sustainability Planning Grant program (currently the Sustainable Communities Program); and
 * Spheres of Influence (outside of absolute and variable constrained areas) ‐ Existing or planned service areas and within the planning boundary outside of an agency’s legal boundary; data for these areas was accessed by SCAG from each county’s Local Agency Formation Commission (LAFCO) in 2016.
 
-_Absolute Constrained Areas_
+![ACA](images/scag_10_11_17/ACA.png)_Absolute Constrained Areas_
 
 The growth constraints outlined below were used to articulate where future growth cannot or should not occur. The absolute constraints reflect areas where growth was excluded from the scenario development growth allocation. For the scenario development, growth was not directed into the following areas:
 * Tribal Nation Lands – SCAG utilized the Census Bureau’s American Indian/Alaska Native/Native Hawaiian (AIANNH) Areas database for 2017 to identify tribal nations in the SCAG region;
@@ -277,7 +277,7 @@ The growth constraints outlined below were used to articulate where future growt
 * Sea Level Rise Areas (2 feet) – Data on coastal inundation were obtained from the National Oceanic and Atmospheric Administration (NOAA) Coastal Services Center’s online mapping viewer depicting potential sea level rise and its associated impacts on the nation’s coastal areas (accessed by SCAG in 2017). These data depict the potential inundation of coastal areas resulting from a projected 2 feet rise in sea level above current Mean Higher High Water (MHHW) conditions, and underwent review by SCAG’s local jurisdictions; and
 * Farmlands in Unincorporated Areas – Farmland information was obtained from the Farmland Mapping & Monitoring Program (FMMP) in the Division of Land Resource Protection in the California Department of Conservation. Established in 1982, the FMMP is to provide consistent and impartial data and analysis of agricultural land use and land use changes throughout the State of California. For SCAG’s purposes, data from year 2016 (and 2014 in areas where 2016 data was unavailable) underwent review and refinement by local jurisdictions through the Bottom‐Up Local Input and Envisioning Process.
 
-_Variable Constrained Areas_
+![VCA](images/scag_10_11_17/VCA.png)_Variable Constrained Areas_
 
 The growth constraints outlined below were used to articulate where future growth cannot or should not occur. Growth will be avoided in following areas, where possible except when constraint conflicts with accommodating the jurisdictional growth total, in the following order:
 * Wildland‐Urban Interface (WUI) – Data on areas where housing and vegetation intermingle (“intermix WUI”) and areas with housing in the vicinity of contiguous wildland vegetation (“interface WUI”) were derived from the 2010 national Wildland‐Urban Interface dataset developed by the SILVIS Lab at the University of Wisconsin‐Madison;
