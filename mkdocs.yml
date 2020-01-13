@@ -9,3 +9,6 @@ pages:
 - Appendix B - Field Descriptions by Data Layer: 'editable_fields.md'
 - Appendix C - SCAG Land Use Codes: 'scag_lu_codes.md'
 - Appendix D - SCAG Land Use Codes Descriptions: 'scag_lu_codes_description.md'
+
+python: 
+  version: 2.7
