@@ -261,6 +261,7 @@ This inventory is based on available information at the time regarding existing 
 ![PGA](images/scag_10_11_17/PGA.png)_Priority Growth Areas_
 
 The Priority Growth Areas are developed from the following five priority areas based on their ability to support potential mode shift and shorten trip distance. 
+
 * Job Centers ‐ Areas with significantly higher employment density than surrounding areas. Over 60 subareas are identified as having peak job density and capture locally significant job centers throughout all six counties in the region;
 * Transit Priority Areas (TPAs) ‐ An area within one‐half mile of a major transit stop that is existing or planned. This includes an existing rail transit station, a ferry terminal served by bus or rail transit service, or the intersection of two or more major bus routes with a frequency of service interval of 15 minutes or less during the morning and afternoon peak commute periods. (Based on CA Public Resources Code Section 21099 (a)(7) and CA Public Resources Code Section 21064.3);
 * High Quality Transit Areas (HQTAs) ‐ Areas within one‐half mile of a major transit stop or a high quality transit corridor (a corridor with fixed route bus service containing service intervals no longer than 15 minutes during peak commute hours ‐ based on CA Public Resources Code Section 21155(b));
@@ -271,6 +272,7 @@ The Priority Growth Areas are developed from the following five priority areas b
 ![ACA](images/scag_10_11_17/ACA.png)_Absolute Constrained Areas_
 
 The growth constraints outlined below were used to articulate where future growth cannot or should not occur. The absolute constraints reflect areas where growth was excluded from the scenario development growth allocation. For the scenario development, growth was not directed into the following areas:
+
 * Tribal Nation Lands – SCAG utilized the Census Bureau’s American Indian/Alaska Native/Native Hawaiian (AIANNH) Areas database for 2017 to identify tribal nations in the SCAG region;
 * Military Lands – Locations of military lands are derived from SCAG’s 2016 Existing Land Use Database, which underwent review and refinement by local jurisdictions through the Bottom‐Up Local Input and Envisioning Process;
 * Open Space and Conserved Lands – Data on conservation areas, open space, and parks from year 2017 comes from the Save Our Agricultural Resources (SOAR) protected areas in Ventura County, the California Conservation Easement Database, as well as the California Protected Areas Database (CPAD). Together, these data inventories represent protected open space lands, conserved areas, and conservation easements in the SCAG region and the greater State of California. Several elements were developed by aggregating and cross‐checking various open space data from multiple public agencies by GreenInfo Network, and also benefit from feedback provided by local jurisdictions through SCAG’s Bottom‐Up Local Input and Envisioning Process;
@@ -280,6 +282,7 @@ The growth constraints outlined below were used to articulate where future growt
 ![VCA](images/scag_10_11_17/VCA.png)_Variable Constrained Areas_
 
 The growth constraints outlined below were used to articulate where future growth cannot or should not occur. Growth will be avoided in following areas, where possible except when constraint conflicts with accommodating the jurisdictional growth total, in the following order:
+
 * Wildland‐Urban Interface (WUI) – Data on areas where housing and vegetation intermingle (“intermix WUI”) and areas with housing in the vicinity of contiguous wildland vegetation (“interface WUI”) were derived from the 2010 national Wildland‐Urban Interface dataset developed by the SILVIS Lab at the University of Wisconsin‐Madison;
 * Grazing Lands and Farmlands within Incorporated Jurisdictions – Similar to farmlands identified in unincorporated areas, grazing lands and farmland information within incorporated areas were identified through the Farmland Mapping & Monitoring Program (FMMP) in the Division of Land Resource Protection in the California Department of Conservation, which underwent review by local jurisdictions;
 * 500 Year Flood Plains – Information on flood areas were derived from the Digital Flood Insurance Rate Map (DFIRM), obtained from Federal Emergency Management Agency (FEMA) in August 2017. The DFIRM Database is a digital version of the FEMA Flood Insurance Rate Maps (FIRM) that is designed for use with digital mapping and analysis software. The FIRM is created by FEMA for the purpose of floodplain management, mitigation, and insurance activities for the National Flood Insurance Program (NFIP), and was included for local jurisdiction review through SCAG’s Bottom‐Up Local Input and Envisioning Process;
