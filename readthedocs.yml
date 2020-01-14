@@ -1,14 +1,7 @@
-site_name: UrbanFootprint SPM Docs
-
-theme: readthedocs
-
-pages:
-- User Guide: 'index.md'
-- User Support: 'user_support.md'
-- Appendix A - Data Dictionary: 'data_dictionary.md'
-- Appendix B - Field Descriptions by Data Layer: 'editable_fields.md'
-- Appendix C - SCAG Land Use Codes: 'scag_lu_codes.md'
-- Appendix D - SCAG Land Use Codes Descriptions: 'scag_lu_codes_description.md'
+version: 2
 
 python: 
   version: 2.7
+
+mkdocs:
+  configuration: mkdocs.yml
