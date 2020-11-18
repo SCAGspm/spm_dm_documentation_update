@@ -4,7 +4,7 @@ This customized python toolbox(.pyt) allows ArcMap users to upload their layers 
 
 ### **System Requirements/Supported Version and Download**
  - ArcMap 10.x [ArcToolbox Version 1.0.0](https://s3-us-west-2.amazonaws.com/uf-provisioning/urbanfootprint-arc-toolbox-v1.0.0.zip)
- - ArcGIS Pro 2.x 
+ - ArcGIS Pro 2.x [ArcToolbox Version 2.0.0](files/spm-arc-toolbox-v2.0.zip)
 
 ### **Steps to upload a layer via ArcMap using ArcGIS Integration tool**
 1. Open ArcMap
